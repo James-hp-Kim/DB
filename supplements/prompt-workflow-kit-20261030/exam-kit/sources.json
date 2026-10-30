@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-30",
+  "kind": "instructions and synthetic evaluation fixtures; not training data",
+  "sources": [
+    {
+      "name": "user-provided fact-grounding/SKILL.md",
+      "sha256": "940356a3dfd914436f61b657bc243cbe6997fe3f75f24ce0a3fbc5411a19465a",
+      "use": "verbatim policy copy"
+    },
+    {
+      "name": "00_5개분야_프롬프트_전체추출.txt",
+      "sha256": "5edfdd1073e6cdc20f0046192b0eabdf70aef40791dfac87dc3809ba20d918a0",
+      "use": "structure only; references independently rewritten; original text not bundled"
+    },
+    {
+      "name": "Expert Hub 2.5.1 frozen snapshot",
+      "use": "compatibility inspection only; no DB copied",
+      "bundled_grounding_sha256": "940356a3dfd914436f61b657bc243cbe6997fe3f75f24ce0a3fbc5411a19465a"
+    }
+  ],
+  "fact_policy_matches_hub_snapshot": true,
+  "global_characters_without_final_newline": 149,
+  "original_prompt_corrections": [
+    "DevOps HR requirements not adopted",
+    "strategy TASK repetition replaced with decision criteria",
+    "80% coverage example not made universal"
+  ],
+  "official_docs": [
+    "https://learn.chatgpt.com/docs/build-skills",
+    "https://learn.chatgpt.com/docs/agent-configuration/agents-md"
+  ],
+  "rights": "Original prompt source is not redistributed. Synthetic data and new guidance created for this package. No claim of rights over referenced external works.",
+  "global_characters_including_final_newline": 150,
+  "explicit_prompt_structuring": "Added after core portability verification; user message triggers, document text does not."
+}

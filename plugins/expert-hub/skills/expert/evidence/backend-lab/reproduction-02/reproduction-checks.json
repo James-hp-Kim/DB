@@ -1,0 +1,9 @@
+{
+  "functional_checks_passed": true,
+  "performance_acceptance_passed": false,
+  "performance_failures": [
+    "index-restored-measurement"
+  ],
+  "logical_data_hash": "72c28a9c3e7a0f94b19c74c9a69bc983cf5d9b5ea325bf856e92f05893c94730",
+  "note": "Latency varies by host. These are lab thresholds, not a business SLO."
+}

@@ -1,0 +1,6 @@
+{
+  "integration_tests": 2,
+  "backend_comparison_tests": 13,
+  "sdk_integrated_personas": true,
+  "isolated_windows_install_checks": 9
+}

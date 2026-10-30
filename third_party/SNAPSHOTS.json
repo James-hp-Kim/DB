@@ -1,0 +1,79 @@
+{
+  "qes-spc": {
+    "title": "RBraga01/Quality-Engineering-Skills: skills/measurement/spc-control-charts/SKILL.md",
+    "url": "https://github.com/RBraga01/Quality-Engineering-Skills/blob/b338d802a0aa7c6ced8d062dd94e98b5f16030df/skills/measurement/spc-control-charts/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요. 원문 WECO 표의 9점 조건은 NIST의 WECO 8점 기준과 다름. 본 패키지 monitor는 명시적으로 WECO 4규칙을 사용.",
+    "commit": "b338d802a0aa7c6ced8d062dd94e98b5f16030df",
+    "snapshot": "third_party/qes/spc-control-charts.md",
+    "snapshot_sha256": "c602e6f38c28802fe62c8cf7a7354c8480493185981764d1e4f2ce181137b133",
+    "license": "MIT"
+  },
+  "qes-msa": {
+    "title": "RBraga01/Quality-Engineering-Skills: skills/measurement/msa-gauge-rr/SKILL.md",
+    "url": "https://github.com/RBraga01/Quality-Engineering-Skills/blob/b338d802a0aa7c6ced8d062dd94e98b5f16030df/skills/measurement/msa-gauge-rr/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요.",
+    "commit": "b338d802a0aa7c6ced8d062dd94e98b5f16030df",
+    "snapshot": "third_party/qes/msa-gauge-rr.md",
+    "snapshot_sha256": "77dfaa8c043847ba249aec781b2f6b016c73fc157877dc0b50d704951f8b9510",
+    "license": "MIT"
+  },
+  "qes-8d": {
+    "title": "RBraga01/Quality-Engineering-Skills: skills/problem-solving/8d-problem-solving/SKILL.md",
+    "url": "https://github.com/RBraga01/Quality-Engineering-Skills/blob/b338d802a0aa7c6ced8d062dd94e98b5f16030df/skills/problem-solving/8d-problem-solving/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요.",
+    "commit": "b338d802a0aa7c6ced8d062dd94e98b5f16030df",
+    "snapshot": "third_party/qes/8d-problem-solving.md",
+    "snapshot_sha256": "69fc87e295f05f59b18ea9716df4a1f3b014699fdfd24d8a54a7422e1e845ffb",
+    "license": "MIT"
+  },
+  "qes-dmaic": {
+    "title": "RBraga01/Quality-Engineering-Skills: skills/problem-solving/dmaic/SKILL.md",
+    "url": "https://github.com/RBraga01/Quality-Engineering-Skills/blob/b338d802a0aa7c6ced8d062dd94e98b5f16030df/skills/problem-solving/dmaic/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요.",
+    "commit": "b338d802a0aa7c6ced8d062dd94e98b5f16030df",
+    "snapshot": "third_party/qes/dmaic.md",
+    "snapshot_sha256": "f6425c4f7108208fca62c73c52d94c3984ddabf31e45daa4bcd59af601f84f49",
+    "license": "MIT"
+  },
+  "qes-pfmea": {
+    "title": "RBraga01/Quality-Engineering-Skills: skills/risk-analysis/pfmea-process/SKILL.md",
+    "url": "https://github.com/RBraga01/Quality-Engineering-Skills/blob/b338d802a0aa7c6ced8d062dd94e98b5f16030df/skills/risk-analysis/pfmea-process/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요.",
+    "commit": "b338d802a0aa7c6ced8d062dd94e98b5f16030df",
+    "snapshot": "third_party/qes/pfmea-process.md",
+    "snapshot_sha256": "09099726e052d30a49aaae431bf01f512c9494e942e1b741cbc9f52047f6add2",
+    "license": "MIT"
+  },
+  "pyod-skill": {
+    "title": "yzhao062/pyod: pyod/skills/od_expert/SKILL.md",
+    "url": "https://github.com/yzhao062/pyod/blob/7e1330e10ac5c56ed402fbbaa41b225efb4bbc5c/pyod/skills/od_expert/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요. 원문 description의 콜론 때문에 YAML 오류가 확인됨. 원본 od-expert를 설치하지 않고 검증된 로컬 지침과 classic API만 선택 사용.",
+    "commit": "7e1330e10ac5c56ed402fbbaa41b225efb4bbc5c",
+    "snapshot": "third_party/pyod/od-expert.md",
+    "snapshot_sha256": "fd46974c9f5ebc6f979d270fdb5e08936fa505d9164e5e9798dfe5be0e5fc6c1",
+    "license": "BSD-2-Clause"
+  },
+  "nist-pack": {
+    "title": "jgsystemsconsulting/jgs-se-knowledge-packs: packs/nist-stat-handbook/SKILL.md",
+    "url": "https://github.com/jgsystemsconsulting/jgs-se-knowledge-packs/blob/d00e111d4c5bfa4b2daa6bbff4f694af05f43c0c/packs/nist-stat-handbook/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요. NIST 공식 배포 스킬이 아닌 커뮤니티 재구성. 원전 우선.",
+    "commit": "d00e111d4c5bfa4b2daa6bbff4f694af05f43c0c",
+    "snapshot": "third_party/nist-pack/SKILL-source.md",
+    "snapshot_sha256": "77144f7cb5a8b586bb7615eae2d7f08a97e67b4683a4243e7223125037adb116",
+    "license": "upstream pack license"
+  }
+}

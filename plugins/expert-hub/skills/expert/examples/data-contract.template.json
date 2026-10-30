@@ -1,0 +1,23 @@
+{
+  "status": "template_not_company_policy",
+  "scope": null,
+  "revenue_recognition_basis": null,
+  "currency": null,
+  "currency_conversion_basis": null,
+  "unit": null,
+  "frequency": null,
+  "series_keys": [],
+  "returns_policy": null,
+  "free_items_policy": null,
+  "missing_vs_zero_policy": null,
+  "duplicate_policy": null,
+  "incomplete_period_policy": null,
+  "as_of_timestamp": null,
+  "forecast_horizon": null,
+  "primary_metric": null,
+  "metric_denominator": null,
+  "business_error_weights": null,
+  "known_future_features": [],
+  "feature_availability_lags": {},
+  "holdout_access_log": []
+}

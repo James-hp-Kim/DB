@@ -1,0 +1,51 @@
+{
+  "version": "2.5.1",
+  "date": "2026-10-30",
+  "status": "static remediation prepared; final functional validation NOT run",
+  "latest_user_constraint": "No further functional verification, installation or MCP calls",
+  "prior_blind_evaluation": {
+    "fresh_solver_agents": 9,
+    "independent_evaluators": 2,
+    "adequate": 9,
+    "backend_score": 11,
+    "other_scores": 12,
+    "maximum_score": 12,
+    "per_persona_first_cases": 1
+  },
+  "prior_regression": {
+    "tests": 117,
+    "failures": 2,
+    "log": "separate evaluation archive/evaluation-control/regression.log",
+    "expectations_edited_statically": true,
+    "rerun": false
+  },
+  "new_pc_execution_verified": false,
+  "exam_setup_discovery_verified": false,
+  "dependency_lock_verified": false,
+  "static_file_work": {
+    "canonical_files_unchanged": 28,
+    "frozen_answer_files_unchanged": 42,
+    "python_text_parsed": [
+      "tests/test_backend.py",
+      "tests/test_rtl_reference.py",
+      "plugins/expert-hub/skills/expert/scripts/qa_core.py"
+    ]
+  },
+  "unchanged_data": {
+    "personas": 9,
+    "packs": 13,
+    "records": 768,
+    "sources": 323
+  },
+  "readiness_notes": [
+    "Codex/login and Python 3.11+ SQLite FTS5 are separate prerequisites.",
+    "Default Skill installer copies expert only; exam-setup is a separate documented copy or plugin skill.",
+    "Optional Excel/PDF/analysis packages are not bundled and the general exam dependency version set is unverified.",
+    "Current-PC paths in historical evidence remain; they are not portable runtime configuration."
+  ],
+  "references": [
+    "PERSONA_BLIND_251.md",
+    "EXAM_SETUP_KO.md",
+    "STATIC_PORTABILITY_251.md"
+  ]
+}

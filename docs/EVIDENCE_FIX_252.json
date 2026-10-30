@@ -1,0 +1,484 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoning": "low",
+  "counts": {
+    "questions": 20,
+    "start_read": 20,
+    "evidence_workflow_read": 20,
+    "db_body_read": 15,
+    "db_source_read": 15,
+    "verified_id_linkage": 14,
+    "explicit_db_gaps": 6,
+    "unread_ids_cited": 0,
+    "unintended_chinese_runs": 0,
+    "mcp_full_chain": 2,
+    "regression_tests": 26,
+    "windows_install_checks": 9
+  },
+  "db_gap_cases": [
+    "F02_AI",
+    "F02_SE",
+    "F03_AI",
+    "F03_SE",
+    "F05_AI",
+    "F05_SE"
+  ],
+  "cases": [
+    {
+      "case": "F01_AI",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "semiconductor:c03"
+      ],
+      "source_ids": [
+        "semi-s05",
+        "semi-s07"
+      ],
+      "citation_edges": {
+        "semiconductor:c03": [
+          "semi-s05",
+          "semi-s07"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F01_SE",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "semiconductor:c03"
+      ],
+      "source_ids": [
+        "semi-s05"
+      ],
+      "citation_edges": {
+        "semiconductor:c03": [
+          "semi-s05"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F02_AI",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [],
+      "source_ids": [],
+      "citation_edges": {},
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F02_SE",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [],
+      "source_ids": [],
+      "citation_edges": {},
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F03_AI",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [],
+      "source_ids": [],
+      "citation_edges": {},
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F03_SE",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [],
+      "source_ids": [],
+      "citation_edges": {},
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F04_AI",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "semiconductor:e01"
+      ],
+      "source_ids": [
+        "semi-s07",
+        "semi-s23",
+        "semi-s27"
+      ],
+      "citation_edges": {
+        "semiconductor:e01": [
+          "semi-s07",
+          "semi-s23",
+          "semi-s27"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F04_SE",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "semiconductor:e01"
+      ],
+      "source_ids": [
+        "semi-s07",
+        "semi-s23",
+        "semi-s27"
+      ],
+      "citation_edges": {
+        "semiconductor:e01": [
+          "semi-s07",
+          "semi-s23",
+          "semi-s27"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F05_AI",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "chip-memory:resource-t10"
+      ],
+      "source_ids": [
+        "chip-t10"
+      ],
+      "citation_edges": {},
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F05_SE",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [],
+      "source_ids": [],
+      "citation_edges": {},
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F06_AI",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "nand:k03",
+        "nand:v25"
+      ],
+      "source_ids": [
+        "nand-p02",
+        "nand-p15",
+        "nand-s24",
+        "nand-s25"
+      ],
+      "citation_edges": {
+        "nand:v25": [
+          "nand-p02",
+          "nand-p15",
+          "nand-s24",
+          "nand-s25"
+        ],
+        "nand:k03": [
+          "nand-p02",
+          "nand-p15",
+          "nand-s24"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F06_SE",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "nand:k03",
+        "nand:v25"
+      ],
+      "source_ids": [
+        "nand-p02",
+        "nand-p15",
+        "nand-s24",
+        "nand-s25"
+      ],
+      "citation_edges": {
+        "nand:v25": [
+          "nand-p02",
+          "nand-p15",
+          "nand-s24",
+          "nand-s25"
+        ],
+        "nand:k03": [
+          "nand-p02",
+          "nand-p15",
+          "nand-s24"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F07_AI",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "hbm:claim-f074",
+        "hbm:claim-f075"
+      ],
+      "source_ids": [
+        "hbm-h20"
+      ],
+      "citation_edges": {
+        "hbm:claim-f075": [
+          "hbm-h20"
+        ],
+        "hbm:claim-f074": [
+          "hbm-h20"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F07_SE",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "hbm:claim-f074"
+      ],
+      "source_ids": [
+        "hbm-h20"
+      ],
+      "citation_edges": {
+        "hbm:claim-f074": [
+          "hbm-h20"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F08_AI",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "chip-rtl:claim-c14"
+      ],
+      "source_ids": [
+        "chip-d04"
+      ],
+      "citation_edges": {
+        "chip-rtl:claim-c14": [
+          "chip-d04"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F08_SE",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "rtl:b11"
+      ],
+      "source_ids": [
+        "nand-s13",
+        "rtl-s04"
+      ],
+      "citation_edges": {
+        "rtl:b11": [
+          "nand-s13",
+          "rtl-s04"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F09_AI",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "semiconductor:c03"
+      ],
+      "source_ids": [
+        "semi-s05"
+      ],
+      "citation_edges": {
+        "semiconductor:c03": [
+          "semi-s05"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F09_SE",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "semiconductor:c03"
+      ],
+      "source_ids": [
+        "semi-s05"
+      ],
+      "citation_edges": {
+        "semiconductor:c03": [
+          "semi-s05"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F10_AI",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [],
+      "source_ids": [],
+      "citation_edges": {},
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F10_SE",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [],
+      "source_ids": [],
+      "citation_edges": {},
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "F_MCP",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "chip-rtl:claim-c06"
+      ],
+      "source_ids": [
+        "chip-d03",
+        "chip-s02"
+      ],
+      "citation_edges": {
+        "chip-rtl:claim-c06": [
+          "chip-d03"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": [
+        "expert_catalog",
+        "expert_lookup",
+        "expert_read",
+        "expert_read",
+        "expert_source",
+        "expert_read"
+      ]
+    },
+    {
+      "case": "F_PLUGIN",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "chip-rtl:claim-c06"
+      ],
+      "source_ids": [
+        "chip-d03",
+        "chip-s02"
+      ],
+      "citation_edges": {
+        "chip-rtl:claim-c06": [
+          "chip-d03"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": [
+        "expert_catalog",
+        "expert_lookup",
+        "expert_read",
+        "expert_read",
+        "expert_source"
+      ]
+    },
+    {
+      "case": "G10_AI",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "common:data-contract"
+      ],
+      "source_ids": [
+        "nist-attributes",
+        "nist-wilson",
+        "prep-probe-data-check"
+      ],
+      "citation_edges": {
+        "common:data-contract": [
+          "nist-attributes"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    },
+    {
+      "case": "G10_SE",
+      "start_read": true,
+      "evidence_guide_read": true,
+      "read_ids": [
+        "common:data-contract"
+      ],
+      "source_ids": [
+        "nist-attributes",
+        "nist-wilson",
+        "prep-probe-data-check"
+      ],
+      "citation_edges": {
+        "common:data-contract": [
+          "nist-attributes",
+          "nist-wilson"
+        ]
+      },
+      "unread_cited_ids": [],
+      "chinese_character_runs": [],
+      "mcp_tools": []
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Keep release/source checksums stable across Windows Git checkouts.
+* -text

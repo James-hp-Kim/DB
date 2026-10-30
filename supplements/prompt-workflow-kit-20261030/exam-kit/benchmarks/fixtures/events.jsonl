@@ -1,0 +1,4 @@
+{"event_id": "E1", "action": "send", "result": "success"}
+{"event_id": "E1", "action": "send", "result": "duplicate_delivery"}
+{"event_id": "E2", "action": "send", "result": "temporary_error"}
+{"event_id": "E2", "action": "send", "result": "success"}

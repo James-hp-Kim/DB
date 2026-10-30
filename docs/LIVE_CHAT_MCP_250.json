@@ -1,0 +1,159 @@
+{
+  "checked": "2026-10-30",
+  "scope": "Existing chat connection; not restarted",
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "persona": "quality-assurance",
+        "selected_id": "quality-assurance",
+        "new_record_found": true,
+        "read_ids": [
+          "common:optional-method-consent",
+          "common:optional-method-consent",
+          "common:requirements-to-evidence",
+          "common:requirements-to-evidence"
+        ],
+        "source_count": 5,
+        "fact_grounding_returned": false,
+        "optional_policy_returned": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "persona": "data-analyst",
+        "selected_id": "data-analyst",
+        "new_record_found": true,
+        "read_ids": [
+          "common:optional-method-consent",
+          "common:optional-method-consent",
+          "common:requirements-to-evidence",
+          "common:requirements-to-evidence"
+        ],
+        "source_count": 5,
+        "fact_grounding_returned": false,
+        "optional_policy_returned": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "persona": "process-improvement",
+        "selected_id": "process-improvement",
+        "new_record_found": true,
+        "read_ids": [
+          "common:optional-method-consent",
+          "common:optional-method-consent",
+          "common:requirements-to-evidence",
+          "common:requirements-to-evidence"
+        ],
+        "source_count": 5,
+        "fact_grounding_returned": false,
+        "optional_policy_returned": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "persona": "nand-expert",
+        "selected_id": "nand-expert",
+        "new_record_found": true,
+        "read_ids": [
+          "common:optional-method-consent",
+          "common:optional-method-consent",
+          "common:requirements-to-evidence",
+          "common:requirements-to-evidence"
+        ],
+        "source_count": 5,
+        "fact_grounding_returned": false,
+        "optional_policy_returned": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "persona": "chip-design-verification",
+        "selected_id": "chip-design-verification",
+        "new_record_found": true,
+        "read_ids": [
+          "common:optional-method-consent",
+          "common:optional-method-consent",
+          "common:requirements-to-evidence",
+          "common:requirements-to-evidence"
+        ],
+        "source_count": 5,
+        "fact_grounding_returned": false,
+        "optional_policy_returned": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "persona": "semiconductor-basics",
+        "selected_id": "semiconductor-basics",
+        "new_record_found": true,
+        "read_ids": [
+          "common:optional-method-consent",
+          "common:optional-method-consent",
+          "common:requirements-to-evidence",
+          "common:requirements-to-evidence"
+        ],
+        "source_count": 5,
+        "fact_grounding_returned": false,
+        "optional_policy_returned": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "persona": "backend-expert",
+        "selected_id": "backend-expert",
+        "new_record_found": true,
+        "read_ids": [
+          "common:optional-method-consent",
+          "common:optional-method-consent",
+          "common:requirements-to-evidence",
+          "common:requirements-to-evidence"
+        ],
+        "source_count": 5,
+        "fact_grounding_returned": false,
+        "optional_policy_returned": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "persona": "semiconductor-ai",
+        "selected_id": "semiconductor-ai",
+        "new_record_found": true,
+        "read_ids": [
+          "common:optional-method-consent",
+          "common:optional-method-consent",
+          "common:requirements-to-evidence",
+          "common:requirements-to-evidence"
+        ],
+        "source_count": 5,
+        "fact_grounding_returned": false,
+        "optional_policy_returned": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "persona": "hbm-expert",
+        "selected_id": "hbm-expert",
+        "new_record_found": true,
+        "read_ids": [
+          "common:optional-method-consent",
+          "common:optional-method-consent",
+          "common:requirements-to-evidence",
+          "common:requirements-to-evidence"
+        ],
+        "source_count": 5,
+        "fact_grounding_returned": false,
+        "optional_policy_returned": false
+      }
+    }
+  ]
+}

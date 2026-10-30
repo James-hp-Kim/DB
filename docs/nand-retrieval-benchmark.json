@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-30",
+  "tokenizer": "o200k_base",
+  "scope": "Fixed queries and preselected relevant records; includes entry skill, persona search, lookup, conditions/limits and one source. Excludes prompts, input files, inference, answer, history and protocol/tool-definition overhead. Not overall billed tokens, autonomy or accuracy.",
+  "entry_plus_all_nand_cards": {
+    "characters": 88884,
+    "reference_tokens": 30619
+  },
+  "cases": [
+    {
+      "query": "retry epoch",
+      "selected_id": "nand:v12",
+      "expected_in_top3": true,
+      "lookup": {
+        "characters": 1193,
+        "reference_tokens": 373
+      },
+      "conditions_limits": {
+        "characters": 574,
+        "reference_tokens": 158
+      },
+      "source": {
+        "characters": 327,
+        "reference_tokens": 126
+      },
+      "entry_plus_retrieval": {
+        "characters": 6341,
+        "reference_tokens": 1542
+      }
+    },
+    {
+      "query": "LLR 포화",
+      "selected_id": "nand:v14",
+      "expected_in_top3": true,
+      "lookup": {
+        "characters": 1218,
+        "reference_tokens": 420
+      },
+      "conditions_limits": {
+        "characters": 576,
+        "reference_tokens": 165
+      },
+      "source": {
+        "characters": 314,
+        "reference_tokens": 99
+      },
+      "entry_plus_retrieval": {
+        "characters": 6355,
+        "reference_tokens": 1569
+      }
+    },
+    {
+      "query": "ONFI 6.0",
+      "selected_id": "nand:s01",
+      "expected_in_top3": true,
+      "lookup": {
+        "characters": 1176,
+        "reference_tokens": 388
+      },
+      "conditions_limits": {
+        "characters": 574,
+        "reference_tokens": 151
+      },
+      "source": {
+        "characters": 244,
+        "reference_tokens": 84
+      },
+      "entry_plus_retrieval": {
+        "characters": 6241,
+        "reference_tokens": 1508
+      }
+    },
+    {
+      "query": "P01",
+      "selected_id": "nand:p01",
+      "expected_in_top3": true,
+      "lookup": {
+        "characters": 1285,
+        "reference_tokens": 404
+      },
+      "conditions_limits": {
+        "characters": 784,
+        "reference_tokens": 266
+      },
+      "source": {
+        "characters": 327,
+        "reference_tokens": 126
+      },
+      "entry_plus_retrieval": {
+        "characters": 6643,
+        "reference_tokens": 1681
+      }
+    }
+  ]
+}

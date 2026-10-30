@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-30",
+  "tokenizer": "o200k_base",
+  "scope": "Four fixed examples, known selected IDs. Includes fresh catalog, lookup, conditions/limits and cited source metadata. Comparison is entry Skill plus whole semiconductor JSONL vs entry Skill plus selected retrieval. Excludes user input, raw data, analysis/answer tokens, protocol, tool definitions, retries and other pack retrieval. Not billing savings or production search accuracy.",
+  "entry_sha256": "0dbb111f83984c1697ccdc4d0610c078f9858943579153034211ffaad639d8b7",
+  "pack_sha256": "71327e13092e7618d3a6cee028b1108ab9381b104bd9f3b943566fbc3662455a",
+  "entry_skill": {
+    "characters": 6570,
+    "reference_tokens": 1392
+  },
+  "entry_plus_full_semiconductor_pack": {
+    "characters": 126634,
+    "reference_tokens": 54501
+  },
+  "cases": [
+    {
+      "query": "단일 소자 누설 분해",
+      "selected_id": "semiconductor:e01",
+      "expected_in_top3": true,
+      "selected_sections": [
+        "conditions",
+        "limits"
+      ],
+      "retrieval_with_catalog_and_sources": {
+        "characters": 3078,
+        "reference_tokens": 1036
+      },
+      "entry_plus_retrieval": {
+        "characters": 9649,
+        "reference_tokens": 2428
+      }
+    },
+    {
+      "query": "동적전력",
+      "selected_id": "semiconductor:k01",
+      "expected_in_top3": true,
+      "selected_sections": [
+        "conditions",
+        "limits"
+      ],
+      "retrieval_with_catalog_and_sources": {
+        "characters": 2456,
+        "reference_tokens": 829
+      },
+      "entry_plus_retrieval": {
+        "characters": 9027,
+        "reference_tokens": 2221
+      }
+    },
+    {
+      "query": "HBM 대역폭",
+      "selected_id": "semiconductor:k06",
+      "expected_in_top3": true,
+      "selected_sections": [
+        "conditions",
+        "limits"
+      ],
+      "retrieval_with_catalog_and_sources": {
+        "characters": 2625,
+        "reference_tokens": 911
+      },
+      "entry_plus_retrieval": {
+        "characters": 9196,
+        "reference_tokens": 2303
+      }
+    },
+    {
+      "query": "IGZO retention",
+      "selected_id": "semiconductor:n32",
+      "expected_in_top3": true,
+      "selected_sections": [
+        "conditions",
+        "limits"
+      ],
+      "retrieval_with_catalog_and_sources": {
+        "characters": 2338,
+        "reference_tokens": 770
+      },
+      "entry_plus_retrieval": {
+        "characters": 8909,
+        "reference_tokens": 2162
+      }
+    }
+  ]
+}

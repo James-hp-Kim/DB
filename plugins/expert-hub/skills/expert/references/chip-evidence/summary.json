@@ -1,0 +1,167 @@
+{
+  "design": "PicoRV32 native memory-interface core",
+  "commit": "ef203c2b0a3fb793280f5114941416c425c5b461",
+  "total_simulations": 372,
+  "configuration_results": [
+    {
+      "name": "baseline",
+      "passed": 36,
+      "total": 36,
+      "generic_cells": 9504,
+      "cycle_sums": {
+        "all": 152161,
+        "shift": 70952,
+        "mixed": 68271,
+        "arithmetic_control": 3511,
+        "directed": 9427
+      },
+      "cycle_reduction_percent": {
+        "all": 0.0,
+        "shift": 0.0,
+        "mixed": 0.0,
+        "arithmetic_control": 0.0,
+        "directed": 0.0
+      },
+      "cell_change_percent": 0.0
+    },
+    {
+      "name": "barrel",
+      "passed": 36,
+      "total": 36,
+      "generic_cells": 9583,
+      "cycle_sums": {
+        "all": 145999,
+        "shift": 66616,
+        "mixed": 66616,
+        "arithmetic_control": 3511,
+        "directed": 9256
+      },
+      "cycle_reduction_percent": {
+        "all": 4.05,
+        "shift": 6.111,
+        "mixed": 2.424,
+        "arithmetic_control": 0.0,
+        "directed": 1.814
+      },
+      "cell_change_percent": 0.831
+    },
+    {
+      "name": "compact_shift",
+      "passed": 36,
+      "total": 36,
+      "generic_cells": 9365,
+      "cycle_sums": {
+        "all": 169951,
+        "shift": 83608,
+        "mixed": 72991,
+        "arithmetic_control": 3511,
+        "directed": 9841
+      },
+      "cycle_reduction_percent": {
+        "all": -11.692,
+        "shift": -17.837,
+        "mixed": -6.914,
+        "arithmetic_control": 0.0,
+        "directed": -4.392
+      },
+      "cell_change_percent": -1.463
+    },
+    {
+      "name": "single_port",
+      "passed": 36,
+      "total": 36,
+      "generic_cells": 6903,
+      "cycle_sums": {
+        "all": 153807,
+        "shift": 72162,
+        "mixed": 68671,
+        "arithmetic_control": 3511,
+        "directed": 9463
+      },
+      "cycle_reduction_percent": {
+        "all": -1.082,
+        "shift": -1.705,
+        "mixed": -0.586,
+        "arithmetic_control": 0.0,
+        "directed": -0.382
+      },
+      "cell_change_percent": -27.367
+    }
+  ],
+  "mutation_results": [
+    {
+      "name": "M01_sub_as_add",
+      "reason": "SUB subtraction incorrectly replaced by addition",
+      "failed_tests": 20,
+      "total_tests": 36,
+      "detected": true
+    },
+    {
+      "name": "M02_signed_compare",
+      "reason": "Signed less-than incorrectly uses unsigned comparison",
+      "failed_tests": 18,
+      "total_tests": 36,
+      "detected": true
+    },
+    {
+      "name": "M03_and_as_or",
+      "reason": "AND decoded datapath incorrectly computes OR",
+      "failed_tests": 20,
+      "total_tests": 36,
+      "detected": true
+    },
+    {
+      "name": "M04_or_as_xor",
+      "reason": "OR decoded datapath incorrectly computes XOR",
+      "failed_tests": 20,
+      "total_tests": 36,
+      "detected": true
+    },
+    {
+      "name": "M05_shift_sign",
+      "reason": "Iterative arithmetic right shift loses sign extension",
+      "failed_tests": 34,
+      "total_tests": 36,
+      "detected": true
+    },
+    {
+      "name": "M06_load_sign",
+      "reason": "Signed byte load incorrectly zero extends",
+      "failed_tests": 2,
+      "total_tests": 36,
+      "detected": true
+    }
+  ],
+  "repairs": {
+    "passed": 12,
+    "total": 12
+  },
+  "scope": "Author-generated non-blind tests and known injected mutations; NOT an independent diagnostic-accuracy benchmark or skill/no-skill A/B test.",
+  "additional_checks": {
+    "native_script": {
+      "minus_s_exit": 0,
+      "minus_c_exit": 1,
+      "verdict": "-c interprets Tcl; native .ys needs -s"
+    },
+    "assumption_counterexample": [
+      {
+        "case": "with_assumption",
+        "result": "PASS",
+        "log": "logs/with_assumption.log"
+      },
+      {
+        "case": "without_assumption",
+        "result": "PASS",
+        "log": "logs/without_assumption.log"
+      }
+    ],
+    "limits": "Small combinational formal counterexample, not a CPU proof or a general vacuity checker.",
+    "upstream_smoke": {
+      "status": "PASS",
+      "write_count": 45,
+      "values": "0..44",
+      "address": 1020,
+      "check": "Original upstream bench; externally checked sequential counter writes. Limited smoke test."
+    }
+  }
+}

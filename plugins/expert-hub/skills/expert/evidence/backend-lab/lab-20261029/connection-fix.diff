@@ -1,0 +1,14 @@
+--- service.before.py
++++ service.py
+@@ -47,9 +47,9 @@
+                 self.counts["sql_errors"] += 1
+             self.record(request_id, type(error).__name__, (acquired-started)*1000,
+                         (time.perf_counter()-acquired)*1000)
+-            # Deliberate fixture defect: this error path forgets to return the connection.
+             return 500, {"error": "query_error"}
+-        self.pool.put(connection)
++        finally:
++            self.pool.put(connection)
+         self.record(request_id, "ok", (acquired-started)*1000,
+                     (time.perf_counter()-acquired)*1000)
+         return 200, {"customer_id": customer, "status": status, "count": count,

@@ -1,0 +1,4 @@
+interface:
+  display_name: "전문가 지식 허브"
+  short_description: "매출·시계열·품질·반도체의 필요한 근거만 조회"
+  default_prompt: "$expert 제공한 자료와 목적에 맞는 전문가를 선택하고 필요한 근거만 조회해줘."

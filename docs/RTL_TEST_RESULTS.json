@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-30",
+  "scope": "Frozen release snapshot, not subsequently changing shared folder",
+  "python": "3.12.14",
+  "os": "Windows-11-10.0.26300-SP0",
+  "groups": {
+    "hub": {
+      "passed": 16
+    },
+    "persona_gate": {
+      "passed": 8
+    },
+    "rtl_reference": {
+      "passed": 7
+    },
+    "nand": {
+      "passed": 8
+    },
+    "backend": {
+      "passed": 8
+    },
+    "data_analysis": {
+      "passed": 9
+    },
+    "semiconductor": {
+      "passed": 8
+    },
+    "forecasting": {
+      "passed": 12,
+      "skipped": 1,
+      "skip_reason": "Optional ML runtime not installed"
+    },
+    "rtl_windows": {
+      "passed": 1
+    }
+  },
+  "mcp_sdk": {
+    "version": "1.30.0",
+    "protocol": "2025-11-25",
+    "tools": 5,
+    "passed": true,
+    "checks": [
+      "initialize",
+      "catalog/lookup/read/source",
+      "chip file reference",
+      "wrong persona rejected"
+    ]
+  },
+  "windows_scope": [
+    "custom temporary Skill destination with Korean/spaces",
+    "existing destination overwrite rejected",
+    "copied Skill chip retrieval",
+    "PowerShell wrapper retrieval",
+    "foreign-root receipt rejection",
+    "missing-context rejection"
+  ],
+  "not_tested": [
+    "production chip correctness",
+    "EDA simulation/formal/STA/silicon experiments",
+    "new physical PC",
+    "Codex app automatic skill activation",
+    "plugin install in user settings",
+    "optional ML/Excel/PyOD runtimes",
+    "OneDrive remote sync"
+  ],
+  "earlier_snapshot_failures": "3 inherited record schema errors repaired in release snapshot; semiconductor test initialized MCP before request. See RTL_RELEASE_REPAIRS.md."
+}

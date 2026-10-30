@@ -1,0 +1,85 @@
+{
+  "package": "Exam companion 1.1 / Expert Hub 2.5.1 frozen snapshot",
+  "date": "2026-10-30",
+  "source_repository": {
+    "files_including_preexisting_caches": 999,
+    "preexisting_manifest_mismatches": [
+      "plugins/expert-hub/skills/expert/SKILL.md",
+      "plugins/expert-hub/skills/expert/references/backend-usage.md"
+    ],
+    "resolution": "Frozen copied 2.5.1; portable documentation changes and regenerated manifest only in distribution.",
+    "preserved_note": "This task did not edit the original location; concurrent changes were observed, so unchanged-over-time cannot be claimed.",
+    "distribution_document_changes": [
+      "INSTALL_NEW_PC_KO.md",
+      "docs/DRAM_HBM_START.md",
+      "docs/HBM_DATA.md",
+      "docs/NAND_DATA.md",
+      "docs/PERSONA_AUDIT_241.md",
+      "docs/PRIVATE_DATA.md",
+      "docs/VALIDATION.md",
+      "plugins/expert-hub/skills/expert/references/commands.md",
+      "docs/UPDATE_242.json"
+    ],
+    "original_location_modified_by_this_task": false
+  },
+  "static_metrics": {
+    "manifest_files": 25,
+    "global_characters_including_newline": 150,
+    "fact-grounding_characters": 2282,
+    "prompt-refine_characters": 2128,
+    "evaluation_cases": 19,
+    "synthetic_sales": {
+      "raw_rows": 8,
+      "exact_duplicates_removed": 1,
+      "excluded_other_currency": 1,
+      "missing_amount_rows": 1,
+      "included_rows": 5,
+      "2026-01_KRW": 150.0,
+      "2026-02_KRW": 130.0,
+      "growth_percent": -13.333333333333334
+    }
+  },
+  "skill_validation": [
+    {
+      "skill": "prompt-refine",
+      "passed": true,
+      "checker": "skill-creator quick_validate.py; validation-only PyYAML 6.0.3 in temporary work directory"
+    },
+    {
+      "skill": "fact-grounding",
+      "passed": true,
+      "checker": "skill-creator quick_validate.py; validation-only PyYAML 6.0.3 in temporary work directory"
+    }
+  ],
+  "negative_checks_passed": [
+    "changed file rejected",
+    "unlisted file rejected",
+    "path traversal manifest rejected",
+    "different existing destination rejected"
+  ],
+  "integration_checks": {
+    "hub_regression_tests": 16,
+    "persona_gate_tests": 8,
+    "fresh_stdio_personas": 9,
+    "all_passed": true,
+    "tested_with_missing_installed_grounding": true
+  },
+  "complete_distribution_checks": {
+    "root_release_manifest": true,
+    "addon_manifest_and_fixtures": true,
+    "distribution_links_and_source_snapshots": true
+  },
+  "model_benchmark_cases_prepared": 19,
+  "model_benchmark_cases_executed": 0,
+  "not_verified": [
+    "new-PC desktop skill discovery",
+    "real exam tasks",
+    "model behavioral evaluation of 16 cases",
+    "latency or token savings",
+    "GitHub upload"
+  ],
+  "token_latency_claim": "No measured savings claimed. Character counts are not token counts.",
+  "current_machine_changes": "No user Codex settings, user skills, MCP registration, or original Hub files changed; validation dependency isolated under work.",
+  "explicit_structuring": "Supported; skill/reference validation only, not model behavior tested",
+  "fixed_absolute_paths_in_final_text_files": 0
+}

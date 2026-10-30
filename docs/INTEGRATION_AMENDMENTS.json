@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-30",
+  "reason": "HBM import F060-F062 shared definitions; additive conditions and four original HBM references; no numeric result or acceptance criterion changed.",
+  "record_id": "quality:reliability",
+  "before": {
+    "id": "quality:reliability",
+    "title": "신뢰성: Weibull·검열·가속 시험",
+    "track": "deep",
+    "tags": [
+      "신뢰성",
+      "Weibull",
+      "수명",
+      "검열",
+      "가속시험",
+      "고장"
+    ],
+    "summary": "고장한 표본뿐 아니라 아직 고장하지 않은 표본과 노출 시간을 포함한다.",
+    "source_ids": [
+      "nist-reliability"
+    ],
+    "implementation": "reference-only",
+    "evidence_level": "source-linked-summary",
+    "reviewed": "2026-10-30",
+    "sections": {
+      "conditions": "비수리 제품 수명과 수리 가능한 시스템의 사건 빈도를 구분한다. 시험 종료까지 고장하지 않은 표본은 검열 정보다.\nWeibull·lognormal 등 분포 선택은 고장 물리와 적합성으로 판단한다. 고장 건수·시험 조건·검열 방식을 같이 보고한다.\n가속 시험은 Arrhenius 등 물리적으로 설명되는 가속 모델과 동일 고장 메커니즘 전제가 필요하다. 높은 스트레스의 전혀 다른 고장을 사용조건으로 외삽하지 않는다.",
+      "limits": "반도체 패키지/제품별 JEDEC·고객 규격은 실제 적용판을 확인한다. 이 DB에는 유료 규격 전문이나 합격 판정표가 없다.",
+      "verification": "고장률 감소·수명 개선 주장은 신뢰구간과 확인시험으로 뒷받침한다."
+    },
+    "legacy_id": "reliability"
+  },
+  "before_sha256": "bd179dbda825c8ae6b61f02e31248328f0c759f90320e49998bd3985d7187cb3",
+  "after_sha256": "cf49a1e5c7bd2d9836e7b471cdc42a17e549811d2074fa43ce4d8d86bdf7f207",
+  "changed_fields": [
+    "sections.conditions",
+    "source_ids"
+  ]
+}

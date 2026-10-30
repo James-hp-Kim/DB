@@ -1,0 +1,51 @@
+{
+  "frozen_hub_version": "2.5.1",
+  "new_files_fixed_absolute_paths": [],
+  "new_file_count_scanned": 26,
+  "clean_python": {
+    "version": "Python 3.14.7",
+    "pip_or_third_party_packages": false
+  },
+  "relocated_tests": [
+    {
+      "check": "relocated_status",
+      "passed": true
+    },
+    {
+      "check": "relocated_core_tests",
+      "passed": true
+    },
+    {
+      "check": "relocated_gate_tests",
+      "passed": true
+    },
+    {
+      "check": "relocated_fresh_mcp",
+      "passed": true
+    }
+  ],
+  "no_python_probe": {
+    "instructions_ready": true,
+    "db_cli_ready": false,
+    "require_database_exit_code": 2
+  },
+  "limits": [
+    "Existing host Python binary reused in a package-free venv; not a separately installed OS",
+    "Codex desktop discovery and model behavior not exercised",
+    "No-Python mode reads instructions only; database computation requires Python 3.11+ and SQLite FTS5",
+    "Optional Excel/ML/EDA features need their own dependencies"
+  ],
+  "legacy_document_paths_cleaned": [
+    "INSTALL_NEW_PC_KO.md",
+    "docs/DRAM_HBM_START.md",
+    "docs/HBM_DATA.md",
+    "docs/NAND_DATA.md",
+    "docs/PERSONA_AUDIT_241.md",
+    "docs/PRIVATE_DATA.md",
+    "docs/VALIDATION.md",
+    "plugins/expert-hub/skills/expert/references/commands.md",
+    "docs/UPDATE_242.json"
+  ],
+  "explicit_prompt_feature_added_after_core_checks": true,
+  "final_new_and_complete_text_scan_fixed_absolute_paths": 0
+}

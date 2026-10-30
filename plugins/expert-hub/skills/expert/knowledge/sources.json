@@ -1,0 +1,3255 @@
+{
+  "nist-spc": {
+    "title": "NIST: Variables control charts / WECO",
+    "url": "https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc32.htm",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "nist-attributes": {
+    "title": "NIST: Attributes control charts",
+    "url": "https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc33.htm",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "nist-capability": {
+    "title": "NIST: Process capability",
+    "url": "https://www.itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "nist-cusum": {
+    "title": "NIST: CUSUM control charts",
+    "url": "https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc323.htm",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "nist-ewma": {
+    "title": "NIST: EWMA control charts",
+    "url": "https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc324.htm",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "nist-msa": {
+    "title": "NIST: Gauge R&R studies",
+    "url": "https://www.itl.nist.gov/div898/handbook/mpc/section4/mpc4.htm",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "nist-doe": {
+    "title": "NIST: Process improvement / DOE",
+    "url": "https://www.itl.nist.gov/div898/handbook/pri/pri.htm",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "nist-reliability": {
+    "title": "NIST: Product reliability",
+    "url": "https://www.itl.nist.gov/div898/handbook/apr/apr.htm",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "nist-outliers": {
+    "title": "NIST: Detection of outliers",
+    "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "nist-compare": {
+    "title": "NIST: Product and process comparisons",
+    "url": "https://www.itl.nist.gov/div898/handbook/prc/prc.htm",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "nist-wilson": {
+    "title": "NIST: Proportion confidence intervals",
+    "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "nist-t2": {
+    "title": "NIST: Hotelling control charts",
+    "url": "https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc341.htm",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "asq-8d": {
+    "title": "ASQ: Eight disciplines",
+    "url": "https://asq.org/quality-resources/eight-disciplines-8d",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "asq-fmea": {
+    "title": "ASQ: FMEA overview",
+    "url": "https://asq.org/quality-resources/fmea",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "일반 FMEA 개요. AIAG-VDA Action Priority 표의 대체 자료가 아님."
+  },
+  "asq-dmaic": {
+    "title": "ASQ: DMAIC",
+    "url": "https://asq.org/quality-resources/dmaic",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "sklearn-od": {
+    "title": "scikit-learn: Novelty and outlier detection",
+    "url": "https://scikit-learn.org/stable/modules/outlier_detection.html",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "statsmodels-fdr": {
+    "title": "statsmodels: multipletests",
+    "url": "https://www.statsmodels.org/stable/generated/statsmodels.stats.multitest.multipletests.html",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "openai-skills": {
+    "title": "OpenAI: Build skills",
+    "url": "https://learn.chatgpt.com/docs/build-skills",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "제품 문서와 발견 경로는 버전별로 달라질 수 있음. 설치된 Codex에서 확인."
+  },
+  "openai-plugins": {
+    "title": "OpenAI: Package your plugin",
+    "url": "https://developers.openai.com/plugins/build/plugins",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "로컬 marketplace와 공개 디렉터리 제출은 다른 절차. 이 패키지는 공개 제출하지 않음."
+  },
+  "openai-cli": {
+    "title": "OpenAI: Codex CLI reference",
+    "url": "https://learn.chatgpt.com/docs/cli/reference",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "openai-desktop-plugin": {
+    "title": "OpenAI: Desktop-only plugins",
+    "url": "https://developers.openai.com/plugins/deploy/desktop-only",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "mcp-stdio": {
+    "title": "MCP: stdio transport",
+    "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/transports",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "mcp-lifecycle": {
+    "title": "MCP: lifecycle",
+    "url": "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "mcp-tools": {
+    "title": "MCP: tools",
+    "url": "https://modelcontextprotocol.io/specification/2025-11-25/server/tools",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "공개 설명은 사내 규격·고객 요구사항을 대체하지 않음."
+  },
+  "skhynix-context": {
+    "title": "SK hynix: Gauss Labs industrial AI (2021)",
+    "url": "https://news.skhynix.com/en/aiming-for-the-top-in-industrial-ai-sks-first-ai-company-gauss-labs/",
+    "kind": "primary",
+    "checked": "2026-10-29",
+    "limits": "2021년 공개 기술 방향 소개. 현재 배치 현황 또는 이 패키지/공개 스킬 채택 증거가 아님."
+  },
+  "package-design": {
+    "title": "Expert Hub 2.1 설계·구현 범위",
+    "url": "plugins/expert-hub/skills/expert/references/design.md",
+    "kind": "package-design",
+    "checked": "2026-10-30",
+    "limits": "사용자 요구를 구현한 설계 선택. 외부 인증·실측 성능 보장·회사 내부 자료가 아님.",
+    "skill_relative_path": "references/design.md"
+  },
+  "qes-spc": {
+    "title": "RBraga01/Quality-Engineering-Skills: skills/measurement/spc-control-charts/SKILL.md",
+    "url": "https://github.com/RBraga01/Quality-Engineering-Skills/blob/b338d802a0aa7c6ced8d062dd94e98b5f16030df/skills/measurement/spc-control-charts/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요. 원문 WECO 표의 9점 조건은 NIST의 WECO 8점 기준과 다름. 본 패키지 monitor는 명시적으로 WECO 4규칙을 사용.",
+    "commit": "b338d802a0aa7c6ced8d062dd94e98b5f16030df",
+    "snapshot": "third_party/qes/spc-control-charts.md",
+    "snapshot_sha256": "c602e6f38c28802fe62c8cf7a7354c8480493185981764d1e4f2ce181137b133",
+    "license": "MIT"
+  },
+  "qes-msa": {
+    "title": "RBraga01/Quality-Engineering-Skills: skills/measurement/msa-gauge-rr/SKILL.md",
+    "url": "https://github.com/RBraga01/Quality-Engineering-Skills/blob/b338d802a0aa7c6ced8d062dd94e98b5f16030df/skills/measurement/msa-gauge-rr/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요.",
+    "commit": "b338d802a0aa7c6ced8d062dd94e98b5f16030df",
+    "snapshot": "third_party/qes/msa-gauge-rr.md",
+    "snapshot_sha256": "77dfaa8c043847ba249aec781b2f6b016c73fc157877dc0b50d704951f8b9510",
+    "license": "MIT"
+  },
+  "qes-8d": {
+    "title": "RBraga01/Quality-Engineering-Skills: skills/problem-solving/8d-problem-solving/SKILL.md",
+    "url": "https://github.com/RBraga01/Quality-Engineering-Skills/blob/b338d802a0aa7c6ced8d062dd94e98b5f16030df/skills/problem-solving/8d-problem-solving/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요.",
+    "commit": "b338d802a0aa7c6ced8d062dd94e98b5f16030df",
+    "snapshot": "third_party/qes/8d-problem-solving.md",
+    "snapshot_sha256": "69fc87e295f05f59b18ea9716df4a1f3b014699fdfd24d8a54a7422e1e845ffb",
+    "license": "MIT"
+  },
+  "qes-dmaic": {
+    "title": "RBraga01/Quality-Engineering-Skills: skills/problem-solving/dmaic/SKILL.md",
+    "url": "https://github.com/RBraga01/Quality-Engineering-Skills/blob/b338d802a0aa7c6ced8d062dd94e98b5f16030df/skills/problem-solving/dmaic/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요.",
+    "commit": "b338d802a0aa7c6ced8d062dd94e98b5f16030df",
+    "snapshot": "third_party/qes/dmaic.md",
+    "snapshot_sha256": "f6425c4f7108208fca62c73c52d94c3984ddabf31e45daa4bcd59af601f84f49",
+    "license": "MIT"
+  },
+  "qes-pfmea": {
+    "title": "RBraga01/Quality-Engineering-Skills: skills/risk-analysis/pfmea-process/SKILL.md",
+    "url": "https://github.com/RBraga01/Quality-Engineering-Skills/blob/b338d802a0aa7c6ced8d062dd94e98b5f16030df/skills/risk-analysis/pfmea-process/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요.",
+    "commit": "b338d802a0aa7c6ced8d062dd94e98b5f16030df",
+    "snapshot": "third_party/qes/pfmea-process.md",
+    "snapshot_sha256": "09099726e052d30a49aaae431bf01f512c9494e942e1b741cbc9f52047f6add2",
+    "license": "MIT"
+  },
+  "pyod-skill": {
+    "title": "yzhao062/pyod: pyod/skills/od_expert/SKILL.md",
+    "url": "https://github.com/yzhao062/pyod/blob/7e1330e10ac5c56ed402fbbaa41b225efb4bbc5c/pyod/skills/od_expert/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요. 원문 description의 콜론 때문에 YAML 오류가 확인됨. 원본 od-expert를 설치하지 않고 검증된 로컬 지침과 classic API만 선택 사용.",
+    "commit": "7e1330e10ac5c56ed402fbbaa41b225efb4bbc5c",
+    "snapshot": "third_party/pyod/od-expert.md",
+    "snapshot_sha256": "fd46974c9f5ebc6f979d270fdb5e08936fa505d9164e5e9798dfe5be0e5fc6c1",
+    "license": "BSD-2-Clause"
+  },
+  "nist-pack": {
+    "title": "jgsystemsconsulting/jgs-se-knowledge-packs: packs/nist-stat-handbook/SKILL.md",
+    "url": "https://github.com/jgsystemsconsulting/jgs-se-knowledge-packs/blob/d00e111d4c5bfa4b2daa6bbff4f694af05f43c0c/packs/nist-stat-handbook/SKILL.md",
+    "kind": "community-source",
+    "checked": "2026-10-29",
+    "limits": "원본 스냅샷은 참고자료이며 실행 지침으로 자동 활성화하지 않음. 사내 기준과 원전 확인 필요. NIST 공식 배포 스킬이 아닌 커뮤니티 재구성. 원전 우선.",
+    "commit": "d00e111d4c5bfa4b2daa6bbff4f694af05f43c0c",
+    "snapshot": "third_party/nist-pack/SKILL-source.md",
+    "snapshot_sha256": "77144f7cb5a8b586bb7615eae2d7f08a97e67b4683a4243e7223125037adb116",
+    "license": "upstream pack license"
+  },
+  "nand-p01": {
+    "title": "Reducing Solid-State Drive Read Latency by Optimizing Read-Retry",
+    "url": "https://arxiv.org/abs/2104.09611",
+    "kind": "fulltext_key_sections_reviewed",
+    "checked": "2026-10-29",
+    "limits": "원문 PDF·핵심 절 검토; 실칩 특성화와 시스템 시뮬레이션의 혼합 결과. AR² 센싱 시간 조절은 제조사 지원이 필요하며 표준 tR 위반으로 구현하면 안 됨"
+  },
+  "nand-p02": {
+    "title": "Improving 3D NAND Flash Memory Lifetime by Tolerating Early Retention Loss and Process Variation",
+    "url": "https://arxiv.org/abs/1807.05140",
+    "kind": "fulltext_key_sections_reviewed",
+    "checked": "2026-10-29",
+    "limits": "원문 PDF·핵심 절 검토; 현행 321/375단 QLC에 계수·수명 개선율 직접 전용 불가. 두 수치를 동시에 달성한다고 해석하지 않음"
+  },
+  "nand-p03": {
+    "title": "HeatWatch: Improving 3D NAND Flash Memory Device Reliability by Exploiting Self-Recovery and Temperature-Awareness",
+    "url": "https://publications.systems.ethz.ch/publication/1303",
+    "kind": "abstract_or_index",
+    "checked": "2026-10-29",
+    "limits": "기관 공개 초록 확인; 오래된 고정전압 기준 대비 효과. 현재 적응형 컨트롤러 대비 같은 이득을 기대하면 안 됨"
+  },
+  "nand-p04": {
+    "title": "LDPC Decoding with Limited-Precision Soft Information in Flash Memories",
+    "url": "https://arxiv.org/abs/1210.0149",
+    "kind": "fulltext_key_sections_reviewed",
+    "checked": "2026-10-29",
+    "limits": "원문 PDF 확보·초록 검토; AWGN용 code와 LLR을 NAND에 그대로 적용하지 않음. 추가 sensing 비용 포함"
+  },
+  "nand-p05": {
+    "title": "A (21150, 19050) GC-LDPC Decoder for NAND Flash Applications",
+    "url": "https://ieeexplore.ieee.org/document/8528505/",
+    "kind": "abstract_or_index",
+    "checked": "2026-10-29",
+    "limits": "출판사 색인 초록 확인·원문 미확보; 실리콘 측정값이 아님. 최신 공정 PPA나 FPGA 결과와 직접 순위 비교 금지"
+  },
+  "nand-p06": {
+    "title": "Energy-Efficient Partial LDPC Decoding for NAND Flash-Based Storage Systems",
+    "url": "https://www.mdpi.com/2079-9292/13/7/1392",
+    "kind": "abstract_or_index",
+    "checked": "2026-10-29",
+    "limits": "출판사 색인 초록 확인·직접 접근 429; 최대값을 평균값으로 인용하지 않음. worst-case fallback을 반드시 포함"
+  },
+  "nand-p07": {
+    "title": "Exploiting LDPC Syndrome for Multidimensional Hard-Decoding Read Retry on NAND Flash",
+    "url": "https://doi.org/10.1145/3760259",
+    "kind": "abstract_or_index",
+    "checked": "2026-10-29",
+    "limits": "출판사 색인 설명 확인·직접 접근 403; syndrome 감소가 원본 데이터 복원을 보장하지 않음. CRC/ground truth 대조"
+  },
+  "nand-p08": {
+    "title": "A Multi-High-Rate Structured Algebraic QC-LDPC Code for 3D TLC NAND Flash Memory",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11028049",
+    "kind": "abstract_or_index",
+    "checked": "2026-10-29",
+    "limits": "출판사 색인 초록 확인·원문 미확보; 정정 능력만 높여도 usable capacity와 metadata 비용 증가 가능"
+  },
+  "nand-p09": {
+    "title": "SC-GC-LDPC for NAND Flash Memory: Construction and Decoding",
+    "url": "https://ieeexplore.ieee.org/document/10974699/",
+    "kind": "abstract_or_index",
+    "checked": "2026-10-29",
+    "limits": "출판사 색인 초록 확인·원문 미확보; CNU 수 감소율을 칩 처리량 증가율로 바꾸어 쓰면 안 됨"
+  },
+  "nand-p10": {
+    "title": "Enhanced LDPC Coding for 3-D TLC NAND Flash Memory: Leveraging RBER Difference From Intralayer Variation",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11124560",
+    "kind": "abstract_or_index",
+    "checked": "2026-10-29",
+    "limits": "출판사 색인 초록 확인·원문 미확보; 최신 연구 후보이나 세부 조건·baseline 확인 전 도입/효과 확정 불가"
+  },
+  "nand-p11": {
+    "title": "LUT-Optimized RCQ LDPC Decoder for TLC Flash Memory Implementation on Xilinx FPGA",
+    "url": "https://doi.org/10.1109/DSPA69176.2026.11476755",
+    "kind": "abstract_or_index",
+    "checked": "2026-10-29",
+    "limits": "출판사 색인 초록 확인·원문 미확보; 평균 iteration 처리량을 worst-case 보장으로 쓰지 않음. ASIC 65nm와 직접 비교 불가"
+  },
+  "nand-p12": {
+    "title": "PAHT: Process-Aware History Tracking for Fast Read Retry in High-Capacity 3D NAND SSDs",
+    "url": "https://www.mdpi.com/2673-4117/7/10/563",
+    "kind": "abstract_or_index",
+    "checked": "2026-10-29",
+    "limits": "출판사 색인 초록·결론 확인·직접 접근 429; 성능 정의·baseline 세부 원문 재확인 필요. 58.3%를 latency 감소율로 바꾸지 않음"
+  },
+  "nand-p13": {
+    "title": "MQSim: A Framework for Enabling Realistic Studies of Modern Multi-Queue SSD Devices",
+    "url": "https://www.usenix.org/conference/fast18/presentation/tavakkol",
+    "kind": "fulltext_key_sections_reviewed",
+    "checked": "2026-10-29",
+    "limits": "원문 PDF 확보·설명 검토; RTL/PHY timing signoff 도구가 아니며 최신 NAND 자동 지원을 뜻하지 않음"
+  },
+  "nand-p14": {
+    "title": "A 321-Layer 2Tb 4b/cell 3D-NAND-Flash Memory with a 75MB/s Program Throughput",
+    "url": "https://www.isscc.org/s/ISSCC2025AdvanceProgram.pdf",
+    "kind": "program_only",
+    "checked": "2026-10-29",
+    "limits": "학회 공식 프로그램 PDF·press kit; 논문 본문 미확보; 75 MB/s는 SSD host write 속도가 아님. 2Tb는 2TB가 아님"
+  },
+  "nand-p15": {
+    "title": "Cycling Condition Impacts on 3D QLC NAND Reliability",
+    "url": "https://research.ibm.com/publications/cycling-condition-impacts-on-3d-qlc-nand-reliability",
+    "kind": "abstract_or_index",
+    "checked": "2026-10-29",
+    "limits": "연구기관 공개 초록 확인; 동일 P/E count만으로 칩 열화 상태가 같다고 볼 수 없음"
+  },
+  "nand-s01": {
+    "title": "ONFI 6.0",
+    "url": "https://onfi.org/files/ONFI_6_0_Final.pdf",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 검색 색인 Introduction 확인; 직접 접근 거절; 공식 검색 색인 Introduction 확인; 직접 접근 거절"
+  },
+  "nand-s02": {
+    "title": "ONFI 5.2 Rev1.0",
+    "url": "https://onfi.org/files/ONFI_5_2_Rev1.0.pdf",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 검색 색인 revision history 확인; 직접 접근 거절; 공식 검색 색인 revision history 확인; 직접 접근 거절"
+  },
+  "nand-s03": {
+    "title": "SystemVerilog IEEE 1800-2023 공개 안내",
+    "url": "https://www.accellera.org/news/newsletters/2024-may",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 색인 확인; 공식 색인 확인"
+  },
+  "nand-s04": {
+    "title": "UVM reference implementation",
+    "url": "https://www.accellera.org/downloads/standards/uvm",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 페이지 확인; 공식 페이지 확인"
+  },
+  "nand-s05": {
+    "title": "IEEE 1801-2024 UPF",
+    "url": "https://standards.ieee.org/ieee/1801/7466/",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 표준 설명 확인; 공식 표준 설명 확인"
+  },
+  "nand-s06": {
+    "title": "321-layer QLC mass production",
+    "url": "https://news.skhynix.com/en/sk-hynix-begins-mass-production-of-321-layer-qlc-nand-flash/",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 보도자료 확인; 공식 보도자료 확인"
+  },
+  "nand-s07": {
+    "title": "HBF / FMS 2026 / 375-layer NAND",
+    "url": "https://news.skhynix.com/en/hbf-at-fms-2026/",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 본문 확인; 공식 본문 확인"
+  },
+  "nand-s08": {
+    "title": "321-layer QLC cSSD supply",
+    "url": "https://news.skhynix.com/en/begin-supply-321-layer-qlc-nand-cssd-2/",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 검색 색인 확인; 공식 검색 색인 확인"
+  },
+  "nand-s09": {
+    "title": "ISSCC 2025 Press Kit",
+    "url": "https://static1.squarespace.com/static/6130ef779c7a2574bd4b8888/t/683f41498b09f01a5864a5fc/1748975949054/ISSCC2025PressKit.pdf",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "학회 공개 색인 확인; 학회 공개 색인 확인"
+  },
+  "nand-s10": {
+    "title": "VCS / Verdi",
+    "url": "https://www.synopsys.com/verification/simulation/vcs.html",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 제품 설명 확인; 공식 제품 설명 확인"
+  },
+  "nand-s11": {
+    "title": "VC Formal / VC SpyGlass / VC LP",
+    "url": "https://www.synopsys.com/verification/static-and-formal-verification.html",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 제품 설명 확인; 공식 제품 설명 확인"
+  },
+  "nand-s12": {
+    "title": "Jasper / Xcelium",
+    "url": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/formal-and-static-verification.html",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 제품 설명 확인; 공식 제품 설명 확인"
+  },
+  "nand-s13": {
+    "title": "Questa RDC",
+    "url": "https://www.siemens.com/en-us/products/ic/questa-one/design-solutions/reset-domain-crossing/",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 제품 설명 확인; 공식 제품 설명 확인"
+  },
+  "nand-s14": {
+    "title": "Genus",
+    "url": "https://www.cadence.com/en_US/home/resources/datasheets/genus-synthesis-solution-ds.html",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 제품 설명 확인; 공식 제품 설명 확인"
+  },
+  "nand-s15": {
+    "title": "Innovus / Tempus / Quantus / Voltus",
+    "url": "https://www.cadence.com/en_US/home/resources/datasheets/innovus-implementation-system-ds.html",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 제품 설명 확인; 공식 제품 설명 확인"
+  },
+  "nand-s16": {
+    "title": "Synopsys LynxNXT flow",
+    "url": "https://www.synopsys.com/implementation-and-signoff/lynxnxt-automation-system/flow.html",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 제품 설명 확인; 공식 제품 설명 확인"
+  },
+  "nand-s17": {
+    "title": "Verilator overview / language support",
+    "url": "https://verilator.org/guide/latest/overview.html",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 문서 확인; 공식 문서 확인"
+  },
+  "nand-s18": {
+    "title": "cocotb documentation",
+    "url": "https://docs.cocotb.org/en/stable/",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 문서 확인; 공식 문서 확인"
+  },
+  "nand-s19": {
+    "title": "OpenROAD documentation",
+    "url": "https://openroad.readthedocs.io/en/latest/",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 문서 확인; 공식 문서 확인"
+  },
+  "nand-s20": {
+    "title": "MQSim repository",
+    "url": "https://github.com/CMU-SAFARI/MQSim",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "작성자 저장소 확인; 작성자 저장소 확인"
+  },
+  "nand-s21": {
+    "title": "Cosmos-plus-OpenSSD",
+    "url": "https://github.com/Cosmos-OpenSSD/Cosmos-plus-OpenSSD",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "원저장소 확인; 원저장소 확인"
+  },
+  "nand-s22": {
+    "title": "Linux MTD NAND driver API v6.13",
+    "url": "https://www.kernel.org/doc/html/v6.13/driver-api/mtdnand.html",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 문서 확인; 공식 문서 확인"
+  },
+  "nand-s23": {
+    "title": "What is NAND Flash Memory?",
+    "url": "https://www.kioxia.com/en-jp/rd/technology/nand-flash.html",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "제조사 색인 확인; 제조사 색인 확인"
+  },
+  "nand-s24": {
+    "title": "TBW WAF NAND Endurance Technical Brief",
+    "url": "https://americas.kioxia.com/content/dam/kioxia/en-us/business/memory/mlc-nand/asset/KIOXIA_TBW_WAF_NAND_Endurance_Technical_Brief.pdf",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "제조사 공개 설명 확인; 제조사 공개 설명 확인"
+  },
+  "nand-s25": {
+    "title": "SSD endurance standards overview",
+    "url": "https://www.seagate.com/files/staticfiles/docs/pdf/whitepaper/tp618-ssd-tech-paper-us.pdf",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "제조사 기술문서 색인 확인; 제조사 기술문서 색인 확인"
+  },
+  "nand-s26": {
+    "title": "Verilator input languages",
+    "url": "https://verilator.org/guide/latest/languages.html",
+    "kind": "source_entry",
+    "checked": "2026-10-29",
+    "limits": "공식 문서 확인; 공식 문서 확인"
+  },
+  "nand-design": {
+    "title": "NAND 연구 변환·설계 제안 및 미확보 데이터",
+    "url": "docs/NAND_PROVENANCE.md",
+    "kind": "authored-design-proposal",
+    "checked": "2026-10-30",
+    "limits": "자체 검토 지침. 사내 승인 규격·실측 결과 아님. 문헌 확인일은 개별 출처에 보존."
+  },
+  "rtl-s01": {
+    "title": "IEEE 1800-2023 SystemVerilog",
+    "url": "https://standards.ieee.org/ieee/1800/7743/",
+    "kind": "표준 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "표준 소개 확인. 프로젝트 컴파일러 지원 문법과 별도 대조. 원문 전체 미검토 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "1800-2023",
+    "organization": "IEEE"
+  },
+  "rtl-s04": {
+    "title": "Standard for IP Abstraction for Clock and Reset Domain Crossing Integration",
+    "url": "https://accellera.org/images/downloads/standards/cdc/CDC_Standard_v1.0.pdf",
+    "kind": "표준 / PDF 확보·목차 및 관련 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "CDC 회로의 안전성을 자동 보장하는 표준이 아님. EDA별 지원 확인 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "1.0 / 2026-03",
+    "organization": "Accellera"
+  },
+  "rtl-s05": {
+    "title": "HBM4 JESD270-4 계열",
+    "url": "https://www.jedec.org/",
+    "kind": "표준 / 공식 사이트 검색 정보 / 원문 접근 제한",
+    "checked": "2026-10-29",
+    "limits": "JEDEC robots 접근 제한. 원문 미확보. P01 및 GUC 제품 자료로 계열 교차 확인 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "계열 확인 / 최신 suffix 미확인",
+    "organization": "JEDEC"
+  },
+  "rtl-s06": {
+    "title": "DDR5 JESD79-5 계열",
+    "url": "https://www.jedec.org/standards-documents/docs/jesd79-5",
+    "kind": "표준 / 공식 경로 / 원문 접근 제한",
+    "checked": "2026-10-29",
+    "limits": "원문 미확보. 최신 개정판·speed bin 수치 확정에 사용 금지 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "프로젝트 적용 revision 필요",
+    "organization": "JEDEC"
+  },
+  "rtl-s07": {
+    "title": "IEEE 1838-2019 3D stacked IC test access",
+    "url": "https://standards.ieee.org/ieee/1838/5073/",
+    "kind": "표준 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "HBM 제품이 자동으로 이 표준을 채택한다는 의미는 아님. 원문 미확보 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2019 / 2020-03-13 발행",
+    "organization": "IEEE"
+  },
+  "rtl-s08": {
+    "title": "IEEE 1500-2022 Embedded Core Test",
+    "url": "https://standards.ieee.org/about/sasb/sba/jun2022/",
+    "kind": "표준 / 공식 승인 목록 확인",
+    "checked": "2026-10-29",
+    "limits": "승인 목록으로 규격 존재 확인. 제품별 적용판 및 조항은 원문 확보 필요 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2022 승인 목록",
+    "organization": "IEEE"
+  },
+  "rtl-t02": {
+    "title": "Xcelium Logic Simulation",
+    "url": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/simulation-and-testbench-verification/xcelium-simulator.html",
+    "kind": "도구 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "광고 성능 수치는 비교표에 반영하지 않음. 승인 버전·옵션 필요 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "제품 소개 현행 페이지",
+    "organization": "Cadence"
+  },
+  "rtl-t03": {
+    "title": "Questa One",
+    "url": "https://www.siemens.com/en-us/products/ic/questa-one/",
+    "kind": "도구 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "세부 기능별 상품·라이선스가 다름. 실구매 비교 미수행 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "제품 소개 현행 페이지",
+    "organization": "Siemens EDA"
+  },
+  "rtl-t05": {
+    "title": "Jasper Formal and Static Verification",
+    "url": "https://www.cadence.com/en_US/home/tools/system-design-and-verification/formal-and-static-verification/jasper-verification-platform.html",
+    "kind": "도구 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "환경 가정·black box·proof coverage가 증명 범위를 제한 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "제품 소개 현행 페이지",
+    "organization": "Cadence"
+  },
+  "rtl-t07": {
+    "title": "Design Compiler Graphical",
+    "url": "https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test/design-compiler-graphical.html",
+    "kind": "도구 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "공정 library·SDC가 없으면 실제 제품 PPA 비교 불가 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "제품 소개 현행 페이지",
+    "organization": "Synopsys"
+  },
+  "rtl-t08": {
+    "title": "Genus Synthesis Solution",
+    "url": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/synthesis/genus-synthesis-solution.html",
+    "kind": "도구 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "합성 결과만으로 post-route 성능을 확정하지 않음 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "제품 소개 현행 페이지",
+    "organization": "Cadence"
+  },
+  "rtl-t09": {
+    "title": "Innovus+ Synthesis and Implementation System",
+    "url": "https://www.cadence.com/en_US/home/tools/digital-design-and-signoff/soc-implementation-and-floorplanning/innovus-plus-synthesis-implementation-system.html",
+    "kind": "도구 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "제품 명칭 변경과 사내 설치 버전은 별개. PDK·signoff 연계 필요 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "기존 Innovus URL에서 현행 페이지로 이동",
+    "organization": "Cadence"
+  },
+  "rtl-t10": {
+    "title": "PrimeTime",
+    "url": "https://www.synopsys.com/implementation-and-signoff/signoff/primetime.html",
+    "kind": "도구 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "전체 mode/corner, 예외, unconstrained path를 확인해야 결과 해석 가능 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "제품 소개 현행 페이지",
+    "organization": "Synopsys"
+  },
+  "rtl-t11": {
+    "title": "Tempus Timing Solution",
+    "url": "https://www.cadence.com/en_US/home/resources/videos/tools/digital-design-signoff/signing-off-1b-cells-design-with-tempus-timing-solution.html",
+    "kind": "도구 / 공식 검색·소개 확인",
+    "checked": "2026-10-29",
+    "limits": "공식 소개 자료 확인 범위. 실제 command guide 미확보 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "공식 기술 소개",
+    "organization": "Cadence"
+  },
+  "rtl-t12": {
+    "title": "Verible",
+    "url": "https://chipsalliance.github.io/verible/",
+    "kind": "도구 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "style lint는 정교한 CDC/RDC·formal signoff 대체 수단 아님 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "문서 생성 commit 0f26265 표기",
+    "organization": "CHIPS Alliance / 프로젝트"
+  },
+  "rtl-t13": {
+    "title": "Verilator",
+    "url": "https://verilator.org/guide/latest/",
+    "kind": "도구 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "상용 4-state/X-prop·UVM 동작과 동일하다고 가정하지 말 것 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "문서 표시 5.052",
+    "organization": "Verilator project"
+  },
+  "rtl-t15": {
+    "title": "SymbiYosys / Yosys",
+    "url": "https://yosyshq.readthedocs.io/projects/sby/en/latest/",
+    "kind": "도구 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "지원 SVA subset·엔진·모델링 제약 확인. 회사 signoff 승인 별도 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "latest 문서",
+    "organization": "YosysHQ"
+  },
+  "rtl-t17": {
+    "title": "Ramulator 2.1",
+    "url": "https://github.com/CMU-SAFARI/ramulator2",
+    "kind": "도구 / 공식 저장소 README 확인",
+    "checked": "2026-10-29",
+    "limits": "아키텍처 모델. RTL·PHY·전기적 준수 검증이 아님. 직접 빌드 미수행 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "main README 2.1 확인",
+    "organization": "CMU-SAFARI / ETH Zurich"
+  },
+  "rtl-t18": {
+    "title": "Ayna / HBM-Power",
+    "url": "https://github.com/CMU-SAFARI/HBM-Power",
+    "kind": "도구 / 공식 저장소 README·데이터 확인",
+    "checked": "2026-10-29",
+    "limits": "HBM4 결과는 투영 모델. HBM2와 HBM3E 실측을 구분 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "main 및 artifact 분리 확인",
+    "organization": "CMU-SAFARI"
+  },
+  "rtl-t19": {
+    "title": "DRAMPower",
+    "url": "https://github.com/tukl-msd/DRAMPower",
+    "kind": "도구 / 공식 저장소 README 확인",
+    "checked": "2026-10-29",
+    "limits": "I/O·background 전력 계상 범위와 단위를 확인 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "master README 확인",
+    "organization": "TU Kaiserslautern / Fraunhofer 계열"
+  },
+  "rtl-t20": {
+    "title": "DRAMSys",
+    "url": "https://github.com/tukl-msd/DRAMSys",
+    "kind": "도구 / 공식 저장소 검색 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "RTL simulator와 분석 추상화 수준이 다름 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "공식 저장소",
+    "organization": "tukl-msd"
+  },
+  "rtl-k01": {
+    "title": "lowRISC Verilog Coding Style Guide",
+    "url": "https://github.com/lowRISC/style-guides/blob/master/VerilogCodingStyle.md",
+    "kind": "기초·방법 / 공식 저장소 문서 확인",
+    "checked": "2026-10-29",
+    "limits": "특정 프로젝트 스타일. reset 방식·명명 규칙을 하이닉스 기준으로 단정 금지 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "master 문서",
+    "organization": "lowRISC"
+  },
+  "rtl-k02": {
+    "title": "OpenTitan Design Verification Methodology",
+    "url": "https://opentitan.org/book/doc/contributing/dv/methodology/index.html",
+    "kind": "기초·방법 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "OpenTitan의 도구·coverage 목표는 하이닉스 기준이 아님 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "master 문서",
+    "organization": "OpenTitan"
+  },
+  "rtl-k03": {
+    "title": "Microelectronic Devices and Circuits 6.012",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2009/",
+    "kind": "기초·방법 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "소자 기초용. 최신 DRAM 공정 파라미터 제공 자료 아님 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2009 강의",
+    "organization": "MIT OCW"
+  },
+  "rtl-k04": {
+    "title": "DDR5 SDRAM: New Features",
+    "url": "https://assets.micron.com/adobe/assets/urn%3Aaaid%3Aaem%3A5ea148c8-e3fe-489e-8489-99b1b9cdcd3c/renditions/original/as/ddr5-new-features-white-paper.pdf",
+    "kind": "기초·방법 / 공식 PDF 검색 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "Micron 설명을 SK hynix 제품 사양으로 쓰지 말 것 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "공식 white paper",
+    "organization": "Micron"
+  },
+  "rtl-h01": {
+    "title": "SK hynix–TSMC HBM 협력",
+    "url": "https://news.skhynix.com/en/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/",
+    "kind": "SK hynix 공개 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "과거 발표의 계획 일정과 현재 양산 상태를 구분 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2024-04-19",
+    "organization": "SK hynix"
+  },
+  "rtl-h02": {
+    "title": "Evolutionary Memory 연구 개요",
+    "url": "https://research.skhynix.com/research-areas/future-memory-technologies/evolutionary-memory",
+    "kind": "SK hynix 공개 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "회사 공개 기술 설명. 내부 RTL·공정 library 제공 아님 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "열람 2026-10-29",
+    "organization": "SK hynix Research"
+  },
+  "rtl-h03": {
+    "title": "CES 2026 AI Memory",
+    "url": "https://news.skhynix.com/en/sk-hynix-showcases-next-generation-ai-memory-innovations-at-ces-2026/",
+    "kind": "SK hynix 공개 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "전시·개발 발표가 출하·고객 인증을 모두 입증하지는 않음 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2026-01-06 본문 기준",
+    "organization": "SK hynix"
+  },
+  "rtl-h04": {
+    "title": "FMS 2026 memory architectures",
+    "url": "https://news.skhynix.com/en/fms-2026/",
+    "kind": "SK hynix 공개 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "전시 제품을 본 과제의 구현 사양으로 고정하지 않음 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2026 행사",
+    "organization": "SK hynix"
+  },
+  "rtl-h05": {
+    "title": "Research Publications",
+    "url": "https://research.skhynix.com/publications/all",
+    "kind": "SK hynix 공개 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "공개 포털 등재와 본문 접근 권한은 별도 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "공식 검색 포털",
+    "organization": "SK hynix Research"
+  },
+  "rtl-h06": {
+    "title": "HBM4 development and mass-production preparation",
+    "url": "https://news.skhynix.com/en/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/",
+    "kind": "SK hynix 공개 / 공식 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "회사 발표 수치. 특정 RTL 최적화 효과로 해석하지 않음 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2025-09-12",
+    "organization": "SK hynix"
+  },
+  "rtl-d01": {
+    "title": "Ayna HBM power characterization CSV collection",
+    "url": "https://github.com/CMU-SAFARI/HBM-Power/tree/artifact/data",
+    "kind": "공개 데이터 / CSV 10개 다운로드·Git blob SHA-1 및 SHA-256 검증",
+    "checked": "2026-10-29",
+    "limits": "SK hynix 사내 데이터 아님. CSV 합계는 독립 표본수가 아님 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "artifact branch, 파일별 Git blob 고정",
+    "organization": "CMU-SAFARI"
+  },
+  "rtl-d02": {
+    "title": "Ayna figure preprocessing",
+    "url": "https://github.com/CMU-SAFARI/HBM-Power/tree/artifact/scripts/figures",
+    "kind": "공개 데이터 / 공식 코드 관련 구간 확인",
+    "checked": "2026-10-29",
+    "limits": "figure2/9/10/13만 관련 코드 검토. 전체 재현 실행은 하지 않음 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "artifact scripts/figures",
+    "organization": "CMU-SAFARI"
+  },
+  "rtl-h07": {
+    "title": "HBM4 PHY Product Brief IGAHBMZ03A",
+    "url": "https://www.guc-asic.com/upload/2025_07_01/4_2025070121032027dezkwMm11.pdf",
+    "kind": "인터페이스 IP / 공식 PDF 검색 본문 확인",
+    "checked": "2026-10-29",
+    "limits": "외부 IP 사례. SK hynix 내부 구현 또는 채택 증거 아님 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2025 공개 제품 개요",
+    "organization": "GUC"
+  },
+  "rtl-p01": {
+    "title": "Ramulator 2.1: A Composable Memory System Simulator for Modern DRAM Systems",
+    "url": "https://arxiv.org/abs/2606.13844",
+    "kind": "논문 / 본문 §2–4 확인",
+    "checked": "2026-10-29",
+    "limits": "모델의 HBM4 지원은 JEDEC 준수 인증이 아님. commit 및 config 고정 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2026 / arXiv / ICS workshop 관련",
+    "organization": "Haocong Luo et al."
+  },
+  "rtl-p02": {
+    "title": "Understanding the Power Consumption of Modern High Bandwidth Memory: Experimental Analysis and Modeling Using Real HBM2 DRAM Chips",
+    "url": "https://arxiv.org/abs/2610.14244",
+    "kind": "논문 / 본문 §4, §5.3–5.4, §6 및 데이터 구조 확인",
+    "checked": "2026-10-29",
+    "limits": "36 stack/18 U55C, 주로 1200 MT/s·SID=0. 제조사 확정 불가. HBM4 실측 아님 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2026 / MICRO 2026 / arXiv extended",
+    "organization": "Ataberk Olgun et al."
+  },
+  "rtl-p03": {
+    "title": "Removing Obstacles before Breaking Through the Memory Wall: A Close Look at HBM Errors in the Field",
+    "url": "https://www.usenix.org/conference/atc24/presentation/wu-ronglong",
+    "kind": "논문 / 논문 서론·데이터 범위 및 공개 초록 확인",
+    "checked": "2026-10-29",
+    "limits": "오류 이벤트 수는 장치 수·불량률 분모가 아님. 해당 fleet 원시 로그는 미확보 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2024 / USENIX ATC",
+    "organization": "Ronglong Wu et al."
+  },
+  "rtl-p04": {
+    "title": "Benchmarking High Bandwidth Memory on FPGAs",
+    "url": "https://arxiv.org/abs/2005.04324",
+    "kind": "논문 / 본문 실험 장치·평가 구간 확인",
+    "checked": "2026-10-29",
+    "limits": "425 GB/s는 해당 U280 두-stack 시스템 결과. HBM4 제품 수치 아님 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2020 / arXiv 공개 논문",
+    "organization": "Zeke Wang, Hongjing Huang, Jie Zhang, Gustavo Alonso"
+  },
+  "rtl-p05": {
+    "title": "Improving DRAM Performance by Parallelizing Refreshes with Accesses",
+    "url": "https://people.inf.ethz.ch/omutlu/pub/dram-access-refresh-parallelization_hpca14.pdf",
+    "kind": "논문 / 본문 메커니즘·평가 전제 확인",
+    "checked": "2026-10-29",
+    "limits": "SARP는 DRAM 내부 변경 필요. 기존 HBM에서 RTL만 바꿔 가능한 기능 아님 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2014 / HPCA",
+    "organization": "Kevin Kai-Wei Chang et al."
+  },
+  "rtl-p06": {
+    "title": "Adaptive-Latency DRAM: Reducing DRAM Latency by Exploiting Timing Margins",
+    "url": "https://arxiv.org/abs/1805.03047",
+    "kind": "논문 / 회고 본문과 표본·온도 조건 확인",
+    "checked": "2026-10-29",
+    "limits": "115 DDR3 모듈의 연구. 양산 규격 tRCD 등을 임의 축소할 근거 아님 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2018 / HPCA 2015 연구의 회고/요약",
+    "organization": "Donghyuk Lee et al."
+  },
+  "rtl-p07": {
+    "title": "Flexible-Latency DRAM: Understanding and Exploiting Latency Variation in Modern DRAM Chips",
+    "url": "https://arxiv.org/abs/1805.03154",
+    "kind": "논문 / 회고 본문·실험/시뮬레이션 구분 확인",
+    "checked": "2026-10-29",
+    "limits": "240 DDR3 chip 및 simulated 8-core 결과. 최신 HBM4 직접 검증 아님 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2018 / SIGMETRICS 2016 연구의 회고/요약",
+    "organization": "Kevin K. Chang et al."
+  },
+  "rtl-p08": {
+    "title": "BlockHammer: Preventing RowHammer at Low Cost by Blacklisting Rapidly-Accessed DRAM Rows",
+    "url": "https://arxiv.org/abs/2102.05981",
+    "kind": "논문 / 초록·공개 확장본 메커니즘 확인",
+    "checked": "2026-10-29",
+    "limits": "보호 보장은 논문의 임계값·모델 가정 안에서 성립. 제품 채택 증거 아님 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2021 / 확장 2022 / HPCA 2021",
+    "organization": "Abdullah Giray Yaglikci et al."
+  },
+  "rtl-p09": {
+    "title": "ABACuS: All-Bank Activation Counters for Scalable and Low Overhead RowHammer Mitigation",
+    "url": "https://arxiv.org/abs/2310.09977",
+    "kind": "논문 / 초록·counter 메커니즘·평가 조건 확인",
+    "checked": "2026-10-29",
+    "limits": "논문 평가 임계값을 실측 임계값으로 오인 금지. 물리 인접성·refresh 상호작용 검토 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2024 / USENIX Security",
+    "organization": "Ataberk Olgun et al."
+  },
+  "rtl-p10": {
+    "title": "DRAM Bender: An Extensible and Versatile FPGA-based Infrastructure to Easily Test State-of-the-art DRAM Chips",
+    "url": "https://arxiv.org/abs/2211.05838",
+    "kind": "논문 / 초록·v6 원문 및 후속 실험 인프라 대조",
+    "checked": "2026-10-29",
+    "limits": "보드·PHY·버전별 지원 다름. 논문 초기 DDR3/4 결과와 HBM 확장을 구분 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2022 최초 / 2025 v6 / IEEE TCAD extended",
+    "organization": "Ataberk Olgun et al."
+  },
+  "rtl-p11": {
+    "title": "A Modern Large-Scale Memory Characterization Laboratory",
+    "url": "https://arxiv.org/abs/2606.13725",
+    "kind": "논문 / 초록·HBM 보드 구성 구간 확인",
+    "checked": "2026-10-29",
+    "limits": "공개 실험실 구성과 사내 장비 접근 권한은 별개 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2026 / ICS Workshops 관련 공개 원고",
+    "organization": "Ataberk Olgun et al."
+  },
+  "rtl-p12": {
+    "title": "H3: Hybrid Architecture Using High Bandwidth Memory and High Bandwidth Flash for Cost-Efficient LLM Inference",
+    "url": "https://research.skhynix.com/publications/detail/seq/116",
+    "kind": "논문 / SK hynix 공식 초록·DOI 확인",
+    "checked": "2026-10-29",
+    "limits": "공식 초록만 확인. RTL 구현·본문 실험 상세·원시 데이터 미확보 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2026 / IEEE Computer Architecture Letters",
+    "organization": "SK hynix Research 등재 / 저자 목록 미확보"
+  },
+  "rtl-p13": {
+    "title": "4F2 DRAM Integration with Vertical Gate (VG) Cell Transistor and Peri-Under-Cell (PUC) Architecture",
+    "url": "https://research.skhynix.com/publications/detail/seq/96",
+    "kind": "논문 / SK hynix 공식 초록·DOI 확인",
+    "checked": "2026-10-29",
+    "limits": "공식 초록만 확인. 실무 PDK·cell model·공정 조건 미확보 이관 시 웹 재검증하지 않음; 수집 당시 확인 수준.",
+    "version": "2025 / VLSI Technology and Circuits",
+    "organization": "SK hynix Research 등재 / 저자 목록 미확보"
+  },
+  "rtl-library-method": {
+    "title": "DRAM·HBM 검토 관점 및 미확보 입력 계약",
+    "url": "plugins/expert-hub/skills/expert/references/chip-review.md",
+    "kind": "자체 편집 방법 / 사내 기준 아님",
+    "checked": "2026-10-30",
+    "limits": "사내 입력은 미확보. 실제 검증·승인·성능 향상 증거 아님."
+  },
+  "da-sklearn": {
+    "title": "scikit-learn: Common pitfalls",
+    "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+    "kind": "primary-method-reference",
+    "checked": "2026-10-30",
+    "limits": "Supports the named method/library only. Local workflow choices and thresholds are package design; no company performance claim."
+  },
+  "da-optuna": {
+    "title": "Optuna: Efficient Optimization Algorithms",
+    "url": "https://optuna.readthedocs.io/en/stable/tutorial/10_key_features/003_efficient_optimization_algorithms.html",
+    "kind": "primary-method-reference",
+    "checked": "2026-10-30",
+    "limits": "Supports the named method/library only. Local workflow choices and thresholds are package design; no company performance claim."
+  },
+  "da-duckdb": {
+    "title": "DuckDB: Tuning Workloads",
+    "url": "https://duckdb.org/docs/2.0/guides/performance/how_to_tune_workloads",
+    "kind": "primary-method-reference",
+    "checked": "2026-10-30",
+    "limits": "Supports the named method/library only. Local workflow choices and thresholds are package design; no company performance claim."
+  },
+  "da-polars": {
+    "title": "Polars: Lazy API Usage",
+    "url": "https://docs.pola.rs/user-guide/lazy/using/",
+    "kind": "primary-method-reference",
+    "checked": "2026-10-30",
+    "limits": "Supports the named method/library only. Local workflow choices and thresholds are package design; no company performance claim."
+  },
+  "da-fpp": {
+    "title": "Forecasting: Principles and Practice — toolbox",
+    "url": "https://otexts.com/fpp3/toolbox.html",
+    "kind": "primary-method-reference",
+    "checked": "2026-10-30",
+    "limits": "Supports the named method/library only. Local workflow choices and thresholds are package design; no company performance claim."
+  },
+  "da-mlforecast": {
+    "title": "Nixtla MLForecast repository",
+    "url": "https://github.com/Nixtla/mlforecast",
+    "kind": "primary-method-reference",
+    "checked": "2026-10-30",
+    "limits": "Supports the named method/library only. Local workflow choices and thresholds are package design; no company performance claim."
+  },
+  "da-neuralforecast": {
+    "title": "Nixtla NeuralForecast repository",
+    "url": "https://github.com/Nixtla/neuralforecast",
+    "kind": "primary-method-reference",
+    "checked": "2026-10-30",
+    "limits": "Supports the named method/library only. Local workflow choices and thresholds are package design; no company performance claim."
+  },
+  "da-design": {
+    "title": "데이터·매출 확장 설계 및 구현 범위",
+    "url": "docs/DATA_ANALYSIS.md",
+    "kind": "package-design",
+    "checked": "2026-10-30",
+    "limits": "자체 설계와 코드 계약. 기업 인증·실제 회사 데이터 정확도 근거가 아님."
+  },
+  "semi-s01": {
+    "title": "Electrons and Holes in Semiconductors",
+    "url": "https://www.chu.berkeley.edu/wp-content/uploads/2020/01/Chenming-Hu_ch1-3.pdf",
+    "kind": "저자 공개 교재",
+    "checked": "2026-10-29",
+    "limits": "기초 물리용. 최신 메모리 공정 파라미터가 아님",
+    "publisher": "Chenming Hu / UC Berkeley",
+    "published": "2010",
+    "location": "해당 장",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s02": {
+    "title": "Motion and Recombination of Electrons and Holes",
+    "url": "https://www.chu.berkeley.edu/wp-content/uploads/2020/01/Chenming-Hu_ch2-2.pdf",
+    "kind": "저자 공개 교재",
+    "checked": "2026-10-29",
+    "limits": "기초 물리용. 최신 메모리 공정 파라미터가 아님",
+    "publisher": "Chenming Hu / UC Berkeley",
+    "published": "2010",
+    "location": "해당 장",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s03": {
+    "title": "Device Fabrication Technology",
+    "url": "https://www.chu.berkeley.edu/wp-content/uploads/2020/01/Chenming-Hu_ch3.pdf",
+    "kind": "저자 공개 교재",
+    "checked": "2026-10-29",
+    "limits": "기초 물리용. 최신 메모리 공정 파라미터가 아님",
+    "publisher": "Chenming Hu / UC Berkeley",
+    "published": "2010",
+    "location": "해당 장",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s04": {
+    "title": "PN and Metal Semiconductor Junctions",
+    "url": "https://www.chu.berkeley.edu/wp-content/uploads/2020/01/Chenming-Hu_ch4-1.pdf",
+    "kind": "저자 공개 교재",
+    "checked": "2026-10-29",
+    "limits": "기초 물리용. 최신 메모리 공정 파라미터가 아님",
+    "publisher": "Chenming Hu / UC Berkeley",
+    "published": "2010",
+    "location": "해당 장",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s05": {
+    "title": "MOS Capacitor",
+    "url": "https://www.chu.berkeley.edu/wp-content/uploads/2020/01/Chenming-Hu_ch5-1.pdf",
+    "kind": "저자 공개 교재",
+    "checked": "2026-10-29",
+    "limits": "기초 물리용. 최신 메모리 공정 파라미터가 아님",
+    "publisher": "Chenming Hu / UC Berkeley",
+    "published": "2010",
+    "location": "해당 장",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s06": {
+    "title": "MOS Transistor",
+    "url": "https://www.chu.berkeley.edu/wp-content/uploads/2020/01/Chenming-Hu_ch6-1.pdf",
+    "kind": "저자 공개 교재",
+    "checked": "2026-10-29",
+    "limits": "기초 물리용. 최신 메모리 공정 파라미터가 아님",
+    "publisher": "Chenming Hu / UC Berkeley",
+    "published": "2010",
+    "location": "해당 장",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s07": {
+    "title": "MOSFETs in ICs Scaling Leakage and Other Topics",
+    "url": "https://www.chu.berkeley.edu/wp-content/uploads/2020/01/Chenming-Hu_ch7.pdf",
+    "kind": "저자 공개 교재",
+    "checked": "2026-10-29",
+    "limits": "기초 물리용. 최신 메모리 공정 파라미터가 아님",
+    "publisher": "Chenming Hu / UC Berkeley",
+    "published": "2010",
+    "location": "해당 장",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s08": {
+    "title": "Bipolar Transistor",
+    "url": "https://www.chu.berkeley.edu/wp-content/uploads/2020/01/Chenming-Hu_ch8-2.pdf",
+    "kind": "저자 공개 교재",
+    "checked": "2026-10-29",
+    "limits": "기초 물리용. 최신 메모리 공정 파라미터가 아님",
+    "publisher": "Chenming Hu / UC Berkeley",
+    "published": "2010",
+    "location": "해당 장",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s09": {
+    "title": "SK hynix Develops Industry’s First 1c DDR5",
+    "url": "https://news.skhynix.com/en/sk-hynix-develops-industry-first-1c-ddr5/",
+    "kind": "제조사 발표",
+    "checked": "2026-10-29",
+    "limits": "발표 당시 16Gb 1c 제품. 시험 상세와 원시데이터 미공개",
+    "publisher": "SK hynix",
+    "published": "2024-08-29",
+    "location": "본문 성능 및 생산성 문단",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s11": {
+    "title": "세계 최고층 321단 낸드 양산 돌입",
+    "url": "https://news.skhynix.co.kr/mass-production-of-321-layer-nand/",
+    "kind": "제조사 발표",
+    "checked": "2026-10-29",
+    "limits": "공식 검색 색인 본문 확인. 직접 열기는 403. 현재 최고층이라는 뜻 아님",
+    "publisher": "SK hynix",
+    "published": "2024-11-21",
+    "location": "본문 3-Plug 및 성능 문단",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s12": {
+    "title": "An Experimental Study of Data Retention Behavior in Modern DRAM Devices",
+    "url": "https://people.inf.ethz.ch/omutlu/pub/dram-retention-time-characterization_isca13.pdf",
+    "kind": "학술 실험",
+    "checked": "2026-10-29",
+    "limits": "DDR3 248개 칩. DDR5/HBM4의 정량 사양으로 전용 금지",
+    "publisher": "Liu et al. / ISCA",
+    "published": "2013",
+    "location": "초록 p1 및 §2 §3 결과",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s13": {
+    "title": "Revisiting RowHammer",
+    "url": "https://arxiv.org/abs/2005.13121",
+    "kind": "학술 실험",
+    "checked": "2026-10-29",
+    "limits": "방어 기능을 비활성화한 DDR3 DDR4 LPDDR4 표본",
+    "publisher": "Kim et al. / ISCA",
+    "published": "2020",
+    "location": "초록 및 논문",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s14": {
+    "title": "Improving 3D NAND Flash Memory Lifetime by Tolerating Early Retention Loss and Process Variation",
+    "url": "https://people.inf.ethz.ch/omutlu/pub/3D-NAND-flash-lifetime-early-retention-loss-and-process-variation_sigmetrics18_pomacs18-twocolumn.pdf",
+    "kind": "학술 실험",
+    "checked": "2026-10-29",
+    "limits": "초기 세대 3D NAND. 최신 321단 TLC 보증값 아님",
+    "publisher": "Luo et al. / SIGMETRICS",
+    "published": "2018",
+    "location": "§4.3 p7",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s15": {
+    "title": "Imec Demonstrates Capacitor-less IGZO-Based DRAM Cell With >400s Retention Time",
+    "url": "https://www.imec-int.com/en/press/imec-demonstrates-capacitor-less-igzo-based-dram-cell-400s-retention-time",
+    "kind": "연구기관 발표",
+    "checked": "2026-10-29",
+    "limits": "오프전류는 extracted 값. 양산 제품 데이터 아님",
+    "publisher": "imec",
+    "published": "2020-12-15",
+    "location": "본문 retention off-current gate length",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s16": {
+    "title": "Capacitor-less IGZO-based DRAM cell with excellent retention endurance and gate length scaling",
+    "url": "https://www.imec-int.com/en/articles/capacitor-less-igzo-based-dram-cell-excellent-retention-endurance-and-gate-length-scaling",
+    "kind": "연구기관 발표",
+    "checked": "2026-10-29",
+    "limits": "1000s 조건과 14nm에서 100s 조건을 분리해야 함",
+    "publisher": "imec",
+    "published": "2021 IEDM 연구",
+    "location": "본문 1000s 및 14nm 문단",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s17": {
+    "title": "Revolutionary Memory",
+    "url": "https://research.skhynix.com/research-areas/future-memory-technologies/revolutionary-memory",
+    "kind": "공식 연구 소개",
+    "checked": "2026-10-29",
+    "limits": "IGZO 및 강유전체 연구 방향. 제품 채택·양산 확정 근거 아님",
+    "publisher": "SK hynix Research",
+    "published": "발행일 미표기",
+    "location": "Future DRAM 및 Future NAND",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s18": {
+    "title": "Advanced Memory Package Architecture",
+    "url": "https://research.skhynix.com/research-areas/advanced-package/advanced-memory-package-architecture",
+    "kind": "공식 연구 소개",
+    "checked": "2026-10-29",
+    "limits": "열 경로 TSV 하이브리드 본딩 연구 항목",
+    "publisher": "SK hynix Research",
+    "published": "발행일 미표기",
+    "location": "Next-Generation HBM Package Architecture",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s20": {
+    "title": "EUV lithography systems",
+    "url": "https://www.asml.com/en/products/euv-lithography-systems",
+    "kind": "장비사 공식 설명",
+    "checked": "2026-10-29",
+    "limits": "파장과 공정 노드 명칭을 구분",
+    "publisher": "ASML",
+    "published": "발행일 미표기",
+    "location": "EUV 및 NXE 시스템",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s21": {
+    "title": "Aggressive Leakage Management in ARM Based Systems",
+    "url": "https://documentation-service.arm.com/static/5ed10b0dca06a95ce53f8bb8",
+    "kind": "공급사 기술문서",
+    "checked": "2026-10-29",
+    "limits": "전력 제어 원리용. 당시의 비율은 최신 메모리에 전용하지 않음",
+    "publisher": "Arm / SNUG Boston",
+    "published": "2006",
+    "location": "Dynamic Power 및 Leakage Management",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s22": {
+    "title": "Power Control System Architecture",
+    "url": "https://documentation-service.arm.com/static/63f3499c9567172d4e2aadd6",
+    "kind": "공급사 기술문서",
+    "checked": "2026-10-29",
+    "limits": "클록과 전원 상태 전이의 설계 참고",
+    "publisher": "Arm",
+    "published": "2023",
+    "location": "Clock gating 및 power control",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s23": {
+    "title": "Optimizing Low Current Measurements with the Model 4200-SCS",
+    "url": "https://www.tek.com/en/documents/application-note/optimizing-low-current-measurements-model-4200-scs-semiconductor-character",
+    "kind": "계측사 응용노트",
+    "checked": "2026-10-29",
+    "limits": "가딩 실드 습도 정착시간 등 계측 오차 관리",
+    "publisher": "Tektronix Keithley",
+    "published": "발행일 미표기",
+    "location": "Leakage Current and Guarding",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s24": {
+    "title": "Choosing an experimental design",
+    "url": "https://www.itl.nist.gov/div898/handbook/pri/section3/pri3.htm",
+    "kind": "공공기관 기술자료",
+    "checked": "2026-10-29",
+    "limits": "요인실험 블로킹 반응표면 설계",
+    "publisher": "NIST SEMATECH",
+    "published": "발행일 미표기",
+    "location": "§5.3",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s27": {
+    "title": "BSIM4 Model",
+    "url": "https://www.bsim.berkeley.edu/models/bsim4/",
+    "kind": "공식 모델 문서",
+    "checked": "2026-10-29",
+    "limits": "공식 검색 색인 확인. 직접 열기 401. 모델 이름과 공정 보정값은 다름",
+    "publisher": "UC Berkeley BSIM Group",
+    "published": "2025-05-19 릴리스 표기",
+    "location": "4.8.3 모델 패키지 안내",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s28": {
+    "title": "Current Status Experimental Preview",
+    "url": "https://skywater-pdk.readthedocs.io/en/main/status.html",
+    "kind": "공식 PDK 문서",
+    "checked": "2026-10-29",
+    "limits": "공개판은 생산용 미보증. SK하이닉스 공정 모델 아님",
+    "publisher": "SkyWater PDK",
+    "published": "접근 시점 문서",
+    "location": "Current Status",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s29": {
+    "title": "ngspice control language tutorial",
+    "url": "https://ngspice.sourceforge.io/ngspice-control-language-tutorial.html",
+    "kind": "공식 도구 문서",
+    "checked": "2026-10-29",
+    "limits": "회로 실습 경로만 제공. 이번 조사에서 시뮬레이션 미실행",
+    "publisher": "ngspice",
+    "published": "접근 시점 문서",
+    "location": "배치 실행 및 control loop",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s30": {
+    "title": "OpenROAD Gate Resizer",
+    "url": "https://openroad.readthedocs.io/en/latest/main/src/rsz/README.html",
+    "kind": "공식 도구 문서",
+    "checked": "2026-10-29",
+    "limits": "타이밍 여유 경로의 크기 최적화. 표준셀 로직 중심",
+    "publisher": "OpenROAD",
+    "published": "접근 시점 문서",
+    "location": "Repair Timing 및 recover_power",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-s33": {
+    "title": "DDR5 SDRAM part catalog",
+    "url": "https://in.micron.com/products/memory/dram-components/ddr5-sdram/part-catalog",
+    "kind": "제조사 부품 카탈로그",
+    "checked": "2026-10-29",
+    "limits": "경쟁사 부품의 명목 사양 예시. 하이닉스 사양 대체 불가",
+    "publisher": "Micron",
+    "published": "접근 시점 카탈로그",
+    "location": "MT60B1G16HD-64B IT:H 행",
+    "provenance": "2026-10-29 research snapshot; imported 2026-10-30; no new live source review"
+  },
+  "semi-authoring": {
+    "title": "반도체 지식팩 작성·이관 기록",
+    "url": "docs/SEMICONDUCTOR_DATA.md",
+    "kind": "package-design; educational synthesis",
+    "checked": "2026-10-30",
+    "limits": "필드 정의·학습 계획·검증 초안은 패키지 작성자의 제안이다. SK하이닉스 내부 기준이나 실측 자료가 아니다."
+  },
+  "backend-workflow": {
+    "title": "백엔드 진단 통합 지침",
+    "url": "plugins/expert-hub/skills/expert/references/backend/diagnostics.md",
+    "kind": "authored-workflow",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음.",
+    "sha256": "ef755ed2b75ece80c6e83d75b0adb880fb12e95c13de0e761e4cccb52f7b41c9"
+  },
+  "backend-performance": {
+    "title": "성능 비교·검증 지침",
+    "url": "plugins/expert-hub/skills/expert/references/backend/performance.md",
+    "kind": "authored-workflow",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음.",
+    "sha256": "8afe204acef5e0cbc58dead2d5039ba8be4dd5332f003e729e32a32b869a692f"
+  },
+  "backend-incident": {
+    "title": "장애 안정화·영구수정 지침",
+    "url": "plugins/expert-hub/skills/expert/references/backend/incident-response.md",
+    "kind": "authored-workflow",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음.",
+    "sha256": "60c2f14938b4125b445bf95765b9b57031b06184968976f8a3e23e00800044fe"
+  },
+  "backend-comparison": {
+    "title": "정규화 실행 비교 코드",
+    "url": "plugins/expert-hub/skills/expert/scripts/compare_backend_runs.py",
+    "kind": "tested-local-code",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음.",
+    "sha256": "4c884e7b55e159b6a95a482cbec15d0cd0583eb155ac4ca01ff406b751f940c1"
+  },
+  "backend-lab": {
+    "title": "2026-10-29 합성 HTTP/SQLite 첫 실험",
+    "url": "plugins/expert-hub/skills/expert/evidence/backend-lab/lab-20261029/verification-summary.json",
+    "kind": "measured-synthetic",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음.",
+    "sha256": "33de3b96ea1f6587cb32c754842c064db79c3fdb920f6b9770e746cad93b7195"
+  },
+  "backend-lab-repeat": {
+    "title": "추가 합성 재현: 성능 실패 판정",
+    "url": "plugins/expert-hub/skills/expert/evidence/backend-lab/reproduction-02/reproduction-checks.json",
+    "kind": "measured-synthetic",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음.",
+    "sha256": "84be7bbf9ea1326a86a10d933571bb57157819572dd79faa80d282a61b2d13c6"
+  },
+  "backend-postgres-explain": {
+    "title": "PostgreSQL EXPLAIN",
+    "url": "https://www.postgresql.org/docs/current/sql-explain.html",
+    "kind": "primary-reference",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음."
+  },
+  "backend-postgres-stats": {
+    "title": "PostgreSQL statistics views",
+    "url": "https://www.postgresql.org/docs/current/monitoring-stats.html",
+    "kind": "primary-reference",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음."
+  },
+  "backend-overload": {
+    "title": "Google SRE handling overload",
+    "url": "https://sre.google/sre-book/handling-overload/",
+    "kind": "primary-reference",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음."
+  },
+  "backend-supabase": {
+    "title": "Supabase PostgreSQL skill",
+    "url": "https://github.com/supabase/agent-skills/blob/main/skills/supabase-postgres-best-practices/SKILL.md",
+    "kind": "reviewed-entrypoint",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음."
+  },
+  "backend-planetscale": {
+    "title": "PlanetScale database skills",
+    "url": "https://github.com/planetscale/database-skills",
+    "kind": "reviewed-entrypoint",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음."
+  },
+  "backend-redis": {
+    "title": "Redis agent skills",
+    "url": "https://github.com/redis/agent-skills",
+    "kind": "reviewed-entrypoint",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음."
+  },
+  "backend-specialists": {
+    "title": "Jeffallan backend specialist review",
+    "url": "plugins/expert-hub/skills/expert/references/backend/sources.md",
+    "kind": "reviewed-entrypoints",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음.",
+    "sha256": "9800ea29dc44847b612e4c756b592afaf9159fb85c7a61b179d3894129733f15"
+  },
+  "backend-runbooks": {
+    "title": "Incident runbook/postmortem skills",
+    "url": "https://github.com/wshobson/agents/tree/main/plugins/incident-response/skills",
+    "kind": "reviewed-entrypoint",
+    "checked": "2026-10-29",
+    "limits": "이전 검토/시험 이력을 2026-10-30 통합. 실제 운영 적용·회사 채택은 검증하지 않음."
+  },
+  "chip-s01": {
+    "title": "hdl-tools/digital-chip-design-agents",
+    "url": "https://github.com/hdl-tools/digital-chip-design-agents/tree/441cad1ffb4a6c980b82a55374a4d7222a237192",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "일부 기술 규칙에 오류/과도한 일반화. Codex 경로는 docs/INSTALL.md의 프로젝트 AGENTS 방식도 포함; Claude 플러그인과 동일 기능 보장 아님",
+    "commit": "441cad1ffb4a6c980b82a55374a4d7222a237192"
+  },
+  "chip-s02": {
+    "title": "K-Dense-AI/scientific-agents",
+    "url": "https://github.com/K-Dense-AI/scientific-agents/tree/98c7fae46648724e1a43a1f2b207b0c82fcc462e",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "광범위한 텍스트 지침; hold slack 및 Pegasus 표기 교정 필요. 실제 반도체 진단 성능은 미검증",
+    "commit": "98c7fae46648724e1a43a1f2b207b0c82fcc462e"
+  },
+  "chip-s03": {
+    "title": "zhangyi-zen/synthesizable-rtl-style",
+    "url": "https://github.com/zhangyi-zen/synthesizable-rtl-style/tree/c70272047daf0ef1775acdec68a3ad2b8c70195a",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "코딩 지침 중심. 전체 칩·메모리 소자·물리 signoff 도구 아님. Codex 테스트는 저자 주장",
+    "commit": "c70272047daf0ef1775acdec68a3ad2b8c70195a"
+  },
+  "chip-s04": {
+    "title": "Matthew-Laplace/custom-digital-in-analog-environment",
+    "url": "https://github.com/Matthew-Laplace/custom-digital-in-analog-environment/tree/ed172b943c54e961d4aaefea95168d0e1297ca52",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "실제 Virtuoso 연결·실행 환경 필요; 범용 반도체 분석기가 아님. 포함된 파일은 선택된 참고 문서이며 전체 실행 패키지 아님",
+    "commit": "ed172b943c54e961d4aaefea95168d0e1297ca52"
+  },
+  "chip-s05": {
+    "title": "Arcadia-1/analog-agents",
+    "url": "https://github.com/Arcadia-1/analog-agents/tree/4d6bd218ceff60624d7ee62887787aa83daecdb4",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "1 fF/1 Mohm 필터를 검증 보증으로 해석 금지. Spectre/API·관련 스킬 등 실행 의존성 확인 필요",
+    "commit": "4d6bd218ceff60624d7ee62887787aa83daecdb4"
+  },
+  "chip-s06": {
+    "title": "Arcadia-1/analog-circuit-skills",
+    "url": "https://github.com/Arcadia-1/analog-circuit-skills/tree/cf1066edb0dc8a7eb78914ecf29b081261e91421",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "특정 회로/모델 예제; 실제 과제 회로·PDK로 검증 필요",
+    "commit": "cf1066edb0dc8a7eb78914ecf29b081261e91421"
+  },
+  "chip-t01": {
+    "title": "The-OpenROAD-Project/OpenSTA",
+    "url": "https://github.com/The-OpenROAD-Project/OpenSTA/tree/384b539085c54eef46cbaa02e2e17d2b983247e5",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "입력·corner·constraint가 필요; signoff 전 영역을 증명하지 않음",
+    "commit": "384b539085c54eef46cbaa02e2e17d2b983247e5"
+  },
+  "chip-t02": {
+    "title": "The-OpenROAD-Project/OpenROAD",
+    "url": "https://github.com/The-OpenROAD-Project/OpenROAD/tree/82552e4e9180fd5dd0c9cda58273029c83efb146",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "응용프로그램과 전체 RTL-to-GDS flow는 구분; 지원 PDK·도구 구성 필요",
+    "commit": "82552e4e9180fd5dd0c9cda58273029c83efb146"
+  },
+  "chip-t03": {
+    "title": "YosysHQ/yosys",
+    "url": "https://github.com/YosysHQ/yosys/tree/49fe1a54bd7d22aea69243440d3c8df5a9a0896f",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "frontend와 버전에 따른 언어 지원 차이; 칩 공정 모델 없이 실제 PPA 확정 불가",
+    "commit": "49fe1a54bd7d22aea69243440d3c8df5a9a0896f"
+  },
+  "chip-t04": {
+    "title": "YosysHQ/sby",
+    "url": "https://github.com/YosysHQ/sby/tree/79fc9eddca5e33a28cc2f2cd19c9825efd9a7255",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "solver·frontend·assumption·검증 모드에 의존; 모든 SVA 문법 지원 가정 금지",
+    "commit": "79fc9eddca5e33a28cc2f2cd19c9825efd9a7255"
+  },
+  "chip-t05": {
+    "title": "verilator/verilator",
+    "url": "https://github.com/verilator/verilator/tree/5e119ba2ed3a1b4d43fe5ddc8fb24803f16e9607",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "경고만으로 기능 정답이나 CDC 안전을 보증하지 않음",
+    "commit": "5e119ba2ed3a1b4d43fe5ddc8fb24803f16e9607"
+  },
+  "chip-t06": {
+    "title": "cocotb/cocotb",
+    "url": "https://github.com/cocotb/cocotb/tree/cf073c0494e6e4340a4c251679d1cf2cb22ad1d3",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "시뮬레이터를 별도로 연결; 테스트 통과는 테스트 범위에 한정",
+    "commit": "cf073c0494e6e4340a4c251679d1cf2cb22ad1d3"
+  },
+  "chip-t07": {
+    "title": "CMU-SAFARI/ramulator2",
+    "url": "https://github.com/CMU-SAFARI/ramulator2/tree/c6c7a5de0cef35935d6fad7369e6271406798865",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "모델 지원과 실제 제품 정확도는 별개. DRAM cell 회로·수율·실측을 대체하지 않음",
+    "commit": "c6c7a5de0cef35935d6fad7369e6271406798865"
+  },
+  "chip-t08": {
+    "title": "umd-memsys/DRAMsim3",
+    "url": "https://github.com/umd-memsys/DRAMsim3/tree/29817593b3389f1337235d63cac515024ab8fd6e",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "프로토콜·configuration·trace를 맞춰야 비교 가능",
+    "commit": "29817593b3389f1337235d63cac515024ab8fd6e"
+  },
+  "chip-t09": {
+    "title": "tukl-msd/DRAMPower",
+    "url": "https://github.com/tukl-msd/DRAMPower/tree/a2068bc58411ff36abb2f6aab74b1a5fbe98e93d",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "실측 전력 아님; 지원 memory spec 확인. master README의 버전 표기와 안정 release가 다를 수 있음",
+    "commit": "a2068bc58411ff36abb2f6aab74b1a5fbe98e93d"
+  },
+  "chip-t10": {
+    "title": "VLSIDA/OpenRAM",
+    "url": "https://github.com/VLSIDA/OpenRAM/tree/2f7b3866418ac1ce17ad959207a1489033d8c577",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "SRAM compiler; DRAM/HBM 또는 NAND 소자 분석 도구 아님",
+    "commit": "2f7b3866418ac1ce17ad959207a1489033d8c577"
+  },
+  "chip-t11": {
+    "title": "lowRISC/ibex",
+    "url": "https://github.com/lowRISC/ibex/tree/c0c07085791e4d16a0f2d9a753b2fb79d72e5ffa",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "발췌 파일만 확보; 완전한 빌드 프로젝트 아님. 저자의 검증/tapeout 서술은 이번 실행 증거 아님",
+    "commit": "c0c07085791e4d16a0f2d9a753b2fb79d72e5ffa"
+  },
+  "chip-t12": {
+    "title": "YosysHQ/picorv32",
+    "url": "https://github.com/YosysHQ/picorv32/tree/ef203c2b0a3fb793280f5114941416c425c5b461",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "README에 active development 종료 명시. 발췌 TB는 추가 firmware/환경 의존; 바로 실행 가능한 전체 프로젝트 아님",
+    "commit": "ef203c2b0a3fb793280f5114941416c425c5b461"
+  },
+  "chip-t13": {
+    "title": "devsim/devsim",
+    "url": "https://github.com/devsim/devsim/tree/e3a25f08c7f17cc6932624c12bf9f0f10d7f7cfd",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "실제 공정 calibration과 물성·경계조건 필요; 자동 역설계 아님",
+    "commit": "e3a25f08c7f17cc6932624c12bf9f0f10d7f7cfd"
+  },
+  "chip-t14": {
+    "title": "uvahotspot/HotSpot",
+    "url": "https://github.com/uvahotspot/HotSpot/tree/f18831e48cef5d62580585cca0d7fab6c71bc3cc",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "floorplan·power·thermal model 필요; 패키지 전체 SI/PI·기계 신뢰성 도구 아님",
+    "commit": "f18831e48cef5d62580585cca0d7fab6c71bc3cc"
+  },
+  "chip-t15": {
+    "title": "CMU-SAFARI/MQSim",
+    "url": "https://github.com/CMU-SAFARI/MQSim/tree/51f0f2d3fed92d88ef4a0fa61a38024b07bf9d16",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "특정 검증 조건의 논문 결과를 모든 SSD 정확도로 일반화 금지; NAND cell 전기적 모델 아님",
+    "commit": "51f0f2d3fed92d88ef4a0fa61a38024b07bf9d16"
+  },
+  "chip-t16": {
+    "title": "MoatLab/FEMU",
+    "url": "https://github.com/MoatLab/FEMU/tree/2d50161f24c4cb86d58185b0efd44457412eadce",
+    "kind": "public-repository",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "운영체제/가상화 환경 의존; 칩 회로·NAND 제조 물리 검증 도구 아님",
+    "commit": "2d50161f24c4cb86d58185b0efd44457412eadce"
+  },
+  "chip-d02": {
+    "title": "AMD UG903: Relaxing Setup While Maintaining Hold",
+    "url": "https://docs.amd.com/r/en-US/ug903-vivado-using-constraints/Relaxing-Setup-While-Maintaining-Hold",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "N/N−1은 이 조건의 패턴; 다른 clock 관계에 무조건 적용 금지",
+    "source_lines": "본문 예시 및 -end 설명"
+  },
+  "chip-d03": {
+    "title": "AMD UG906: Timing Path Summary",
+    "url": "https://docs.amd.com/r/2024.2-English/ug906-vivado-design-analysis/Timing-Path-Summary-Header-Information",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "positive slack은 해당 path requirement 충족 의미; 전체 칩 보증 아님",
+    "source_lines": "Slack 및 Requirement 항목"
+  },
+  "chip-d04": {
+    "title": "AMD UG906: Multi-Bit Synchronizer",
+    "url": "https://docs.amd.com/r/2024.2-English/ug906-vivado-design-analysis/Multi-Bit-Synchronizer",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "Gray 코드도 적절한 timing constraints와 사용 조건 필요",
+    "source_lines": "본문 CDC-6 및 Gray coding"
+  },
+  "chip-d05": {
+    "title": "Yosys 0.70 Command line reference",
+    "url": "https://yosyshq.readthedocs.io/projects/yosys/en/v0.70/cmd_ref.html",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "확장자만으로 언어가 강제되는 것은 아니며 파일 내용과 옵션을 맞춤",
+    "source_lines": "operation options"
+  },
+  "chip-d06": {
+    "title": "SBY file format reference",
+    "url": "https://yosyshq.readthedocs.io/projects/sby/en/stable/reference.html",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "bounded PASS를 unbounded 증명으로 표현하지 않음",
+    "source_lines": "Options section"
+  },
+  "chip-d07": {
+    "title": "YosysHQ AppNote-011 Interpreting results",
+    "url": "https://yosyshq.readthedocs.io/projects/ap011/en/latest/interpret.html",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "PREUNSAT 통과만으로 모든 overconstraint가 제거됐다고 할 수 없음",
+    "source_lines": "Overconstraint / PREUNSAT / Witness cover"
+  },
+  "chip-d08": {
+    "title": "Verilator Errors and Warnings",
+    "url": "https://verilator.org/guide/latest/warnings.html",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "경고 전부 무시하거나 경고 자체를 무조건 설계 결함으로 분류하지 않음",
+    "source_lines": "경고별 설명; Disabling Warnings"
+  },
+  "chip-d09": {
+    "title": "cocotb First Steps",
+    "url": "https://docs.cocotb.org/en/stable/first_steps.html",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "실행 환경·버전·test stimulus는 사용자가 가진 설계에 맞춰야 함",
+    "source_lines": "First Steps 본문"
+  },
+  "chip-d11": {
+    "title": "OpenSTA Documentation",
+    "url": "https://opensta.readthedocs.io/en/latest/",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "실제 실행 버전의 help와 모델·제약 조건을 함께 확인",
+    "source_lines": "Home 및 Commands 링크"
+  },
+  "chip-d12": {
+    "title": "OpenROAD IR Drop Analysis",
+    "url": "https://openroad.readthedocs.io/en/latest/main/src/psm/README.html",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "패키지 포함 동적 전원 무결성 전체가 검증됐다는 뜻은 아님",
+    "source_lines": "IR Drop Analysis"
+  },
+  "chip-d13": {
+    "title": "OpenROAD Parasitics Extraction",
+    "url": "https://openroad.readthedocs.io/en/latest/main/src/rcx/README.html",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "공정 데이터와 추출 조건이 달라지면 결과 비교 조건도 바뀜",
+    "source_lines": "OpenRCX / extraction rules"
+  },
+  "chip-d14": {
+    "title": "ngspice Documentation index",
+    "url": "https://ngspice.sourceforge.io/docs.html",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "웹페이지 하단 license 표기를 별도 PDF license와 혼동하지 않음",
+    "source_lines": "Ngspice Documentation"
+  },
+  "chip-d15": {
+    "title": "ngspice 47 User's Manual",
+    "url": "https://ngspice.sourceforge.io/docs/ngspice-47-manual.pdf",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "매뉴얼 전체 기술 정확성을 독립적으로 검증한 것은 아님; 회로에 맞는 모델 필요",
+    "source_lines": "PDF p.2 license, §1.2, §2, §3"
+  },
+  "chip-d16": {
+    "title": "TI SLOA020A: Stability Analysis of VFB Op Amps",
+    "url": "https://www.ti.com/lit/an/sloa020a/sloa020a.pdf",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "오래된 application note의 일반 원리; 임의 IC/PDK 수치의 직접 근거로 사용 금지",
+    "source_lines": "2001-03, stability/compensation 본문"
+  },
+  "chip-d17": {
+    "title": "ADI MT-033: Voltage Feedback Op Amp Gain and Bandwidth",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-033.pdf",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "VFB op amp 설명; 모든 증폭기 topology에 그대로 적용하지 않음",
+    "source_lines": "PDF pp.1–2 및 본문"
+  },
+  "chip-d18": {
+    "title": "ADI MT-048: Op Amp Noise Relationships",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-048.pdf",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "적분 대역·noise gain·소스 조건 없이 noise 우열 비교 금지",
+    "source_lines": "PDF RMS NOISE CONSIDERATIONS"
+  },
+  "chip-d19": {
+    "title": "SkyWater SKY130 PDK documentation",
+    "url": "https://skywater-pdk.readthedocs.io/en/main/",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "SK하이닉스의 공정 PDK가 아님; 규칙·수치를 다른 공정에 이식하지 않음",
+    "source_lines": "Design Rules / Device Details"
+  },
+  "chip-d22": {
+    "title": "MQSim FAST 2018 paper",
+    "url": "https://people.inf.ethz.ch/omutlu/pub/MQSim-SSD-simulation-framework_fast18.pdf",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "4개 SSD에서 저자가 검증한 오차를 모든 SSD에 일반화하지 않음",
+    "source_lines": "Abstract 및 evaluation"
+  },
+  "chip-d23": {
+    "title": "AMD UG907 Supported Inputs",
+    "url": "https://docs.amd.com/r/en-US/ug907-vivado-power-analysis-optimization/Supported-Inputs",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "simulation-based estimate를 silicon 측정값으로 표현하지 않음",
+    "source_lines": "Supported Inputs 및 activity 우선순위"
+  },
+  "chip-d24": {
+    "title": "SK hynix Talent Hub AI hackathon article",
+    "url": "https://talent.skhynix.com/hub/ko/company/story/237",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "해당 사용자 과제의 칩 종류·배점·반입 허용·합격선은 이 자료로 확인 불가",
+    "source_lines": "기사 본문; 다른 평가 회차와 혼동 금지"
+  },
+  "chip-d25": {
+    "title": "Cofa Probe official product description",
+    "url": "https://www.getcofa.com/ko/probe",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "일반 제품 설명이며 SK하이닉스 개별 과제 규정·가중치는 미확인",
+    "source_lines": "평가 진행 방식 및 FAQ"
+  },
+  "chip-d26": {
+    "title": "Cadence Pegasus Verification System",
+    "url": "https://www.cadence.com/en_US/home/resources/datasheets/pegasus-verification-system-ds.html",
+    "kind": "primary-reference",
+    "checked": "2026-10-29; imported 2026-10-30, not re-crawled",
+    "limits": "제조사 마케팅의 성능 배수를 독립 검증 결과로 채택하지 않음",
+    "source_lines": "제품명 및 첫 문단"
+  },
+  "chip-public-experiment": {
+    "title": "PicoRV32 controlled Windows experiments, 2026-10-29",
+    "url": "plugins/expert-hub/skills/expert/references/chip-evidence/summary.json",
+    "kind": "local-measured-experiment",
+    "checked": "2026-10-29 executed; 2026-10-30 imported hash checked",
+    "sha256": "7a8003b5bc45393a40d088f04d2774f2ed5cd4f0c634cc6dbcaacd0c2e63b611",
+    "limits": "Single public CPU; author-designed non-blind mutation tests. Not silicon PPA or general diagnostic accuracy."
+  },
+  "chip-historical-archive": {
+    "title": "Original semiconductor evidence kit archive",
+    "url": "third_party/semiconductor-evidence-20261029.zip",
+    "kind": "preserved-local-archive",
+    "checked": "2026-10-30 SHA-256 checked",
+    "sha256": "62b59cf6fd399c94ef9c45e2f34b0a26b2ae4d34e1e401d0b5c5f97bb1e939a5",
+    "limits": "Optional historical audit archive; not automatically loaded or installed. Full provenance/licenses inside."
+  },
+  "hbm-n02": {
+    "title": "12-layer HBM4E samples",
+    "url": "https://news.skhynix.com/en/sk-hynix-ships-samples-of-12-layer-next-gen-hbm4e-2/",
+    "kind": "공식 발표 본문",
+    "checked": "2026-10-29",
+    "limits": "샘플 제공; 최대 16 Gbps/pin, 열저항 17% 감소 발표. 양산 완료로 해석하지 않음",
+    "published": "2026-06-18",
+    "legacy_id": "N02",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "d1c1a64f1bd5098f41e9266a2d810baabd5f767fb566501596c366b96e137094"
+  },
+  "hbm-n03": {
+    "title": "iHBM thermal solution",
+    "url": "https://news.skhynix.co.kr/ihbm-solution/",
+    "kind": "공식 발표 본문",
+    "checked": "2026-10-29",
+    "limits": "ICE 열경로, 열저항 30% 이상 저감 주장. 비교 시험조건 및 양산 적용 범위 별도 확인; HBM5 등 차세대 제품 적용 계획. 실리콘 일반의 절연성으로 일반화하지 않음",
+    "published": "2026-05-26",
+    "legacy_id": "N03",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "ab12e5bb0851e0e694bb95d16e74ed4fc84842d10cba055fc9f349c7838148b1"
+  },
+  "hbm-n04": {
+    "title": "TSMC partnership for HBM4",
+    "url": "https://news.skhynix.com/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/",
+    "kind": "공식 발표 본문",
+    "checked": "2026-10-29",
+    "limits": "HBM4 베이스 다이 로직 공정·CoWoS 협업 계획. 정확한 노드/내부 설계 흐름은 이 자료로 확정하지 않음",
+    "published": "2024-04-19",
+    "legacy_id": "N04",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "a2685defd27082a53bebb791b039854ee15f17b0ef7936427034b5ac4ed473a2"
+  },
+  "hbm-n05": {
+    "title": "HBM3E volume production",
+    "url": "https://news.skhynix.com/en/sk-hynix-begins-volume-production-of-industry-first-hbm3e/",
+    "kind": "공식 발표 본문",
+    "checked": "2026-10-29",
+    "limits": "초기 HBM3E 제품 발표; 최신 모든 제품의 공통 사양이 아님",
+    "published": "2024-03-19",
+    "legacy_id": "N05",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "34bcc88f370f6791cfab13af5e30391c105854bcd4cfa401c95e4fbbf064a72a"
+  },
+  "hbm-s01": {
+    "title": "JESD270-4 HBM4 release announcement",
+    "url": "https://www.design-reuse.com/news/202501760-jedec-and-industry-leaders-collaborate-to-release-jesd270-4-hbm4-standard-advancing-bandwidth-efficiency-and-capacity-for-ai-and-hpc/",
+    "kind": "표준 발행기관 보도자료 전재 본문",
+    "checked": "2026-10-29",
+    "limits": "최초 발표의 8 Gbps, 2048 bit, 32 channels. 규격 전문/최신 개정판 미확보; JEDEC 직접 접근 제한",
+    "published": "2025-04-16",
+    "legacy_id": "S01",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "36f4c7c9edb12a341d09e5f68e4324d9cc3ccc723ee3748edb42bb547a90afd7"
+  },
+  "hbm-s02": {
+    "title": "Available IEEE standards",
+    "url": "https://www.accellera.org/downloads/ieee",
+    "kind": "공식 표준 목록",
+    "checked": "2026-10-29",
+    "limits": "IEEE 1800-2023, 1800.2-2020, 1801-2024의 공식 목록 확인; 세부 규정 검토 아님",
+    "published": "열람일 기준",
+    "legacy_id": "S02",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "2cbce33fbb45ed0e44fe98eb979f52f184bfa043b76df9b94565899ce2a3e41f"
+  },
+  "hbm-s03": {
+    "title": "Reliability testing",
+    "url": "https://www.ti.com/quality-reliability/reliability/testing.html",
+    "kind": "공식 기술 설명",
+    "checked": "2026-10-29",
+    "limits": "시험 목적과 JEDEC 방법번호 연결; HBM 승인조건을 제공하는 자료는 아님",
+    "published": "열람일 기준",
+    "legacy_id": "S03",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "cbacc19cc2ed080c8825d6cc38b0a48c091f5fa9c587bfe91107255a54ab1efa"
+  },
+  "hbm-s04": {
+    "title": "Reliability and qualification",
+    "url": "https://www.cirrus.com/quality/reliability-qualification",
+    "kind": "공식 품질 설명",
+    "checked": "2026-10-29",
+    "limits": "Preconditioning, TC, HAST 등의 방법번호 확인; 최신 규격 판번호는 미확인",
+    "published": "열람일 기준",
+    "legacy_id": "S04",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "134acc11b5150f181ad9efea1677e9f16b656c1b4bb0c2714a3ee2ab1478b67f"
+  },
+  "hbm-s10": {
+    "title": "Semiconductor and IC Package Thermal Metrics, SPRA953D",
+    "url": "https://www.ti.com/lit/an/spra953d/spra953d.pdf",
+    "kind": "원문 PDF 확보·본문 확인",
+    "checked": "2026-10-29",
+    "limits": "RθJA/RθJC/ΨJT의 차이와 사용 경계; HBM 전용 표준은 아님",
+    "published": "2024-03",
+    "legacy_id": "S10",
+    "acquisition": "기존 PDF 재사용·파싱 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "8ab81b5a351132ae8ab049d984e7cc72f1eb3dd3e4d9d8e063be6fcd841080a9"
+  },
+  "hbm-t02": {
+    "title": "RTL-to-GDSII Flow training",
+    "url": "https://login.cadence.com/content/cadence-www/global/en_US/home/training/all-courses/86136.html",
+    "kind": "공식 교육 설명",
+    "checked": "2026-10-29",
+    "limits": "Xcelium, Genus, Innovus 단계 매핑",
+    "published": "열람일 기준",
+    "legacy_id": "T02",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "6b7414999fe25973bb56d0ec6799ae0875b895287395f7e16c812b68222ef35a"
+  },
+  "hbm-t03": {
+    "title": "EDA product portfolio",
+    "url": "https://s201.q4cdn.com/778493406/files/doc_downloads/2024/Investor_day/presentations/Synopsys-2024-Investor-Day-Unleashing-Growth-in-EDA-with-Pioneering-Innovations.pdf",
+    "kind": "공식 발표 자료 발췌",
+    "checked": "2026-10-29",
+    "limits": "Design Compiler, Fusion Compiler, PrimeTime 등 역할; 구매/버전은 별도 확인",
+    "published": "2024",
+    "legacy_id": "T03",
+    "acquisition": "미확보",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30"
+  },
+  "hbm-t04": {
+    "title": "Integrity 3D-IC workflow",
+    "url": "https://thor.inemi.org/webdownload/2024/Tech_Topic/Packaging/May_EDA-Cadence.pdf",
+    "kind": "원문 PDF 확보·관련 슬라이드 확인",
+    "checked": "2026-10-29",
+    "limits": "패키지-다이-전력-열-물리검증 연계, p.21",
+    "published": "2024-05",
+    "legacy_id": "T04",
+    "acquisition": "기존 PDF 재사용·파싱 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "718c3bf091a33b362f21001af4be6eefa23623e1a9d421e2220a9f468b647e6f"
+  },
+  "hbm-t05": {
+    "title": "Celsius Studio",
+    "url": "https://www.cadence.com/en_US/home/tools/system-analysis/thermal-solutions/celsius-studio.html/",
+    "kind": "공식 제품 설명",
+    "checked": "2026-10-29",
+    "limits": "정상/과도 전기열 해석, Integrity/Innovus 연계",
+    "published": "열람일 기준",
+    "legacy_id": "T05",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "1c61756287e532a47eaf1eddad3cbf2275b6b15a5da1cac069e3dc0a4b799817"
+  },
+  "hbm-t06": {
+    "title": "Icepak 3D-IC workflow",
+    "url": "https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v261/en/Subsystems/Icepak/Content/Icepak/3DIntegratedCircuitsinIcepak.htm",
+    "kind": "공식 기술 문서",
+    "checked": "2026-10-29",
+    "limits": "CTM v1/v2, 전력맵·재료·위치 정보를 포함한 다중 다이 모델",
+    "published": "2026 R1 문서 경로",
+    "legacy_id": "T06",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "a7b66cfc776b5ba6a8aab22879a151b63652c45ed73187aaa73d15d04878c3b3"
+  },
+  "hbm-t07": {
+    "title": "Ansys Icepak",
+    "url": "https://ansys.synopsys.com/products/electronics/ansys-icepak",
+    "kind": "공식 제품 설명",
+    "checked": "2026-10-29",
+    "limits": "CFD, 전도/대류/복사, 전기열 및 구조 연계",
+    "published": "열람일 기준",
+    "legacy_id": "T07",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "f3e359f91f5f9a44b467584851810081da396600bccf88033bbd954c535d8007"
+  },
+  "hbm-t08": {
+    "title": "RedHawk-SC Electrothermal",
+    "url": "https://www.synopsys.com/content/dam/synopsys/implementation%26signoff/datasheets/redhawk-sc-electrothermal-ds.pdf",
+    "kind": "공식 데이터시트 발췌",
+    "checked": "2026-10-29",
+    "limits": "2.5D/3D-IC 열 및 다중물리 모델; 승인 PDK/흐름 필요",
+    "published": "공개 데이터시트",
+    "legacy_id": "T08",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "b2a7c77ca475af720cf358764357cec5945cdb77517af57259429d24cf2464ce"
+  },
+  "hbm-t09": {
+    "title": "Calibre 3DStack",
+    "url": "https://eda.sw.siemens.com/en-US/ic/calibre-design/physical-verification/3dstack",
+    "kind": "공식 제품 설명",
+    "checked": "2026-10-29",
+    "limits": "조립 수준 DRC/LVS·정렬·연결 검사 확인. PEX는 이 출처로 확인하지 못해 기능 목록에서 제외",
+    "published": "열람일 기준",
+    "legacy_id": "T09",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "324b24075d2df5a8b6b46bfb704afd7c0d64e0b8ec64197c39f94a8f23a7cc45"
+  },
+  "hbm-t10": {
+    "title": "Simcenter T3STER",
+    "url": "https://www.siemens.com/en-gb/products/simcenter/physical-testing/t3ster/",
+    "kind": "공식 제품 설명",
+    "checked": "2026-10-29",
+    "limits": "과도 열측정과 모델 보정; HBM 센서 접근성에 따라 적용성 달라짐",
+    "published": "열람일 기준",
+    "legacy_id": "T10",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "d74c6afd1379e7eee40951f6c943da5fbcc74184149eb85f8974fd1c14c1f390"
+  },
+  "hbm-t12": {
+    "title": "CTM power map / RedHawk back annotation workshop",
+    "url": "https://innovationspace.ansys.com/certifications/courses/integrating-ctm-power-maps-and-redhawk-back-annotation-in-ansys-icepak-software-workshop/",
+    "kind": "공식 교육 설명",
+    "checked": "2026-10-29",
+    "limits": "공개 실습 자료, 로그인 필요 가능; 시스템 온도 재주석 workflow",
+    "published": "2025 R1 기반 교육",
+    "legacy_id": "T12",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "fe1909727ab2175004bb9ad1009df20b28f3e0aa2b9128e3115c845a62883ca1"
+  },
+  "hbm-p01": {
+    "title": "Advanced Packaging Technologies in Memory Applications for Future Generative AI Era",
+    "url": "https://iedm23.mapyourshow.com/mys_shared/iedm23/handouts/15-6_Tue_14482.pdf",
+    "kind": "원문 PDF 확보·4쪽 및 표/그림 확인",
+    "checked": "2026-10-29",
+    "limits": "Fig.6: 2.0 Gbps(IDD4), Ta=85°C에서 평균 ΔT 약 14°C; thermal bump 수 1x 대 3x | 한계: 재료·열범프 비율이 동시에 다름; MR-MUF 단독 효과로 분리 불가. 2023년 로드맵은 현행 규격 아님",
+    "published": "2023",
+    "legacy_id": "P01",
+    "acquisition": "기존 PDF 재사용·파싱 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "e48f80e713309d19bdc847c32c65edd0dca87e727db50e2b54d2c8de41eaf403"
+  },
+  "hbm-p02": {
+    "title": "A Study on the Advanced Chip to Wafer Stack for Better Thermal Dissipation of High Bandwidth Memory",
+    "url": "https://ieeexplore.ieee.org/document/10195745/",
+    "kind": "공식 초록·검색 발췌 확인; PDF 403",
+    "checked": "2026-10-29",
+    "limits": "초록은 동일 DRAM 동작 조건에서 TC-NCF 대비 최대 접합온도 14°C 감소 보고 | 한계: 원문 통계·표본수 미확보. P01의 평균 ΔT 표현과 동일 지표로 병합하지 않음",
+    "published": "2023",
+    "legacy_id": "P02",
+    "acquisition": "직접 본문 미확보·접근 제한",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "hbm-p03": {
+    "title": "Thermal Improvement of HBM with Joint Thermal Resistance Reduction for Scaling 12 Stacks and Beyond",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10195397/",
+    "kind": "공식 초록 확인; 전문 미확보",
+    "checked": "2026-10-29",
+    "limits": "연구 조건에서 TC 접합 열저항이 MR보다 35% 낮음; 접합 두께 감소가 주요 설명 | 한계: 접합 열저항과 전체 스택 온도는 다른 지표. P02와 동일 구조가 아니므로 우열 일반화 불가",
+    "published": "2023",
+    "legacy_id": "P03",
+    "acquisition": "공식 메타데이터·초록 확보(전문 아님)",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "9b33f45f3cce0a826169088115f862453b1ba2c2e0b03659d3e59f5fa2bf53ed"
+  },
+  "hbm-p04": {
+    "title": "Thermo-Mechanical Reliability Characteristics of 8H HBM3",
+    "url": "https://ieeexplore.ieee.org/document/10529424/",
+    "kind": "IEEE 초록 + 저자 소속대학 초록 재대조; 전문 미확보",
+    "checked": "2026-10-29",
+    "limits": "해당 proxy의 응력이 2.5D package보다 10.97% 높다고 보고 | 한계: 특정 proxy·기판 구조의 결과; 자사 proxy에 같은 가속계수 사용 불가",
+    "published": "2024",
+    "legacy_id": "P04",
+    "acquisition": "직접 본문 미확보·접근 제한",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "hbm-p05": {
+    "title": "Thermal Characterization of HBMs Integrated via Hybrid Bonding",
+    "url": "https://ieeexplore.ieee.org/document/11038390/",
+    "kind": "공식 초록 확인; 전문 미확보",
+    "checked": "2026-10-29",
+    "limits": "IDGF의 낮은 열저항 및 같은 스택 두께에서 더 많은 다이 가능성 보고 | 한계: 정량 개선폭·실험/해석별 근거는 전문 검토 필요; 제조 수율 결론 불가",
+    "published": "2025",
+    "legacy_id": "P05",
+    "acquisition": "직접 본문 미확보·접근 제한",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "hbm-p06": {
+    "title": "Analysis and Optimization of HBM3 PPA for TSV Model with Micro-Bump and Hybrid Bonding",
+    "url": "https://scholars.lib.ntu.edu.tw/entities/publication/62a6465f-1952-435d-9356-af62a0392d35",
+    "kind": "저자기관 초록 + Crossref 정식 권호 대조",
+    "checked": "2026-10-29",
+    "limits": "최적화 예에서 eye opening 8% 개선 보고 | 한계: 전기적 PPA 해석이며 열피로 수명/양산 수율 증거가 아님",
+    "published": "2025-01 정식 권호; 대학목록 2024",
+    "legacy_id": "P06",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "91347a7d575c6cfee93d5f37a78c62dd36bbb621ce0b58c957195a2e0edd7daf"
+  },
+  "hbm-p07": {
+    "title": "Integrated Microfluidic Cooling of Heterogeneous HBM–GPU Package With Die Height Difference",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11157889/",
+    "kind": "공식 초록 확인; 전문 미확보",
+    "checked": "2026-10-29",
+    "limits": "235 µm step 조건에서 BFS 방식의 압력강하 31%, 열저항 7.4% 감소; COP 45% 향상 | 한계: GPU 최대 2000 W/HBM 35 W를 포함한 연구 모델. 387 K는 약 113.85°C로 제품 허용온도 증거가 아님",
+    "published": "2025",
+    "legacy_id": "P07",
+    "acquisition": "공식 메타데이터·초록 확보(전문 아님)",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "ea65ed9477b8dcfa7b3c6db0dd5d0778e46bab539076f5316eb96618dac71486"
+  },
+  "hbm-p08": {
+    "title": "Breaking Thermal Bottleneck in 3D HBM-on-GPU Integration via System-Technology Co-Optimization",
+    "url": "https://imec-publications.be/entities/publication/30473574-9a4d-4f0c-bcc4-1b29345192bf/full",
+    "kind": "연구기관 초록·공식 발표 확인",
+    "checked": "2026-10-29",
+    "limits": "여러 완화책을 결합한 연구 구성에서 GPU peak 141.7→70.8°C | 한계: 시뮬레이션; GPU 온도이지 HBM Tj가 아님. 양면냉각·형상변경 등 복합효과",
+    "published": "2025",
+    "legacy_id": "P08",
+    "acquisition": "연구기관 서지·초록 확보",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "0a26ab66aa3b1457fb840d06d895d9595094af384c7553a5950c4a9ed03dab3a"
+  },
+  "hbm-p09": {
+    "title": "Underfill Selection Guideline for Fan-Out Heterogeneous Integration Package",
+    "url": "https://ieeexplore.ieee.org/document/10564882/",
+    "kind": "공식 초록·학회 프로그램 확인",
+    "checked": "2026-10-29",
+    "limits": "Tg·CTE가 휨 응력에 영향; 관련 modulus 저감이 코너 응력 저감 | 한계: fan-out 모듈 underfill 결과를 HBM 내부 MUF 물성으로 직접 이식 불가",
+    "published": "2024",
+    "legacy_id": "P09",
+    "acquisition": "직접 본문 미확보·접근 제한",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "hbm-p10": {
+    "title": "Thermal Issues Related to Hybrid Bonding of 3D-Stacked High Bandwidth Memory: A Comprehensive Review",
+    "url": "https://www.mdpi.com/2079-9292/14/13/2682",
+    "kind": "발행사 제공 Crossref 초록·서지 확보; 발행사 본문 접근 제한",
+    "checked": "2026-10-29",
+    "limits": "Cu protrusion·박리·뒤틀림과 재료/공정/구조 대책을 연결하는 문헌 지도 | 한계: 리뷰의 여러 개선율을 하나의 실험 결과로 사용하지 않음",
+    "published": "2025",
+    "legacy_id": "P10",
+    "acquisition": "미확보",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30"
+  },
+  "hbm-p11": {
+    "title": "Thermal Management and Reliability Engineering of Advanced HBM Packages: Materials, Interfaces, and Integrated Design Strategies",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13609547/",
+    "kind": "Europe PMC XML 전문 확보·주요 절 확인",
+    "checked": "2026-10-29",
+    "limits": "열경로·응력·전류 집중을 함께 다루는 계면 중심 설계 틀 | 한계: 리뷰의 HBM4+ 일반 서술은 SK hynix의 특정 양산 본딩 공정 확인이 아님",
+    "published": "2026",
+    "legacy_id": "P11",
+    "acquisition": "직접 본문 미확보·접근 제한",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "a3e7e2a6c4e57f65cfd85ee71548000ea0b203058c1edbaef1efc309d651afee"
+  },
+  "hbm-p12": {
+    "title": "Comparative Study of Thermal Dissipation in Increasing DRAM Layers of HBM Using 3D FEA Simulations",
+    "url": "https://www.jsts.org/jsts/XmlViewer/f436715",
+    "kind": "공개 전문·조건·표 확인",
+    "checked": "2026-10-29",
+    "limits": "동일 per-die 전력 조건의 Tpeak: 60.9/78.2/107.3°C; 총전력도 층수와 증가 | 한계: BEOL 생략·TSV 수/크기 단순화. NCF k=0.2 W/mK는 모델 가정이며 상용 소재 대표값 아님",
+    "published": "2025",
+    "legacy_id": "P12",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "3c1d8367ed7b97eab3ae4b1026780fd20cdb75a34771bd03f330cde2c8ffab4a"
+  },
+  "hbm-a01": {
+    "title": "ECTC 2025 program",
+    "url": "https://ectc.net/wp-content/uploads/2025/06/75-ECTCFinal-Web.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "학회 프로그램·서지 탐색용. 논문 전문 또는 실험결과 증거가 아님",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A01",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "b11c521f8af70fee8d9c9f73047e60dd519c10590058159f561143288d67fcbc"
+  },
+  "hbm-a02": {
+    "title": "ECTC 2024 program",
+    "url": "https://ectc.net/wp-content/uploads/2025/07/74-ECTCFinal-Web.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "학회 프로그램·서지 탐색용. 논문 전문과 구분",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A02",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "75daa3e75ce830109907ab9576018883c4080baa47fe4ff75d5a4224c5095bd2"
+  },
+  "hbm-a03": {
+    "title": "ECTC 2023 program",
+    "url": "https://www.ectc.net/program/73-ECTCFinal-Web.pdf",
+    "kind": "미확보",
+    "checked": "2026-10-29",
+    "limits": "공개자료 확보; 사용한 주장만 개별 검증. 문서 전체의 정확성을 보증하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A03",
+    "acquisition": "미확보",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30"
+  },
+  "hbm-a04": {
+    "title": "ECTC2025 Hybrid Bonding Special Session",
+    "url": "https://ectc.net/wp-content/uploads/2025/06/ECTC2025_SpecialSession_2-Hybrid-Bonding.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "하이브리드 본딩 패널 발표·현황. 첫 슬라이드의 2024 표기는 이후 2025 Dallas 표기와 불일치",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A04",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "6b234f22a6ce8b2848d60109db4c50e3d5a53c767ef13b8d4cbb0195a3bc2b66"
+  },
+  "hbm-a05": {
+    "title": "IEEE event hybrid bonding presentation",
+    "url": "https://events.vtools.ieee.org/event_media/download/89230",
+    "kind": "미확보",
+    "checked": "2026-10-29",
+    "limits": "공개자료 확보; 사용한 주장만 개별 검증. 문서 전체의 정확성을 보증하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A05",
+    "acquisition": "미확보",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30"
+  },
+  "hbm-a06": {
+    "title": "SWTest Asia2024 Fukushima poster",
+    "url": "https://www.swtestasia.org/2024proc/pdf/poster/P00_09_FUKUSHIMA_SWTestAsia2024.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "3쪽 포스터 자료. 일부 내용 이미지 중심; 정량 결과의 근거로 채택하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A06",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "c4234f3544b52a4af467c5e18861c8a44634c4e379ab0605ca5f69b98fae1582"
+  },
+  "hbm-a07": {
+    "title": "NASA Physics of Failure handbook v1.0.3",
+    "url": "https://ntrs.nasa.gov/api/citations/20230004376/downloads/v1_0_3_POF_June2024.pdf",
+    "kind": "미확보",
+    "checked": "2026-10-29",
+    "limits": "공개자료 확보; 사용한 주장만 개별 검증. 문서 전체의 정확성을 보증하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A07",
+    "acquisition": "미확보",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30"
+  },
+  "hbm-a08": {
+    "title": "NISTIR7604 Semiconductor Microelectronics and Nanoelectronics Programs (2009), thermal section pp.283–288",
+    "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7604.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "전체 제목은 Semiconductor Microelectronics and Nanoelectronics Programs. 2009년 연구연보의 열측정 절; 현재 HBM 규격 아님",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A08",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "66e63270c6277f40def5cddad155bc6e93b69c796ef9c9e5543d219538a29109"
+  },
+  "hbm-a09": {
+    "title": "Thermo Fisher advanced packaging failure analysis",
+    "url": "https://documents.thermofisher.com/TFS-Assets/MSD/Reference-Materials/innovative-failure-analysis-solutions-for-advanced-packaging-wp.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "장비 제조사 FA 백서. 분석 기법 탐색용; 검출률·수율 보장으로 해석하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A09",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "a47932dbdd76ff46a98c942fd2ca258d3a61310c66c7e5e63953f920bbc686ba"
+  },
+  "hbm-a10": {
+    "title": "NIST Reliability projection at use conditions",
+    "url": "https://www.itl.nist.gov/div898/handbook/apr/section4/apr43.htm",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "가속조건에서 실사용으로 외삽할 때 고장기구·가속모델·수명분포 가정 필요",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A10",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "2743bdf9eb93876c7a1c1666fbccb0a87d6990092283dd302e870fed54d06368"
+  },
+  "hbm-a11": {
+    "title": "NIST Arrhenius model",
+    "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr151.htm",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "Arrhenius 수명/가속인자 식. 활성화에너지는 기구·재료 의존",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A11",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "8145ced2b10e964d4af869309bb7a8695cb850c2858f8d7fa02c17d7f6a25166"
+  },
+  "hbm-a12": {
+    "title": "NIST Weibull distribution",
+    "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr162.htm",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "Weibull CDF·특성수명·형상모수의 정의",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A12",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "b1e55fd03d47998205276b809b54e73db9c6dda04532cb70b215dce3ccb269d2"
+  },
+  "hbm-a13": {
+    "title": "NIST Censoring",
+    "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr131.htm",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "시험 종료 시 생존 시료의 중도절단을 포함해야 함",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A13",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "6c4b503e864cd2ea8f9411f911488cc2475575ad456445e3abac96b737fad4a3"
+  },
+  "hbm-a14": {
+    "title": "NIST Reliability data collection",
+    "url": "https://www.itl.nist.gov/div898/handbook/apr/section3/apr3.htm",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "시험시간·표본수·스트레스의 계획 방법",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A14",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "72f3a6f4c70d480cd62e6aac58e7c51661546643c9a716d23f43f1d65ddd8296"
+  },
+  "hbm-a15": {
+    "title": "On the Thermal Vulnerability of 3D-Stacked High-Bandwidth Memory Architectures",
+    "url": "https://arxiv.org/pdf/2509.00633",
+    "kind": "공개 전문 확보·주요 절 확인",
+    "checked": "2026-10-29",
+    "limits": "bank 간 수직/수평 열간섭을 보안·제어 관점에서 검토할 필요 제시 | 한계: 확보본은 프리프린트. 상세 재현 조건·제품 실증이 부족하여 취약점 확정 또는 공격 성공률로 사용 불가",
+    "published": "2025",
+    "legacy_id": "A15",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "fa796c8f376bf514599b01c0c50fd45a9b5508f5b85fa0130dbf903651ef03af"
+  },
+  "hbm-a16": {
+    "title": "Effect of non-Fourier heat transport on temperature distribution in High Bandwidth Memory",
+    "url": "https://arxiv.org/pdf/2510.07691",
+    "kind": "공개 전문 확보·주요 절 확인",
+    "checked": "2026-10-29",
+    "limits": "연구 모델에서 접합온도 예측 차이 59.8 K, 계면 투과도 변화에 따른 온도 차이 최대 56.6 K 보고 | 한계: 프리프린트; 미세구조·계면 투과도 가정 의존. 실제 HBM FEA에 일괄 +59.8°C 보정 금지",
+    "published": "2025",
+    "legacy_id": "A16",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "4a5c046acd02167c134fd70a3261041a1e49a9a5bfc0f748057875bde2e6dbac"
+  },
+  "hbm-a17": {
+    "title": "Thermal Analysis of 3D GPU-Memory Architectures with Boron Nitride Interposer",
+    "url": "https://arxiv.org/pdf/2510.11461",
+    "kind": "공개 전문 확보·주요 절 확인",
+    "checked": "2026-10-29",
+    "limits": "연구 구성의 hotspot 온도 약 20°C 저감 주장 | 한계: 프리프린트. h-BN 방향별 열전도도, 계면, 제조·절연·신뢰성 별도 검증; 22% 누설전력 저감은 실측 증거로 사용하지 않음",
+    "published": "2025",
+    "legacy_id": "A17",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "0c1880f57d5784f3cdaa064fe3f11d6fe67bd4da724afa68ca0069d9cfddfae3"
+  },
+  "hbm-a18": {
+    "title": "Neural Network Surrogate Model for Junction Temperature and Hotspot Position in 3D Multi-Layer High Bandwidth Memory (HBM) Chiplets under Varying Thermal Conditions",
+    "url": "https://arxiv.org/pdf/2503.04049",
+    "kind": "공개 전문 확보·주요 절 확인",
+    "checked": "2026-10-29",
+    "limits": "논문이 보고한 생성 사례 13,494개, train:test 8:2 분할 | 한계: 프리프린트. 숫자는 논문 보고치이며 해당 원시 학습 DB를 받은 것은 아님. 무작위 분할 정확도를 새 구조/재료로 일반화 금지",
+    "published": "2025",
+    "legacy_id": "A18",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "7a0f49215dcc3a673251d116f6b27d855f2b884f1198a2e5969b8faef3e225ab"
+  },
+  "hbm-a19": {
+    "title": "Beyond HBM-on-GPU: Thermal Design Envelope for 3D Volumetric DRAM-on-GPU Integration",
+    "url": "https://arxiv.org/pdf/2609.24343",
+    "kind": "공개 전문 확보·주요 절 확인",
+    "checked": "2026-10-29",
+    "limits": "stack 높이, 냉각공간 열전도도, mold/배향이 열설계 가능영역을 바꾸는 연구 | 한계: 확보본은 프리프린트. 상용 HBM 규격·양산 채택 증거가 아니며 성능과 온도는 모델 의존",
+    "published": "2026",
+    "legacy_id": "A19",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "e1adeb0dff45d0118b6f87bded66dc95542674b787efe566d54d2a220f11db02"
+  },
+  "hbm-a20": {
+    "title": "imec STCO thermal press release",
+    "url": "https://www.imec-int.com/en/press/imec-mitigates-thermal-bottleneck-3d-hbm-gpu-architectures-using-system-technology-co",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "P08 연구기관 발표. GPU 최고온도 시뮬레이션 수치이며 HBM 실측 아님",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A20",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "54dad0663f1670f5ac982f17508b197dfcd7d6734361dd4c5ddd16b0f8c8efa2"
+  },
+  "hbm-a21": {
+    "title": "imec front and backside wafer connectivity",
+    "url": "https://www.imec-int.com/en/articles/path-high-density-front-and-backside-wafer-connectivity",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "고밀도 웨이퍼 연결의 연구 소개; SK hynix HBM 양산 공정으로 일반화하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A21",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "04053581dcb089d23f098c869ec215842ba2d91601fa316668bbaac93d96ddd1"
+  },
+  "hbm-a22": {
+    "title": "Removing Obstacles before Breaking Through the Memory Wall: A Close Look at HBM Errors in the Field",
+    "url": "https://www.usenix.org/system/files/atc24-wu-ronglong.pdf",
+    "kind": "공개 전문 확보·주요 절 확인",
+    "checked": "2026-10-29",
+    "limits": "Table1 CE 466,236,831건·UEO 49,297건·UER 3,334건; 오류 발생 HBM 수는 각각 808·64·229개 | 한계: 오류 사건 수는 고장 칩 수가 아님. 총 HBM2는 60,000개 초과로만 공개; 정확한 분모·제조사 미확인. 원시 로그 미확보",
+    "published": "2024",
+    "legacy_id": "A22",
+    "acquisition": "PDF 확보·파싱 확인(일부 글자 추출 대체)",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "cdc5d7673adda78dbc0dfe045d242c50fe052b4486d57b23ebea80b906baa443"
+  },
+  "hbm-a23": {
+    "title": "Warpage in wafer-level packaging: a review of causes, modelling, and mitigation strategies",
+    "url": "https://www.frontiersin.org/journals/electronics/articles/10.3389/felec.2024.1515860/pdf",
+    "kind": "공개 전문 확보·주요 절 확인",
+    "checked": "2026-10-29",
+    "limits": "공정 이력·재료·구조와 이론/FEA/AI 모델을 연결하는 방법론 정리 | 한계: DOI에 2024가 있어도 발행일은 2025-02-03. FOWLP 결과를 HBM 내부 계면 수명으로 바로 이식 불가",
+    "published": "2025",
+    "legacy_id": "A23",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "1922663b224e04470a89a53cf7a25d3d451ca64fcf1398e87d1e8d5373e4aeb1"
+  },
+  "hbm-a24": {
+    "title": "3D Integrated Process and Hybrid Bonding of High Bandwidth Memory (HBM)",
+    "url": "https://link.springer.com/article/10.1007/s13391-025-00557-9",
+    "kind": "발행사 초록·서지 확인; 구독 전문 미확보",
+    "checked": "2026-10-29",
+    "limits": "공정 분류와 유전체·금속 표면/결정방향 개선 방향을 정리 | 한계: 구독 전문 미확보. 공개 초록의 금속-절연체 직접 접합 표현은 일반 HB 정의로 채택하지 않음; 통상 금속-금속·절연체-절연체 계면을 구분",
+    "published": "2025",
+    "legacy_id": "A24",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "b5a39641bb7b572558de6f8e930063abedbebb0cfa508707020c6b995e2fcaac"
+  },
+  "hbm-a25": {
+    "title": "Custom HBM thermal mechanical simulation",
+    "url": "https://ieeexplore.ieee.org/document/10565143/",
+    "kind": "직접 웹 본문 접근 제한",
+    "checked": "2026-10-29",
+    "limits": "후보 제목·검색 단서만 보유. 발행사 본문 접근 제한; 결과 요약 채택 보류",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A25",
+    "acquisition": "직접 본문 미확보·접근 제한",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "hbm-a26": {
+    "title": "HBM4 Package Development Challenges",
+    "url": "https://ieeexplore.ieee.org/document/11577576/",
+    "kind": "직접 웹 본문 접근 제한",
+    "checked": "2026-10-29",
+    "limits": "HBM4 패키지 개발 논문 후보. 공식 본문/서지 대조 불충분; 정량 주장 채택 보류",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A26",
+    "acquisition": "직접 본문 미확보·접근 제한",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "hbm-a27": {
+    "title": "Plugged sidewall HBM FEA",
+    "url": "https://snu.elsevierpure.com/en/publications/heat-dissipation-improvement-using-plugged-sidewall-for-three-dim/",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "A40와 같은 논문의 저자기관 초록. 독립 연구로 중복 집계하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A27",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "08fdd13150d954bd8a5e70f7c25b0c601ae5644dcb88034033b89366af0e5f76"
+  },
+  "hbm-a28": {
+    "title": "IEEE HIR2023 Thermal Chapter20",
+    "url": "https://eps.ieee.org/images/files/HIR_2023/ch20_thermalfinal.pdf",
+    "kind": "미확보",
+    "checked": "2026-10-29",
+    "limits": "공개자료 확보; 사용한 주장만 개별 검증. 문서 전체의 정확성을 보증하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A28",
+    "acquisition": "미확보",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30"
+  },
+  "hbm-a29": {
+    "title": "IEEE HIR2024 AME Chapter25",
+    "url": "https://eps.ieee.org/images/files/HIR_2024/HIR_2024_ch25_AME.pdf",
+    "kind": "미확보",
+    "checked": "2026-10-29",
+    "limits": "공개자료 확보; 사용한 주장만 개별 검증. 문서 전체의 정확성을 보증하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A29",
+    "acquisition": "미확보",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30"
+  },
+  "hbm-a30": {
+    "title": "EDTM2023 Final Program",
+    "url": "https://www.cy-mice.org/edtm2023_02/program/IEEE_EDTM_2023.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "SK hynix MR-MUF 신뢰성 발표 탐색을 위한 EDTM2023 프로그램. 논문 전문 아님",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A30",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "215a3bdbe5ca259f74dae4440d0c5f51bd6d47d43a909b65e417dfe66fce2ffd"
+  },
+  "hbm-a32": {
+    "title": "P11 Europe PMC full text XML",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13609547/fullTextXML",
+    "kind": "XML 전문 확보·본문 확인",
+    "checked": "2026-10-29",
+    "limits": "P11과 같은 논문의 Europe PMC XML 전문. 원문 논문 수에 중복 합산하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A32",
+    "acquisition": "XML 전문 확보·본문 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "0e765c6c754ac236f3799a29cd610340a17666f017a0d07b28987e4762093563"
+  },
+  "hbm-a33": {
+    "title": "NASA Physics of Failure record",
+    "url": "https://ntrs.nasa.gov/citations/20230004376",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "NASA/SP-20230004376 문서 목록과 다운로드 연결",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A33",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "a0e0c11809f2948a3ea1824394a2dbf4c3fb7284cc46cd210e33a73341df4cd7"
+  },
+  "hbm-a34": {
+    "title": "JSTS P12 PDF viewer",
+    "url": "https://journal.auric.kr/Common/pdf_viewer?returnVal=RD_R&dn=436715",
+    "kind": "미확보",
+    "checked": "2026-10-29",
+    "limits": "공개자료 확보; 사용한 주장만 개별 검증. 문서 전체의 정확성을 보증하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A34",
+    "acquisition": "미확보",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30"
+  },
+  "hbm-a35": {
+    "title": "JSTS Sidewall DOI",
+    "url": "https://doi.org/10.5573/JSTS.2026.26.2.97",
+    "kind": "서지 연결 확인·전문은 A40",
+    "checked": "2026-10-29",
+    "limits": "DOI는 DBpia로 이동. 전문 확인에는 A40 학술지 페이지 사용",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A35",
+    "acquisition": "서지 연결 확인·전문은 A40",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "bb52b71ce46c67ee42b6b23f4e5fa69fa6f86217d3f504718dab29f5f63fc8b2"
+  },
+  "hbm-a36": {
+    "title": "IEEE HIR2023 Chapter20 Thermal (current URL)",
+    "url": "https://eps.ieee.org/wp-content/uploads/2025/11/ch20_thermalfinal.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "IEEE HIR 2023 Thermal. 기술평가 로드맵이며 제품 승인규격 아님",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A36",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "5135f88dd52a8756a62025ce742182c47581058b17dfc4cf350677ac5bdf2355"
+  },
+  "hbm-a37": {
+    "title": "NASA Methodology for Physics of Failure-Based Reliability Assessments Handbook",
+    "url": "https://ntrs.nasa.gov/api/citations/20230004376/downloads/20230004376.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "NASA Physics of Failure handbook 2024. 일반 신뢰성 모델·물리 기반 평가; HBM qualification 조건 아님",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A37",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "7111746b33b7a23a1ac4d983b15970525d4c9bd79206f20afb79bd9342f9bc4b"
+  },
+  "hbm-a38": {
+    "title": "P04 author university abstract",
+    "url": "https://snu.elsevierpure.com/en/publications/thermo-mechanical-reliability-characteristics-of-8h-hbm3/",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "P04의 저자기관 초록. proxy 응력 10.97%와 JESD94 연결 확인",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A38",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "4d4dbfe0d1f1f640f1499fd010f3b6e22c3132714c9d42443cda66f66e503581"
+  },
+  "hbm-a39": {
+    "title": "IEEE HIR 2024 contents",
+    "url": "https://eps.ieee.org/technology/heterogeneous-integration-roadmap/2024-edition/",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "2024 Edition 목록에도 2021/2023 장이 포함됨. 링크 폴더 연도를 발행연도로 쓰지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A39",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "e14f773d585f08895d2b2cedcb6b2f36526d6deb7e3f7565fab6e9022f677e6b"
+  },
+  "hbm-a40": {
+    "title": "Heat Dissipation Improvement Using Plugged Sidewall for Three-dimensional (3D) Package of High-stacked High Bandwidth Memory (HBM)",
+    "url": "https://www.jsts.org/jsts/XmlViewer/f451682",
+    "kind": "공개 전문 확보·주요 절 확인",
+    "checked": "2026-10-29",
+    "limits": "Table2 Tmax: 108.1→92.6, 110.6→94.9, 113.0→97.4, 115.4→99.8°C; 차이 15.5/15.7/15.6/15.6 K | 한계: 논문의 13.5~14.3%는 섭씨 Tmax 비율. 열저항 개선율로 채택하지 않음. 수치해석이며 Cu–EMC 계면 수명/공정 수율의 실증 아님",
+    "published": "2026",
+    "legacy_id": "A40",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "5e5a7e5a1f8293cdf98720a400042ba5d10444fa6614ee5e5391ba10e33e97bb"
+  },
+  "hbm-h13": {
+    "title": "IEEE HIR Chapter 13 Co-Design",
+    "url": "https://eps.ieee.org/wp-content/uploads/2025/11/HIR_2024_ch13_HIR_Co-Design.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "내부 표지 2024판. 2024 목록에서 연결된 장; 개별 장의 조건과 원인용문헌을 확인. 기술 로드맵이며 승인규격 아님",
+    "published": "2024",
+    "legacy_id": "H13",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "18190aef54b7960f07621f3e6e7e7cfddfdf4f3d69e0589298089c41a9d11cfe"
+  },
+  "hbm-h14": {
+    "title": "IEEE HIR Chapter 14 Modeling and Simulation",
+    "url": "https://eps.ieee.org/wp-content/uploads/2025/11/ch14_sim.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "내부 표지 2021판. 2024 목록에서 연결된 장; 개별 장의 조건과 원인용문헌을 확인. 기술 로드맵이며 승인규격 아님",
+    "published": "2021",
+    "legacy_id": "H14",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "82f7a86a3b1bb33102ff4623ee9a5c4082285018becc3e762697a57a2bb676ab"
+  },
+  "hbm-h15": {
+    "title": "IEEE HIR Chapter 15 Materials",
+    "url": "https://eps.ieee.org/wp-content/uploads/2025/11/HIR1_ch15_materials.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "내부 표지 2019판. 2024 목록에서 연결된 장; 개별 장의 조건과 원인용문헌을 확인. 기술 로드맵이며 승인규격 아님",
+    "published": "2019",
+    "legacy_id": "H15",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "0ce2b30df2880d1ded6eb0cd8f3ae3dd027043859412016388d9a58d0205d7ac"
+  },
+  "hbm-h17": {
+    "title": "IEEE HIR Chapter 17 Test Technology",
+    "url": "https://eps.ieee.org/wp-content/uploads/2025/11/HIR_2024_ch17_Test_Technology.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "내부 표지 2024판. 2024 목록에서 연결된 장; 개별 장의 조건과 원인용문헌을 확인. 기술 로드맵이며 승인규격 아님",
+    "published": "2024",
+    "legacy_id": "H17",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "ebcfac8593af6ce014f55df06b0c39fe99db589cd2ebeb42294ad7d9293ad98c"
+  },
+  "hbm-h20": {
+    "title": "IEEE HIR Chapter 20 Thermal",
+    "url": "https://eps.ieee.org/wp-content/uploads/2025/11/ch20_thermal.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "내부 표지 2023판. 2024 목록에서 연결된 장; 개별 장의 조건과 원인용문헌을 확인. 기술 로드맵이며 승인규격 아님",
+    "published": "2023",
+    "legacy_id": "H20",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "cabb8f3c662acc99d16b383a2838831924cbc0a65033486bba5fca8f9d26ed88"
+  },
+  "hbm-h21": {
+    "title": "IEEE HIR Chapter 21 SiP and Module",
+    "url": "https://eps.ieee.org/wp-content/uploads/2025/11/ch21_sip-module.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "내부 표지 2021판. 2024 목록에서 연결된 장; 개별 장의 조건과 원인용문헌을 확인. 기술 로드맵이며 승인규격 아님",
+    "published": "2021",
+    "legacy_id": "H21",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "73037eff54d89f7b24f3232660c40421c9ac5250335dfe93d88040fc5b3058c4"
+  },
+  "hbm-h22": {
+    "title": "IEEE HIR Chapter 22 2D and 3D Interconnects",
+    "url": "https://eps.ieee.org/wp-content/uploads/2025/11/HIR_2024_ch22_2D-3D.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "내부 표지 2024판. 2024 목록에서 연결된 장; 개별 장의 조건과 원인용문헌을 확인. 기술 로드맵이며 승인규격 아님",
+    "published": "2024",
+    "legacy_id": "H22",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "b21dd188ca8d6294ee49791ea037c23e34b4fe74e3850f875294cc7c62cdae51"
+  },
+  "hbm-h23": {
+    "title": "IEEE HIR Chapter 23 Wafer Level Packaging",
+    "url": "https://eps.ieee.org/wp-content/uploads/2025/11/ch23-wlpfinal2.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "내부 표지 2021판. 2024 목록에서 연결된 장; 개별 장의 조건과 원인용문헌을 확인. 기술 로드맵이며 승인규격 아님",
+    "published": "2021",
+    "legacy_id": "H23",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "a19f9cf65535a870de3fcd985aa1d7ceec2bd75f3fef6ffc114fe7fb09205648"
+  },
+  "hbm-h24": {
+    "title": "IEEE HIR Chapter 24 Reliability",
+    "url": "https://eps.ieee.org/wp-content/uploads/2025/11/ch24_rel.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "내부 표지 2021판. 2024 목록에서 연결된 장; 개별 장의 조건과 원인용문헌을 확인. 기술 로드맵이며 승인규격 아님",
+    "published": "2021",
+    "legacy_id": "H24",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "3dd3e0e65c25d93c342253bb2a785d90653a2745098e185308638ba8e48825f3"
+  },
+  "hbm-h25": {
+    "title": "IEEE HIR Chapter 25 AME",
+    "url": "https://eps.ieee.org/wp-content/uploads/2025/11/HIR_2024_ch25_AME.pdf",
+    "kind": "PDF 확보·파싱 확인",
+    "checked": "2026-10-29",
+    "limits": "내부 표지 2024판. 2024 목록에서 연결된 장; 개별 장의 조건과 원인용문헌을 확인. 기술 로드맵이며 승인규격 아님",
+    "published": "2024",
+    "legacy_id": "H25",
+    "acquisition": "PDF 확보·파싱 확인",
+    "review_scope": "표지·목차/관련 부분 선별 확인; 전페이지 정독·실험 재현 아님",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "3618479519202041f333d0c67914da879188528dc384b8c896211c2cedf4cd51"
+  },
+  "hbm-t13": {
+    "title": "PrimePower",
+    "url": "https://www.synopsys.com/implementation-and-signoff/signoff/primepower.html",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "공개자료 확보; 사용한 주장만 개별 검증. 문서 전체의 정확성을 보증하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "T13",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "87d02eef72d032b8afb9f86cb764f6e74eb011dc0b8e1a8e852e0d48f8e163f0"
+  },
+  "hbm-t14": {
+    "title": "3DIC Compiler",
+    "url": "https://www.synopsys.com/implementation-and-signoff/3dic-design.html",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "공개자료 확보; 사용한 주장만 개별 검증. 문서 전체의 정확성을 보증하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "T14",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "8931de7ce190df004aadcf75bd03aaedd62978052a32e608175f169a0e375430"
+  },
+  "hbm-t15": {
+    "title": "Design Compiler",
+    "url": "https://www.synopsys.com/implementation-and-signoff/rtl-synthesis-test/design-compiler.html",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "공개자료 확보; 사용한 주장만 개별 검증. 문서 전체의 정확성을 보증하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "T15",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "bb53135f3ff4635de836d43fc38d35eb936f59faa283ab1e744983e849efe79e"
+  },
+  "hbm-t16": {
+    "title": "Fusion Compiler",
+    "url": "https://www.synopsys.com/implementation-and-signoff/physical-implementation/fusion-compiler.html",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "공개자료 확보; 사용한 주장만 개별 검증. 문서 전체의 정확성을 보증하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "T16",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "4a9611551f77da2daf80904d84fccc9c5a259504eb3299fcd3252904fc08d62f"
+  },
+  "hbm-a41": {
+    "title": "NIST SI Units – Temperature",
+    "url": "https://www.nist.gov/pml/owm/si-units-temperature",
+    "kind": "웹 응답 보존·본문 대조 필요",
+    "checked": "2026-10-29",
+    "limits": "공개자료 확보; 사용한 주장만 개별 검증. 문서 전체의 정확성을 보증하지 않음",
+    "published": "본문/목록 참고; 일자 미확정",
+    "legacy_id": "A41",
+    "acquisition": "웹 응답 보존·본문 대조 필요",
+    "review_scope": "주장에 사용한 부분만 대조; 전체 문서 오류 검증은 미수행",
+    "bundled_fulltext": false,
+    "migrated": "2026-10-30",
+    "acquired_file_sha256": "a02d6bd9b54ae94991cddcd0b23f19c334e40f62bd3cc8b391292024e1ea31e6"
+  },
+  "hbm-collection-design": {
+    "title": "HBM 수집·구조화·적용 범위 기록",
+    "url": "docs/HBM_DATA.md",
+    "kind": "package-design",
+    "checked": "2026-10-30",
+    "limits": "실험·입력·검토 양식은 설계 제안. 사내 승인·실험 완료 자료 아님.",
+    "snapshot_sha256": "6c238e59aab1307ab91e6e5ec7b8f19c8536fe4017a5687e0a39c3a967d15d74"
+  },
+  "prep-probe-data-check": {
+    "url": "https://github.com/PKJthecreator/probe-kit/blob/79f2f94917ad32a630fd7d13c728409d6ec3de8b/.agents/skills/probe-data-check/SKILL.md",
+    "commit": "79f2f94917ad32a630fd7d13c728409d6ec3de8b",
+    "sha256": "d6a02f64a76cf1e6869524218e1da5a84f9c629fe62ae7200b576c75a81334bf",
+    "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외.",
+    "title": "probe-data-check — 공개 준비 지침의 일반 절차",
+    "kind": "public-preparation-guidance",
+    "checked": "2026-10-30",
+    "limits": "개인 준비 문서의 일반 방법 요약. 공식 행사 규정·기업 사용·성능 효과·설치 성공의 증거가 아님. 전체 원문과 하네스 자료는 동봉하지 않음."
+  },
+  "prep-probe-stack": {
+    "url": "https://github.com/PKJthecreator/probe-kit/blob/79f2f94917ad32a630fd7d13c728409d6ec3de8b/.agents/skills/probe-stack/SKILL.md",
+    "commit": "79f2f94917ad32a630fd7d13c728409d6ec3de8b",
+    "sha256": "39ac5c640c979af81fafd8595901d7835cab707f99186d3bd353784bd4120853",
+    "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외.",
+    "title": "probe-stack — 공개 준비 지침의 일반 절차",
+    "kind": "public-preparation-guidance",
+    "checked": "2026-10-30",
+    "limits": "개인 준비 문서의 일반 방법 요약. 공식 행사 규정·기업 사용·성능 효과·설치 성공의 증거가 아님. 전체 원문과 하네스 자료는 동봉하지 않음."
+  },
+  "prep-skhynix-qualifier": {
+    "url": "https://github.com/MunChanCHOI1/qualifier-skill/blob/fe572459800ac2cbcd2f98d455192175e5c67870/skills/skhynix-qualifier/SKILL.md",
+    "commit": "fe572459800ac2cbcd2f98d455192175e5c67870",
+    "sha256": "86c702ce1eaa6e81c31b97a6f8539d368fabd6e15c84e886a36bc4dbd7e40cb2",
+    "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외.",
+    "title": "skhynix-qualifier — 공개 준비 지침의 일반 절차",
+    "kind": "public-preparation-guidance",
+    "checked": "2026-10-30",
+    "limits": "개인 준비 문서의 일반 방법 요약. 공식 행사 규정·기업 사용·성능 효과·설치 성공의 증거가 아님. 전체 원문과 하네스 자료는 동봉하지 않음."
+  },
+  "prep-cofa-debug": {
+    "url": "https://github.com/arcturus0637-rgb/cofa-prelim-kit/blob/28479b0820c3933c7d2aa5aa9efb529577a7e593/skills/cofa-debug/SKILL.md",
+    "commit": "28479b0820c3933c7d2aa5aa9efb529577a7e593",
+    "sha256": "e1f3f395c9499b3c14c513b6b0de6122c5bc629ec6d7e543a1767ad334bd3a1c",
+    "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외.",
+    "title": "cofa-debug — 공개 준비 지침의 일반 절차",
+    "kind": "public-preparation-guidance",
+    "checked": "2026-10-30",
+    "limits": "개인 준비 문서의 일반 방법 요약. 공식 행사 규정·기업 사용·성능 효과·설치 성공의 증거가 아님. 전체 원문과 하네스 자료는 동봉하지 않음."
+  },
+  "prep-cofa-verify": {
+    "url": "https://github.com/arcturus0637-rgb/cofa-prelim-kit/blob/28479b0820c3933c7d2aa5aa9efb529577a7e593/skills/cofa-verify/SKILL.md",
+    "commit": "28479b0820c3933c7d2aa5aa9efb529577a7e593",
+    "sha256": "d6e1050a22d459cf66baa7dcb9a4031ee83f048d9073c01498a1f2614ed62c38",
+    "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외.",
+    "title": "cofa-verify — 공개 준비 지침의 일반 절차",
+    "kind": "public-preparation-guidance",
+    "checked": "2026-10-30",
+    "limits": "개인 준비 문서의 일반 방법 요약. 공식 행사 규정·기업 사용·성능 효과·설치 성공의 증거가 아님. 전체 원문과 하네스 자료는 동봉하지 않음."
+  },
+  "prep-cofa-simplify": {
+    "url": "https://github.com/arcturus0637-rgb/cofa-prelim-kit/blob/28479b0820c3933c7d2aa5aa9efb529577a7e593/skills/cofa-simplify/SKILL.md",
+    "commit": "28479b0820c3933c7d2aa5aa9efb529577a7e593",
+    "sha256": "0042a2ab6a6b1e11dc1b70dbafac263dd8dc988e5c4b44f1acd366cc2d023a48",
+    "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외.",
+    "title": "cofa-simplify — 공개 준비 지침의 일반 절차",
+    "kind": "public-preparation-guidance",
+    "checked": "2026-10-30",
+    "limits": "개인 준비 문서의 일반 방법 요약. 공식 행사 규정·기업 사용·성능 효과·설치 성공의 증거가 아님. 전체 원문과 하네스 자료는 동봉하지 않음."
+  },
+  "prep-cofa-concise": {
+    "url": "https://github.com/arcturus0637-rgb/cofa-prelim-kit/blob/28479b0820c3933c7d2aa5aa9efb529577a7e593/skills/cofa-concise/SKILL.md",
+    "commit": "28479b0820c3933c7d2aa5aa9efb529577a7e593",
+    "sha256": "1e9d054cfe160c93a20117ed1f848a7c5c33002842741ffbfada8d482773f349",
+    "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외.",
+    "title": "cofa-concise — 공개 준비 지침의 일반 절차",
+    "kind": "public-preparation-guidance",
+    "checked": "2026-10-30",
+    "limits": "개인 준비 문서의 일반 방법 요약. 공식 행사 규정·기업 사용·성능 효과·설치 성공의 증거가 아님. 전체 원문과 하네스 자료는 동봉하지 않음."
+  },
+  "optional-context7": {
+    "id": "context7",
+    "repo": "upstash/context7",
+    "path": "README.md",
+    "url": "https://github.com/upstash/context7/blob/c964733a3d87e89acd177cc4b24ebef4a7662f06/README.md",
+    "git_blob_sha": "5d763258318ad99a8324faab59c6c6b2efd72350",
+    "reviewed_lines": [
+      25,
+      127
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied",
+    "title": "context7 선택 절차의 공개 근거",
+    "kind": "upstream-technical-guidance",
+    "limits": "선택한 파일과 행만 검토. 설치·실제 대회 사용·성능 향상의 증거가 아님. 상위 프로젝트 전체의 호환성은 미검증."
+  },
+  "optional-sequential-thinking": {
+    "id": "sequential-thinking",
+    "repo": "modelcontextprotocol/servers",
+    "path": "src/sequentialthinking/README.md",
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/sequentialthinking/README.md",
+    "git_blob_sha": "390d09646d135548481e7bab983306895f802619",
+    "reviewed_lines": [
+      1,
+      145
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied",
+    "title": "sequential-thinking 선택 절차의 공개 근거",
+    "kind": "upstream-technical-guidance",
+    "limits": "선택한 파일과 행만 검토. 설치·실제 대회 사용·성능 향상의 증거가 아님. 상위 프로젝트 전체의 호환성은 미검증."
+  },
+  "optional-ponytail": {
+    "id": "ponytail",
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail/SKILL.md",
+    "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/skills/ponytail/SKILL.md",
+    "git_blob_sha": "d64edd32265ba21cbf5270158f04e97d96925f27",
+    "reviewed_lines": [
+      1,
+      55
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied",
+    "title": "ponytail 선택 절차의 공개 근거",
+    "kind": "upstream-technical-guidance",
+    "limits": "선택한 파일과 행만 검토. 설치·실제 대회 사용·성능 향상의 증거가 아님. 상위 프로젝트 전체의 호환성은 미검증."
+  },
+  "optional-knowledge-work-plugins": {
+    "id": "knowledge-work-plugins",
+    "repo": "anthropics/knowledge-work-plugins",
+    "path": "data/skills/validate-data/SKILL.md",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/blob/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/data/skills/validate-data/SKILL.md",
+    "git_blob_sha": "30a1bac41bf9679dc7d96b7ec59a116f03ec0575",
+    "reviewed_lines": [
+      1,
+      100
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied",
+    "title": "knowledge-work-plugins 선택 절차의 공개 근거",
+    "kind": "upstream-technical-guidance",
+    "limits": "선택한 파일과 행만 검토. 설치·실제 대회 사용·성능 향상의 증거가 아님. 상위 프로젝트 전체의 호환성은 미검증."
+  },
+  "optional-gstack": {
+    "id": "gstack",
+    "repo": "garrytan/gstack",
+    "path": "review/specialists/api-contract.md",
+    "url": "https://github.com/garrytan/gstack/blob/ce3a093a6421f84705ff6d58b1b2b022ca9e945d/review/specialists/api-contract.md",
+    "git_blob_sha": "01a649b1b0f47bb1af78e1614924b80cddbd48fa",
+    "reviewed_lines": [
+      1,
+      55
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied",
+    "title": "gstack 선택 절차의 공개 근거",
+    "kind": "upstream-technical-guidance",
+    "limits": "선택한 파일과 행만 검토. 설치·실제 대회 사용·성능 향상의 증거가 아님. 상위 프로젝트 전체의 호환성은 미검증."
+  },
+  "optional-gstack-state": {
+    "id": "gstack-state",
+    "repo": "garrytan/gstack",
+    "path": "review/specialists/state-machines.md",
+    "url": "https://github.com/garrytan/gstack/blob/ce3a093a6421f84705ff6d58b1b2b022ca9e945d/review/specialists/state-machines.md",
+    "git_blob_sha": "9dc973fe7ff0b96367bc43e6588bcbcbe825a71b",
+    "reviewed_lines": [
+      1,
+      66
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied",
+    "title": "gstack-state 선택 절차의 공개 근거",
+    "kind": "upstream-technical-guidance",
+    "limits": "선택한 파일과 행만 검토. 설치·실제 대회 사용·성능 향상의 증거가 아님. 상위 프로젝트 전체의 호환성은 미검증."
+  },
+  "optional-superpowers": {
+    "id": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/systematic-debugging/SKILL.md",
+    "url": "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/systematic-debugging/SKILL.md",
+    "git_blob_sha": "62fc752aaef59a8bbed5d305f4cadc60f8ae07ed",
+    "reviewed_lines": [
+      1,
+      130
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied",
+    "title": "superpowers 선택 절차의 공개 근거",
+    "kind": "upstream-technical-guidance",
+    "limits": "선택한 파일과 행만 검토. 설치·실제 대회 사용·성능 향상의 증거가 아님. 상위 프로젝트 전체의 호환성은 미검증."
+  },
+  "optional-caveman": {
+    "id": "caveman",
+    "repo": "JuliusBrussee/caveman",
+    "path": "skills/caveman/SKILL.md",
+    "url": "https://github.com/JuliusBrussee/caveman/blob/9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4/skills/caveman/SKILL.md",
+    "git_blob_sha": "9a94044529e5ee1576361c891b4a271504518e6f",
+    "reviewed_lines": [
+      1,
+      95
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied",
+    "title": "caveman 선택 절차의 공개 근거",
+    "kind": "upstream-technical-guidance",
+    "limits": "선택한 파일과 행만 검토. 설치·실제 대회 사용·성능 향상의 증거가 아님. 상위 프로젝트 전체의 호환성은 미검증."
+  },
+  "optional-grilling": {
+    "id": "grilling",
+    "repo": "mattpocock/skills",
+    "path": "skills/productivity/grilling/SKILL.md",
+    "url": "https://github.com/mattpocock/skills/blob/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa/skills/productivity/grilling/SKILL.md",
+    "git_blob_sha": "d2f09a18e6a6c65c55f1271ba08dfeaf06f0bed3",
+    "reviewed_lines": [
+      1,
+      38
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied",
+    "title": "grilling 선택 절차의 공개 근거",
+    "kind": "upstream-technical-guidance",
+    "limits": "선택한 파일과 행만 검토. 설치·실제 대회 사용·성능 향상의 증거가 아님. 상위 프로젝트 전체의 호환성은 미검증."
+  },
+  "optional-grill-me": {
+    "id": "grill-me",
+    "repo": "mattpocock/skills",
+    "path": "skills/productivity/grill-me/SKILL.md",
+    "url": "https://github.com/mattpocock/skills/blob/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa/skills/productivity/grill-me/SKILL.md",
+    "git_blob_sha": "3947ff9c4ad980d14fc07fccbf659d47c114e81d",
+    "reviewed_lines": [
+      1,
+      7
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied",
+    "title": "grill-me 선택 절차의 공개 근거",
+    "kind": "upstream-technical-guidance",
+    "limits": "선택한 파일과 행만 검토. 설치·실제 대회 사용·성능 향상의 증거가 아님. 상위 프로젝트 전체의 호환성은 미검증."
+  },
+  "optional-wayfinder": {
+    "id": "wayfinder",
+    "repo": "mattpocock/skills",
+    "path": "skills/engineering/wayfinder/SKILL.md",
+    "url": "https://github.com/mattpocock/skills/blob/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa/skills/engineering/wayfinder/SKILL.md",
+    "git_blob_sha": "975d6bf9c0a49d18a651f3335e0b4dcf8650fe31",
+    "reviewed_lines": [
+      1,
+      85
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied",
+    "title": "wayfinder 선택 절차의 공개 근거",
+    "kind": "upstream-technical-guidance",
+    "limits": "선택한 파일과 행만 검토. 설치·실제 대회 사용·성능 향상의 증거가 아님. 상위 프로젝트 전체의 호환성은 미검증."
+  }
+}

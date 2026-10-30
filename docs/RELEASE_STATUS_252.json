@@ -1,0 +1,90 @@
+{
+  "version": "2.5.2",
+  "status": "passed within isolated Windows configuration/runtime scope",
+  "fixed_tests": {
+    "passed": 2,
+    "failed": 0
+  },
+  "full_regression": {
+    "passed": 117,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 32.354,
+    "runtime": "separate maintainer environment"
+  },
+  "environment": {
+    "os": "existing Windows host",
+    "python": "3.14.7",
+    "sqlite": "3.50.4",
+    "codex_cli": "0.164.0",
+    "new_core_venv_packages": [
+      "pip==26.2.1"
+    ],
+    "user_site": false,
+    "credentials_copied": false
+  },
+  "final_252": {
+    "skill_install": true,
+    "plugin_install": true,
+    "skill_discovery": true,
+    "plugin_skill_discovery": true,
+    "codex_mcp_calls_each_route": 4,
+    "fresh_stdio_personas": 9,
+    "installed_analysis": true,
+    "tested_runtime_files_unchanged": 868
+  },
+  "isolation": {
+    "main_config_edited": false,
+    "monitored_global_files_unchanged": 859,
+    "outside_isolation_enabled_skills": 0,
+    "host_skills_discoverable_but_disabled_in_isolated_config": true,
+    "os_or_account_isolation": false
+  },
+  "analysis": {
+    "passed": true,
+    "installed_code_used": true,
+    "matched": {
+      "p95_percent_change": -60,
+      "error_before": 0.05,
+      "error_after": 0.005,
+      "success_rps_before": 190,
+      "success_rps_after": 199
+    },
+    "reject_unequal_load": true,
+    "reject_correctness_failure": true,
+    "csv_profile_executed": true,
+    "fault_model": {
+      "before_acquire_timeouts": 60,
+      "restart_acquire_timeouts": 60,
+      "fixed_acquire_timeouts": 0,
+      "fixed_connections_available": 4,
+      "application_errors_still_visible": 16
+    },
+    "limits": "Supplied synthetic performance summaries and separate lease model. No measured production latency, driver cancellation or actual DB transaction validation."
+  },
+  "file_processing": {
+    "passed": true,
+    "xlsx_input_and_output": true,
+    "pdf_generated_and_text_extracted": true,
+    "inspected": 600,
+    "failed": 12,
+    "failure_rate": 0.02,
+    "versions": {
+      "openpyxl": "3.1.5",
+      "pypdf": "6.21.4",
+      "reportlab": "5.1.0"
+    },
+    "limits": "Numeric workbook roundtrip and text PDF only. No formula recalculation, scanned PDF OCR, Korean PDF fonts, visual rendering or proprietary Codex spreadsheet runtime tested."
+  },
+  "canonical_files_unchanged": 28,
+  "unverified": [
+    "Fresh Windows OS/base Python installation",
+    "New Codex account login and model-inference turn",
+    "Desktop UI discovery",
+    "All optional ML packages in clean environment",
+    "Formula recalculation/OCR/Korean PDF fonts/visual layout",
+    "Production backend/EDA/company performance"
+  ],
+  "evidence_archive": "newpc-validation-20261030.zip",
+  "historical_status": "RELEASE_STATUS_251.json and PERSONA_BLIND_251.md describe the earlier stopped/static stage; they are preserved."
+}

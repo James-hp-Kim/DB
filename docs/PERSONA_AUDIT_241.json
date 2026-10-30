@@ -1,0 +1,131 @@
+{
+  "version": "2.4.1",
+  "date": "2026-10-30",
+  "scope": "Actual currently connected Codex expert_knowledge MCP, not an SDK-only subprocess",
+  "personas": [
+    {
+      "persona": "quality-assurance",
+      "query": "MSA",
+      "id": "quality:msa",
+      "source_id": "nist-msa",
+      "source_present": true,
+      "updated_role_loaded": true,
+      "lookup_chars": 1295,
+      "read_chars": 766,
+      "continued": false
+    },
+    {
+      "persona": "data-analyst",
+      "query": "Optuna pruning",
+      "id": "analytics:hpo",
+      "source_id": "da-optuna",
+      "source_present": true,
+      "updated_role_loaded": true,
+      "lookup_chars": 788,
+      "read_chars": 726,
+      "continued": false
+    },
+    {
+      "persona": "process-improvement",
+      "query": "8D 재발",
+      "id": "quality:eight-d",
+      "source_id": "asq-8d",
+      "source_present": true,
+      "updated_role_loaded": true,
+      "lookup_chars": 1264,
+      "read_chars": 607,
+      "continued": false
+    },
+    {
+      "persona": "nand-expert",
+      "query": "LLR 포화",
+      "id": "nand:v14",
+      "source_id": "nand-p04",
+      "source_present": true,
+      "updated_role_loaded": true,
+      "lookup_chars": 1287,
+      "read_chars": 576,
+      "continued": false
+    },
+    {
+      "persona": "chip-design-verification",
+      "query": "async FIFO 포인터 reset",
+      "id": "rtl:c09",
+      "source_id": "rtl-t15",
+      "source_present": true,
+      "updated_role_loaded": true,
+      "lookup_chars": 1384,
+      "read_chars": 606,
+      "continued": false
+    },
+    {
+      "persona": "semiconductor-basics",
+      "query": "단일 소자 누설 분해",
+      "id": "semiconductor:e01",
+      "source_id": "semi-s07",
+      "source_present": true,
+      "updated_role_loaded": true,
+      "lookup_chars": 1378,
+      "read_chars": 713,
+      "continued": false
+    },
+    {
+      "persona": "backend-expert",
+      "query": "DB 연결 풀 고갈",
+      "id": "backend:pool-exhaustion",
+      "source_id": "backend-incident",
+      "source_present": true,
+      "updated_role_loaded": true,
+      "lookup_chars": 1070,
+      "read_chars": 701,
+      "continued": false,
+      "lookup_limit": 2
+    },
+    {
+      "persona": "semiconductor-ai",
+      "query": "hold slack",
+      "id": "chip-rtl:claim-c06",
+      "source_id": "chip-s02",
+      "source_present": true,
+      "updated_role_loaded": true,
+      "lookup_chars": 1532,
+      "read_chars": 735,
+      "continued": false
+    },
+    {
+      "persona": "hbm-expert",
+      "query": "warpage",
+      "id": "hbm:paper-a23",
+      "source_id": "hbm-a23",
+      "source_present": true,
+      "updated_role_loaded": true,
+      "lookup_chars": 1284,
+      "read_chars": 648,
+      "continued": false
+    }
+  ],
+  "passed": true,
+  "empty_query": {
+    "query": "zzqvntp804139q",
+    "matches": 0
+  },
+  "outside_db_followup": {
+    "type": "explicit synthetic CSV analyzed locally after empty DB result",
+    "group_a": {
+      "defective": 20,
+      "inspected": 1000,
+      "rate": 0.02
+    },
+    "group_b": {
+      "defective": 10,
+      "inspected": 200,
+      "rate": 0.05
+    },
+    "causal_claim": false
+  },
+  "limits": [
+    "Representative retrieval/source checks, not all-domain expert accuracy or production readiness",
+    "Policy update plus one observed continuation, not universal LLM behavioral guarantee",
+    "Installed-only source-ID and Unicode reading guidance preserved"
+  ]
+}

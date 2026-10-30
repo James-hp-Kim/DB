@@ -1,0 +1,8 @@
+# Tested only for numeric XLSX/text PDF roundtrip on Windows x64, Python 3.14.7.
+# Optional; not required for core DB/MCP. Not a universal exam dependency lock.
+charset-normalizer==3.5.2
+et_xmlfile==2.0.0
+openpyxl==3.1.5
+pillow==13.0.0
+pypdf==6.21.4
+reportlab==5.1.0

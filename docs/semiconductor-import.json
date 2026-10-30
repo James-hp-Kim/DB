@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-30",
+  "packs": {
+    "chip-review": 17,
+    "chip-rtl": 51,
+    "chip-memory": 14,
+    "chip-analog": 20
+  },
+  "added_records": 102,
+  "archive_sha256": "62b59cf6fd399c94ef9c45e2f34b0a26b2ae4d34e1e401d0b5c5f97bb1e939a5",
+  "evidence_date": "2026-10-29",
+  "fresh_web_audit": false,
+  "note": "102 additive records from this conversation. Shared hub totals are tracked separately in RELEASE_INVENTORY.json; other packs may be maintained concurrently."
+}

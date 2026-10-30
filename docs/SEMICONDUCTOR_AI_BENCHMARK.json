@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-30",
+  "tokenizer": "tiktoken o200k_base",
+  "tiktoken_version": "0.14.0",
+  "scope": "Entry skill + routing guide are included on both sides. Full selected pack Markdown compared with catalog + 2 hits + conditions/limits for 1 id + at most 2 sources. Excludes user/system messages, reasoning, tool schemas, retries and final answers. Not actual Codex billing or accuracy. Four authored fixed queries; no generalization.",
+  "rows": [
+    {
+      "query": "hold slack",
+      "pack": "chip-rtl",
+      "selected_id": "chip-rtl:claim-c06",
+      "full_pack_reference_tokens": 19649,
+      "selected_reference_tokens": 2873,
+      "reference_reduction_pct": 85.38,
+      "selected_response_chars": 2947
+    },
+    {
+      "query": "barrel",
+      "pack": "chip-rtl",
+      "selected_id": "chip-rtl:config-barrel",
+      "full_pack_reference_tokens": 19649,
+      "selected_reference_tokens": 2594,
+      "reference_reduction_pct": 86.8,
+      "selected_response_chars": 2292
+    },
+    {
+      "query": "DRAM HBM SRAM SSD",
+      "pack": "chip-memory",
+      "selected_id": "chip-memory:model-levels",
+      "full_pack_reference_tokens": 6759,
+      "selected_reference_tokens": 2863,
+      "reference_reduction_pct": 57.64,
+      "selected_response_chars": 2916
+    },
+    {
+      "query": "noise",
+      "pack": "chip-analog",
+      "selected_id": "chip-analog:claim-c34",
+      "full_pack_reference_tokens": 8728,
+      "selected_reference_tokens": 2848,
+      "reference_reduction_pct": 67.37,
+      "selected_response_chars": 2903
+    }
+  ]
+}

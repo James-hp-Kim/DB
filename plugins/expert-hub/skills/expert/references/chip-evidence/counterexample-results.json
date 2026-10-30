@@ -1,0 +1,27 @@
+{
+  "native_script": {
+    "minus_s_exit": 0,
+    "minus_c_exit": 1,
+    "verdict": "-c interprets Tcl; native .ys needs -s"
+  },
+  "assumption_counterexample": [
+    {
+      "case": "with_assumption",
+      "result": "PASS",
+      "log": "logs/with_assumption.log"
+    },
+    {
+      "case": "without_assumption",
+      "result": "PASS",
+      "log": "logs/without_assumption.log"
+    }
+  ],
+  "limits": "Small combinational formal counterexample, not a CPU proof or a general vacuity checker.",
+  "upstream_smoke": {
+    "status": "PASS",
+    "write_count": 45,
+    "values": "0..44",
+    "address": 1020,
+    "check": "Original upstream bench; externally checked sequential counter writes. Limited smoke test."
+  }
+}

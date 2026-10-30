@@ -1,0 +1,15 @@
+{
+  "frequency": "MS",
+  "horizon": 6,
+  "gap": 0,
+  "season_length": 12,
+  "min_train": 36,
+  "n_windows": 4,
+  "step": 6,
+  "train_window": null,
+  "holdout_periods": 6,
+  "metric": "mae",
+  "reference_model": "seasonal_naive",
+  "scope": "SYNTHETIC demo only",
+  "unit": "arbitrary synthetic units"
+}

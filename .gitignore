@@ -1,0 +1,19 @@
+.venv*/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+work/
+runs/
+private/
+*.sqlite-wal
+*.sqlite-shm
+expert-build-*.sqlite
+# Bundled pack databases are release assets and intentionally tracked.
+
+# Workflow receipts belong outside the repository.
+contexts/
+
+private-data/
+
+*.sqlite-journal

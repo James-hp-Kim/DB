@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "server_version": "2.5.0",
+  "protocol": "2025-11-25",
+  "tools": 5,
+  "personas": [
+    {
+      "persona": "quality-assurance",
+      "passed": true,
+      "grounding_origin": "installed-skill",
+      "guide_hash_match": true,
+      "new_record": "common:optional-method-consent",
+      "previous_addition": "common:requirements-to-evidence",
+      "source_count": 5
+    },
+    {
+      "persona": "data-analyst",
+      "passed": true,
+      "grounding_origin": "installed-skill",
+      "guide_hash_match": true,
+      "new_record": "common:optional-method-consent",
+      "previous_addition": "common:requirements-to-evidence",
+      "source_count": 5
+    },
+    {
+      "persona": "process-improvement",
+      "passed": true,
+      "grounding_origin": "installed-skill",
+      "guide_hash_match": true,
+      "new_record": "common:optional-method-consent",
+      "previous_addition": "common:requirements-to-evidence",
+      "source_count": 5
+    },
+    {
+      "persona": "nand-expert",
+      "passed": true,
+      "grounding_origin": "installed-skill",
+      "guide_hash_match": true,
+      "new_record": "common:optional-method-consent",
+      "previous_addition": "common:requirements-to-evidence",
+      "source_count": 5
+    },
+    {
+      "persona": "chip-design-verification",
+      "passed": true,
+      "grounding_origin": "installed-skill",
+      "guide_hash_match": true,
+      "new_record": "common:optional-method-consent",
+      "previous_addition": "common:requirements-to-evidence",
+      "source_count": 5
+    },
+    {
+      "persona": "semiconductor-basics",
+      "passed": true,
+      "grounding_origin": "installed-skill",
+      "guide_hash_match": true,
+      "new_record": "common:optional-method-consent",
+      "previous_addition": "common:requirements-to-evidence",
+      "source_count": 5
+    },
+    {
+      "persona": "backend-expert",
+      "passed": true,
+      "grounding_origin": "installed-skill",
+      "guide_hash_match": true,
+      "new_record": "common:optional-method-consent",
+      "previous_addition": "common:requirements-to-evidence",
+      "source_count": 5
+    },
+    {
+      "persona": "semiconductor-ai",
+      "passed": true,
+      "grounding_origin": "installed-skill",
+      "guide_hash_match": true,
+      "new_record": "common:optional-method-consent",
+      "previous_addition": "common:requirements-to-evidence",
+      "source_count": 5
+    },
+    {
+      "persona": "hbm-expert",
+      "passed": true,
+      "grounding_origin": "installed-skill",
+      "guide_hash_match": true,
+      "new_record": "common:optional-method-consent",
+      "previous_addition": "common:requirements-to-evidence",
+      "source_count": 5
+    }
+  ],
+  "limits": "Fresh stdio connection and policy/evidence delivery tested. Not a desktop reconnect or model-compliance evaluation."
+}

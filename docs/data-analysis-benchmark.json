@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-30",
+  "tokenizer": "o200k_base",
+  "scope": "Text payload reference only. Includes skill, one persona search, synthetic CSV profile, lookup, selected conditions/procedure/limits and source metadata. Excludes prompts, tool schemas/protocol, reasoning, model replies and other conversation history. Baseline loads all cards in data-analyst allowed packs (common,analytics,sales,quality); not a measured bill or optimal retrieval guarantee.",
+  "entry_profile_all_cards": {
+    "characters": 55832,
+    "reference_tokens": 23409
+  },
+  "cases": [
+    {
+      "query": "백테스트",
+      "expected_in_top3": true,
+      "retrieval_with_sources": {
+        "characters": 2631,
+        "reference_tokens": 851
+      },
+      "entry_profile_retrieval": {
+        "characters": 7592,
+        "reference_tokens": 2000
+      }
+    },
+    {
+      "query": "WAPE 분모",
+      "expected_in_top3": true,
+      "retrieval_with_sources": {
+        "characters": 2192,
+        "reference_tokens": 751
+      },
+      "entry_profile_retrieval": {
+        "characters": 7153,
+        "reference_tokens": 1900
+      }
+    },
+    {
+      "query": "Optuna pruning",
+      "expected_in_top3": true,
+      "retrieval_with_sources": {
+        "characters": 2664,
+        "reference_tokens": 832
+      },
+      "entry_profile_retrieval": {
+        "characters": 7625,
+        "reference_tokens": 1981
+      }
+    },
+    {
+      "query": "대용량 메모리 스트리밍",
+      "expected_in_top3": true,
+      "retrieval_with_sources": {
+        "characters": 2948,
+        "reference_tokens": 960
+      },
+      "entry_profile_retrieval": {
+        "characters": 7909,
+        "reference_tokens": 2109
+      }
+    }
+  ],
+  "integrated_version": "2.4.0"
+}

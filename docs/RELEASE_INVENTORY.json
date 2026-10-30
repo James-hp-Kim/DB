@@ -1,0 +1,23 @@
+{
+  "version": "2.5.2",
+  "date": "2026-10-30",
+  "packs": {
+    "analytics": 10,
+    "backend": 27,
+    "chip-analog": 20,
+    "chip-memory": 14,
+    "chip-review": 17,
+    "chip-rtl": 51,
+    "common": 27,
+    "hbm": 149,
+    "nand": 126,
+    "quality": 21,
+    "rtl": 141,
+    "sales": 14,
+    "semiconductor": 151
+  },
+  "records": 768,
+  "personas": 9,
+  "sources": 323,
+  "note": "Explicit frozen release inventory. Refresh only for intentional canonical changes and rerun tests."
+}

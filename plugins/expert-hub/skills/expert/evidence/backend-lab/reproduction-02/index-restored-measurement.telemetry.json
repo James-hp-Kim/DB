@@ -1,0 +1,25 @@
+{
+  "before": {
+    "requests": 40,
+    "sql_errors": 0,
+    "pool_timeouts": 0,
+    "pool_available": 4,
+    "pool_capacity": 4,
+    "pid": 24224,
+    "process_cpu_seconds": 0.296875
+  },
+  "after": {
+    "requests": 360,
+    "sql_errors": 0,
+    "pool_timeouts": 7,
+    "pool_available": 4,
+    "pool_capacity": 4,
+    "pid": 24224,
+    "process_cpu_seconds": 0.953125
+  },
+  "elapsed_including_drain_s": 7.994359500007704,
+  "arrival_window_s": 8,
+  "dropped": [],
+  "max_dispatch_lag_ms": 6.525200005853549,
+  "warmup_requests": 40
+}

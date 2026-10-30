@@ -1,0 +1,112 @@
+{
+  "version": "2.4.0",
+  "date": "2026-10-30",
+  "inventory": {
+    "version": "2.4.0",
+    "date": "2026-10-30",
+    "packs": {
+      "analytics": 10,
+      "backend": 24,
+      "chip-analog": 20,
+      "chip-memory": 14,
+      "chip-review": 17,
+      "chip-rtl": 51,
+      "common": 22,
+      "hbm": 149,
+      "nand": 126,
+      "quality": 21,
+      "rtl": 141,
+      "sales": 14,
+      "semiconductor": 151
+    },
+    "records": 760,
+    "personas": 9,
+    "sources": 305,
+    "note": "Explicit frozen release inventory. Refresh only for intentional canonical changes and rerun tests."
+  },
+  "python": "3.13.15",
+  "unittest": {
+    "run": 106,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "execution": "104-case discovery plus two added integration tests"
+  },
+  "sdk_and_benchmarks": [
+    {
+      "name": "sdk-core",
+      "exit_code": 0,
+      "tail": ""
+    },
+    {
+      "name": "sdk-backend",
+      "exit_code": 0,
+      "tail": ""
+    },
+    {
+      "name": "sdk-nand",
+      "exit_code": 0,
+      "tail": ""
+    },
+    {
+      "name": "sdk-hbm",
+      "exit_code": 0,
+      "tail": ""
+    },
+    {
+      "name": "sdk-semiconductor",
+      "exit_code": 0,
+      "tail": ""
+    },
+    {
+      "name": "sdk-chip-ai",
+      "exit_code": 0,
+      "tail": ""
+    },
+    {
+      "name": "benchmark-data",
+      "exit_code": 0,
+      "tail": ""
+    },
+    {
+      "name": "benchmark-hbm",
+      "exit_code": 0,
+      "tail": ""
+    },
+    {
+      "name": "benchmark-rtl",
+      "exit_code": 0,
+      "tail": ""
+    },
+    {
+      "name": "sdk-integrated-personas",
+      "exit_code": 0,
+      "tail": ""
+    }
+  ],
+  "windows_isolated_install": {
+    "passed": true,
+    "checks": 9,
+    "real_user_config_changed": false
+  },
+  "synthetic_forecast": {
+    "development_trials": 4,
+    "development_holdout_evaluated": false,
+    "separate_final_holdout_executed": true,
+    "scope": "Synthetic monthly data only; no enterprise accuracy claim"
+  },
+  "packages": {
+    "mcp": "1.30.0",
+    "tiktoken": "0.14.0",
+    "openpyxl": "3.1.5",
+    "pyod": "3.6.7",
+    "optuna": "5.0.0",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4"
+  },
+  "backend_comparison_tests": {
+    "run": 13,
+    "failures": 0,
+    "errors": 0
+  }
+}

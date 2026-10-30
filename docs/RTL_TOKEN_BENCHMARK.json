@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-30",
+  "tokenizer": "o200k_base",
+  "scope": "Fixed test cases; includes one catalog response, lookup, 3 selected sections and selected source metadata per case. Not autonomous task success, exact Codex tokenizer, actual total tokens or billing. Excludes user prompt/files, reasoning, final answer, conversation history and protocol framing. Tool definitions measured separately.",
+  "entry_skill_reference_tokens": 829,
+  "entry_plus_all_141_rtl_cards_reference_tokens": 41095,
+  "all_tool_definitions_reference_tokens": 975,
+  "input_route_example": {
+    "response_characters": 1739,
+    "reference_tokens": 595,
+    "raw_file_lines_returned": 0
+  },
+  "cases": [
+    {
+      "query": "비동기 FIFO 포인터",
+      "record": "rtl:c09",
+      "expected_in_top3": true,
+      "retrieval_reference_tokens": 1014,
+      "entry_plus_retrieval_reference_tokens": 1843,
+      "reduction_against_entry_and_all_rtl_cards_percent": 95.52,
+      "read_continuations": 0,
+      "source_omitted_ids": []
+    },
+    {
+      "query": "STA WNS TNS setup hold",
+      "record": "rtl:c22",
+      "expected_in_top3": true,
+      "retrieval_reference_tokens": 1024,
+      "entry_plus_retrieval_reference_tokens": 1853,
+      "reduction_against_entry_and_all_rtl_cards_percent": 95.49,
+      "read_continuations": 0,
+      "source_omitted_ids": []
+    },
+    {
+      "query": "refresh self-refresh debt",
+      "record": "rtl:c13",
+      "expected_in_top3": true,
+      "retrieval_reference_tokens": 1124,
+      "entry_plus_retrieval_reference_tokens": 1953,
+      "reduction_against_entry_and_all_rtl_cards_percent": 95.25,
+      "read_continuations": 0,
+      "source_omitted_ids": []
+    },
+    {
+      "query": "num_bitflips 장치 매핑 분모",
+      "record": "rtl:g02",
+      "expected_in_top3": true,
+      "retrieval_reference_tokens": 1400,
+      "entry_plus_retrieval_reference_tokens": 2229,
+      "reduction_against_entry_and_all_rtl_cards_percent": 94.58,
+      "read_continuations": 0,
+      "source_omitted_ids": []
+    }
+  ],
+  "integrated_version": "2.4.0"
+}

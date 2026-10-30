@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-30",
+  "tokenizer": "o200k_base",
+  "scope": "Reference serialized response text. Fixed selected ids/sections. Includes source metadata and first persona search. Excludes user files, prompt, reasoning, answer, protocol/tool schemas; not actual billing savings.",
+  "entry_skill_separate": {
+    "characters": 6599,
+    "reference_tokens": 1414
+  },
+  "full_backend_common_cards_comparison": {
+    "characters": 32466,
+    "reference_tokens": 14363
+  },
+  "cases": [
+    {
+      "query": "DB 연결 풀 고갈",
+      "selected_id": "backend:pool-exhaustion",
+      "catalog": {
+        "characters": 296,
+        "reference_tokens": 85
+      },
+      "lookup": {
+        "characters": 1001,
+        "reference_tokens": 354
+      },
+      "read": {
+        "characters": 1033,
+        "reference_tokens": 338
+      },
+      "source": {
+        "characters": 352,
+        "reference_tokens": 138
+      },
+      "first_lookup_total": {
+        "characters": 2685,
+        "reference_tokens": 915
+      },
+      "context_reuse_total": {
+        "characters": 2388,
+        "reference_tokens": 830
+      }
+    },
+    {
+      "query": "느린 쿼리 인덱스",
+      "selected_id": "backend:slow-query",
+      "catalog": {
+        "characters": 296,
+        "reference_tokens": 85
+      },
+      "lookup": {
+        "characters": 1039,
+        "reference_tokens": 356
+      },
+      "read": {
+        "characters": 991,
+        "reference_tokens": 318
+      },
+      "source": {
+        "characters": 346,
+        "reference_tokens": 133
+      },
+      "first_lookup_total": {
+        "characters": 2675,
+        "reference_tokens": 892
+      },
+      "context_reuse_total": {
+        "characters": 2378,
+        "reference_tokens": 807
+      }
+    },
+    {
+      "query": "p95 동일 조건 비교",
+      "selected_id": "backend:latency-comparison",
+      "catalog": {
+        "characters": 296,
+        "reference_tokens": 85
+      },
+      "lookup": {
+        "characters": 1038,
+        "reference_tokens": 357
+      },
+      "read": {
+        "characters": 1002,
+        "reference_tokens": 322
+      },
+      "source": {
+        "characters": 346,
+        "reference_tokens": 133
+      },
+      "first_lookup_total": {
+        "characters": 2685,
+        "reference_tokens": 897
+      },
+      "context_reuse_total": {
+        "characters": 2388,
+        "reference_tokens": 812
+      }
+    },
+    {
+      "query": "7/320 시간초과 재현",
+      "selected_id": "backend:lab-limit",
+      "catalog": {
+        "characters": 296,
+        "reference_tokens": 85
+      },
+      "lookup": {
+        "characters": 1034,
+        "reference_tokens": 371
+      },
+      "read": {
+        "characters": 961,
+        "reference_tokens": 309
+      },
+      "source": {
+        "characters": 381,
+        "reference_tokens": 147
+      },
+      "first_lookup_total": {
+        "characters": 2675,
+        "reference_tokens": 912
+      },
+      "context_reuse_total": {
+        "characters": 2378,
+        "reference_tokens": 827
+      }
+    }
+  ]
+}

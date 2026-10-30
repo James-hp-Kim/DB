@@ -1,0 +1,803 @@
+{
+  "imported": "2026-10-30",
+  "research_snapshot": "2026-10-29",
+  "input_hashes": {
+    "records.json": "dc56bf99a26bc019702c74edb5cf901e008d843b365e1b92426bb6db7b78756e",
+    "sources.json": "cb10e657e98d1457dab7bbf3a43e456afbc385bf4396b8acfb89f1e89c3ad8a8",
+    "aliases.json": "43e0033f950d5f50470ae0ebe0f93d81a67d527eb7b4776d08af2f0ac1f9c34a"
+  },
+  "counts": {
+    "source": 33,
+    "number": 36,
+    "optimization": 26,
+    "experiment": 15,
+    "field": 37,
+    "role": 10,
+    "chapter": 20,
+    "calculation": 8
+  },
+  "new_records": 152,
+  "notes": [
+    "No fresh web review during migration. Original source access caveats are retained.",
+    "Source records deduplicated by exact URL; common zero-failure formula stored once.",
+    "Fields/learning plans are authored proposals. Primary citations for learning plans retained in detail.",
+    "No original papers, internal fab data, or user measurement files included."
+  ],
+  "mapping": [
+    {
+      "legacy_id": "S01",
+      "source_id": "semi-s01"
+    },
+    {
+      "legacy_id": "S02",
+      "source_id": "semi-s02"
+    },
+    {
+      "legacy_id": "S03",
+      "source_id": "semi-s03"
+    },
+    {
+      "legacy_id": "S04",
+      "source_id": "semi-s04"
+    },
+    {
+      "legacy_id": "S05",
+      "source_id": "semi-s05"
+    },
+    {
+      "legacy_id": "S06",
+      "source_id": "semi-s06"
+    },
+    {
+      "legacy_id": "S07",
+      "source_id": "semi-s07"
+    },
+    {
+      "legacy_id": "S08",
+      "source_id": "semi-s08"
+    },
+    {
+      "legacy_id": "S09",
+      "source_id": "semi-s09"
+    },
+    {
+      "legacy_id": "S10",
+      "source_id": "rtl-h06"
+    },
+    {
+      "legacy_id": "S11",
+      "source_id": "semi-s11"
+    },
+    {
+      "legacy_id": "S12",
+      "source_id": "semi-s12"
+    },
+    {
+      "legacy_id": "S13",
+      "source_id": "semi-s13"
+    },
+    {
+      "legacy_id": "S14",
+      "source_id": "semi-s14"
+    },
+    {
+      "legacy_id": "S15",
+      "source_id": "semi-s15"
+    },
+    {
+      "legacy_id": "S16",
+      "source_id": "semi-s16"
+    },
+    {
+      "legacy_id": "S17",
+      "source_id": "semi-s17"
+    },
+    {
+      "legacy_id": "S18",
+      "source_id": "semi-s18"
+    },
+    {
+      "legacy_id": "S19",
+      "source_id": "rtl-h02"
+    },
+    {
+      "legacy_id": "S20",
+      "source_id": "semi-s20"
+    },
+    {
+      "legacy_id": "S21",
+      "source_id": "semi-s21"
+    },
+    {
+      "legacy_id": "S22",
+      "source_id": "semi-s22"
+    },
+    {
+      "legacy_id": "S23",
+      "source_id": "semi-s23"
+    },
+    {
+      "legacy_id": "S24",
+      "source_id": "semi-s24"
+    },
+    {
+      "legacy_id": "S25",
+      "source_id": "nist-capability"
+    },
+    {
+      "legacy_id": "S26",
+      "source_id": "nist-wilson"
+    },
+    {
+      "legacy_id": "S27",
+      "source_id": "semi-s27"
+    },
+    {
+      "legacy_id": "S28",
+      "source_id": "semi-s28"
+    },
+    {
+      "legacy_id": "S29",
+      "source_id": "semi-s29"
+    },
+    {
+      "legacy_id": "S30",
+      "source_id": "semi-s30"
+    },
+    {
+      "legacy_id": "S31",
+      "source_id": "rtl-t17"
+    },
+    {
+      "legacy_id": "S32",
+      "source_id": "rtl-t19"
+    },
+    {
+      "legacy_id": "S33",
+      "source_id": "semi-s33"
+    },
+    {
+      "legacy_id": "N01",
+      "record_id": "semiconductor:n01"
+    },
+    {
+      "legacy_id": "N02",
+      "record_id": "semiconductor:n02"
+    },
+    {
+      "legacy_id": "N03",
+      "record_id": "semiconductor:n03"
+    },
+    {
+      "legacy_id": "N04",
+      "record_id": "semiconductor:n04"
+    },
+    {
+      "legacy_id": "N05",
+      "record_id": "semiconductor:n05"
+    },
+    {
+      "legacy_id": "N06",
+      "record_id": "semiconductor:n06"
+    },
+    {
+      "legacy_id": "N07",
+      "record_id": "semiconductor:n07"
+    },
+    {
+      "legacy_id": "N08",
+      "record_id": "semiconductor:n08"
+    },
+    {
+      "legacy_id": "N09",
+      "record_id": "semiconductor:n09"
+    },
+    {
+      "legacy_id": "N10",
+      "record_id": "semiconductor:n10"
+    },
+    {
+      "legacy_id": "N11",
+      "record_id": "semiconductor:n11"
+    },
+    {
+      "legacy_id": "N12",
+      "record_id": "semiconductor:n12"
+    },
+    {
+      "legacy_id": "N13",
+      "record_id": "semiconductor:n13"
+    },
+    {
+      "legacy_id": "N14",
+      "record_id": "semiconductor:n14"
+    },
+    {
+      "legacy_id": "N15",
+      "record_id": "semiconductor:n15"
+    },
+    {
+      "legacy_id": "N16",
+      "record_id": "semiconductor:n16"
+    },
+    {
+      "legacy_id": "N17",
+      "record_id": "semiconductor:n17"
+    },
+    {
+      "legacy_id": "N18",
+      "record_id": "semiconductor:n18"
+    },
+    {
+      "legacy_id": "N19",
+      "record_id": "semiconductor:n19"
+    },
+    {
+      "legacy_id": "N20",
+      "record_id": "semiconductor:n20"
+    },
+    {
+      "legacy_id": "N21",
+      "record_id": "semiconductor:n21"
+    },
+    {
+      "legacy_id": "N22",
+      "record_id": "semiconductor:n22"
+    },
+    {
+      "legacy_id": "N23",
+      "record_id": "semiconductor:n23"
+    },
+    {
+      "legacy_id": "N24",
+      "record_id": "semiconductor:n24"
+    },
+    {
+      "legacy_id": "N25",
+      "record_id": "semiconductor:n25"
+    },
+    {
+      "legacy_id": "N26",
+      "record_id": "semiconductor:n26"
+    },
+    {
+      "legacy_id": "N27",
+      "record_id": "semiconductor:n27"
+    },
+    {
+      "legacy_id": "N28",
+      "record_id": "semiconductor:n28"
+    },
+    {
+      "legacy_id": "N29",
+      "record_id": "semiconductor:n29"
+    },
+    {
+      "legacy_id": "N30",
+      "record_id": "semiconductor:n30"
+    },
+    {
+      "legacy_id": "N31",
+      "record_id": "semiconductor:n31"
+    },
+    {
+      "legacy_id": "N32",
+      "record_id": "semiconductor:n32"
+    },
+    {
+      "legacy_id": "N33",
+      "record_id": "semiconductor:n33"
+    },
+    {
+      "legacy_id": "N34",
+      "record_id": "semiconductor:n34"
+    },
+    {
+      "legacy_id": "N35",
+      "record_id": "semiconductor:n35"
+    },
+    {
+      "legacy_id": "N36",
+      "record_id": "semiconductor:n36"
+    },
+    {
+      "legacy_id": "L01",
+      "record_id": "semiconductor:l01"
+    },
+    {
+      "legacy_id": "L02",
+      "record_id": "semiconductor:l02"
+    },
+    {
+      "legacy_id": "L03",
+      "record_id": "semiconductor:l03"
+    },
+    {
+      "legacy_id": "L04",
+      "record_id": "semiconductor:l04"
+    },
+    {
+      "legacy_id": "L05",
+      "record_id": "semiconductor:l05"
+    },
+    {
+      "legacy_id": "L06",
+      "record_id": "semiconductor:l06"
+    },
+    {
+      "legacy_id": "L07",
+      "record_id": "semiconductor:l07"
+    },
+    {
+      "legacy_id": "L08",
+      "record_id": "semiconductor:l08"
+    },
+    {
+      "legacy_id": "L09",
+      "record_id": "semiconductor:l09"
+    },
+    {
+      "legacy_id": "L10",
+      "record_id": "semiconductor:l10"
+    },
+    {
+      "legacy_id": "L11",
+      "record_id": "semiconductor:l11"
+    },
+    {
+      "legacy_id": "L12",
+      "record_id": "semiconductor:l12"
+    },
+    {
+      "legacy_id": "L13",
+      "record_id": "semiconductor:l13"
+    },
+    {
+      "legacy_id": "L14",
+      "record_id": "semiconductor:l14"
+    },
+    {
+      "legacy_id": "L15",
+      "record_id": "semiconductor:l15"
+    },
+    {
+      "legacy_id": "L16",
+      "record_id": "semiconductor:l16"
+    },
+    {
+      "legacy_id": "L17",
+      "record_id": "semiconductor:l17"
+    },
+    {
+      "legacy_id": "L18",
+      "record_id": "semiconductor:l18"
+    },
+    {
+      "legacy_id": "L19",
+      "record_id": "semiconductor:l19"
+    },
+    {
+      "legacy_id": "L20",
+      "record_id": "semiconductor:l20"
+    },
+    {
+      "legacy_id": "L21",
+      "record_id": "semiconductor:l21"
+    },
+    {
+      "legacy_id": "L22",
+      "record_id": "semiconductor:l22"
+    },
+    {
+      "legacy_id": "L23",
+      "record_id": "semiconductor:l23"
+    },
+    {
+      "legacy_id": "L24",
+      "record_id": "semiconductor:l24"
+    },
+    {
+      "legacy_id": "L25",
+      "record_id": "semiconductor:l25"
+    },
+    {
+      "legacy_id": "L26",
+      "record_id": "semiconductor:l26"
+    },
+    {
+      "legacy_id": "E01",
+      "record_id": "semiconductor:e01"
+    },
+    {
+      "legacy_id": "E02",
+      "record_id": "semiconductor:e02"
+    },
+    {
+      "legacy_id": "E03",
+      "record_id": "semiconductor:e03"
+    },
+    {
+      "legacy_id": "E04",
+      "record_id": "semiconductor:e04"
+    },
+    {
+      "legacy_id": "E05",
+      "record_id": "semiconductor:e05"
+    },
+    {
+      "legacy_id": "E06",
+      "record_id": "semiconductor:e06"
+    },
+    {
+      "legacy_id": "E07",
+      "record_id": "semiconductor:e07"
+    },
+    {
+      "legacy_id": "E08",
+      "record_id": "semiconductor:e08"
+    },
+    {
+      "legacy_id": "E09",
+      "record_id": "semiconductor:e09"
+    },
+    {
+      "legacy_id": "E10",
+      "record_id": "semiconductor:e10"
+    },
+    {
+      "legacy_id": "E11",
+      "record_id": "semiconductor:e11"
+    },
+    {
+      "legacy_id": "E12",
+      "record_id": "semiconductor:e12"
+    },
+    {
+      "legacy_id": "E13",
+      "record_id": "semiconductor:e13"
+    },
+    {
+      "legacy_id": "E14",
+      "record_id": "semiconductor:e14"
+    },
+    {
+      "legacy_id": "E15",
+      "record_id": "semiconductor:e15"
+    },
+    {
+      "legacy_id": "F01",
+      "record_id": "semiconductor:f01"
+    },
+    {
+      "legacy_id": "F02",
+      "record_id": "semiconductor:f02"
+    },
+    {
+      "legacy_id": "F03",
+      "record_id": "semiconductor:f03"
+    },
+    {
+      "legacy_id": "F04",
+      "record_id": "semiconductor:f04"
+    },
+    {
+      "legacy_id": "F05",
+      "record_id": "semiconductor:f05"
+    },
+    {
+      "legacy_id": "F06",
+      "record_id": "semiconductor:f06"
+    },
+    {
+      "legacy_id": "F07",
+      "record_id": "semiconductor:f07"
+    },
+    {
+      "legacy_id": "F08",
+      "record_id": "semiconductor:f08"
+    },
+    {
+      "legacy_id": "F09",
+      "record_id": "semiconductor:f09"
+    },
+    {
+      "legacy_id": "F10",
+      "record_id": "semiconductor:f10"
+    },
+    {
+      "legacy_id": "F11",
+      "record_id": "semiconductor:f11"
+    },
+    {
+      "legacy_id": "F12",
+      "record_id": "semiconductor:f12"
+    },
+    {
+      "legacy_id": "F13",
+      "record_id": "semiconductor:f13"
+    },
+    {
+      "legacy_id": "F14",
+      "record_id": "semiconductor:f14"
+    },
+    {
+      "legacy_id": "F15",
+      "record_id": "semiconductor:f15"
+    },
+    {
+      "legacy_id": "F16",
+      "record_id": "semiconductor:f16"
+    },
+    {
+      "legacy_id": "F17",
+      "record_id": "semiconductor:f17"
+    },
+    {
+      "legacy_id": "F18",
+      "record_id": "semiconductor:f18"
+    },
+    {
+      "legacy_id": "F19",
+      "record_id": "semiconductor:f19"
+    },
+    {
+      "legacy_id": "F20",
+      "record_id": "semiconductor:f20"
+    },
+    {
+      "legacy_id": "F21",
+      "record_id": "semiconductor:f21"
+    },
+    {
+      "legacy_id": "F22",
+      "record_id": "semiconductor:f22"
+    },
+    {
+      "legacy_id": "F23",
+      "record_id": "semiconductor:f23"
+    },
+    {
+      "legacy_id": "F24",
+      "record_id": "semiconductor:f24"
+    },
+    {
+      "legacy_id": "F25",
+      "record_id": "semiconductor:f25"
+    },
+    {
+      "legacy_id": "F26",
+      "record_id": "semiconductor:f26"
+    },
+    {
+      "legacy_id": "F27",
+      "record_id": "semiconductor:f27"
+    },
+    {
+      "legacy_id": "F28",
+      "record_id": "semiconductor:f28"
+    },
+    {
+      "legacy_id": "F29",
+      "record_id": "semiconductor:f29"
+    },
+    {
+      "legacy_id": "F30",
+      "record_id": "semiconductor:f30"
+    },
+    {
+      "legacy_id": "F31",
+      "record_id": "semiconductor:f31"
+    },
+    {
+      "legacy_id": "F32",
+      "record_id": "semiconductor:f32"
+    },
+    {
+      "legacy_id": "F33",
+      "record_id": "semiconductor:f33"
+    },
+    {
+      "legacy_id": "F34",
+      "record_id": "semiconductor:f34"
+    },
+    {
+      "legacy_id": "F35",
+      "record_id": "semiconductor:f35"
+    },
+    {
+      "legacy_id": "F36",
+      "record_id": "semiconductor:f36"
+    },
+    {
+      "legacy_id": "F37",
+      "record_id": "semiconductor:f37"
+    },
+    {
+      "legacy_id": "J01",
+      "record_id": "semiconductor:j01"
+    },
+    {
+      "legacy_id": "J02",
+      "record_id": "semiconductor:j02"
+    },
+    {
+      "legacy_id": "J03",
+      "record_id": "semiconductor:j03"
+    },
+    {
+      "legacy_id": "J04",
+      "record_id": "semiconductor:j04"
+    },
+    {
+      "legacy_id": "J05",
+      "record_id": "semiconductor:j05"
+    },
+    {
+      "legacy_id": "J06",
+      "record_id": "semiconductor:j06"
+    },
+    {
+      "legacy_id": "J07",
+      "record_id": "semiconductor:j07"
+    },
+    {
+      "legacy_id": "J08",
+      "record_id": "semiconductor:j08"
+    },
+    {
+      "legacy_id": "J09",
+      "record_id": "semiconductor:j09"
+    },
+    {
+      "legacy_id": "J10",
+      "record_id": "semiconductor:j10"
+    },
+    {
+      "legacy_id": "C00",
+      "record_id": "semiconductor:c00"
+    },
+    {
+      "legacy_id": "C01",
+      "record_id": "semiconductor:c01"
+    },
+    {
+      "legacy_id": "C02",
+      "record_id": "semiconductor:c02"
+    },
+    {
+      "legacy_id": "C03",
+      "record_id": "semiconductor:c03"
+    },
+    {
+      "legacy_id": "C04",
+      "record_id": "semiconductor:c04"
+    },
+    {
+      "legacy_id": "C05",
+      "record_id": "semiconductor:c05"
+    },
+    {
+      "legacy_id": "C06",
+      "record_id": "semiconductor:c06"
+    },
+    {
+      "legacy_id": "C07",
+      "record_id": "semiconductor:c07"
+    },
+    {
+      "legacy_id": "C08",
+      "record_id": "semiconductor:c08"
+    },
+    {
+      "legacy_id": "C09",
+      "record_id": "semiconductor:c09"
+    },
+    {
+      "legacy_id": "C10",
+      "record_id": "semiconductor:c10"
+    },
+    {
+      "legacy_id": "C11",
+      "record_id": "semiconductor:c11"
+    },
+    {
+      "legacy_id": "C12",
+      "record_id": "semiconductor:c12"
+    },
+    {
+      "legacy_id": "C13",
+      "record_id": "semiconductor:c13"
+    },
+    {
+      "legacy_id": "C14",
+      "record_id": "semiconductor:c14"
+    },
+    {
+      "legacy_id": "C15",
+      "record_id": "semiconductor:c15"
+    },
+    {
+      "legacy_id": "C16",
+      "record_id": "semiconductor:c16"
+    },
+    {
+      "legacy_id": "C17",
+      "record_id": "semiconductor:c17"
+    },
+    {
+      "legacy_id": "C18",
+      "record_id": "semiconductor:c18"
+    },
+    {
+      "legacy_id": "C19",
+      "record_id": "semiconductor:c19"
+    },
+    {
+      "legacy_id": "K01",
+      "record_id": "semiconductor:k01"
+    },
+    {
+      "legacy_id": "K02",
+      "record_id": "semiconductor:k02"
+    },
+    {
+      "legacy_id": "K03",
+      "record_id": "semiconductor:k03"
+    },
+    {
+      "legacy_id": "K04",
+      "record_id": "semiconductor:k04"
+    },
+    {
+      "legacy_id": "K05",
+      "record_id": "semiconductor:k05"
+    },
+    {
+      "legacy_id": "K06",
+      "record_id": "semiconductor:k06"
+    },
+    {
+      "legacy_id": "K07",
+      "record_id": "common:zero-failure-upper"
+    },
+    {
+      "legacy_id": "K08",
+      "record_id": "semiconductor:k08"
+    }
+  ],
+  "source_mapping": {
+    "S01": "semi-s01",
+    "S02": "semi-s02",
+    "S03": "semi-s03",
+    "S04": "semi-s04",
+    "S05": "semi-s05",
+    "S06": "semi-s06",
+    "S07": "semi-s07",
+    "S08": "semi-s08",
+    "S09": "semi-s09",
+    "S10": "rtl-h06",
+    "S11": "semi-s11",
+    "S12": "semi-s12",
+    "S13": "semi-s13",
+    "S14": "semi-s14",
+    "S15": "semi-s15",
+    "S16": "semi-s16",
+    "S17": "semi-s17",
+    "S18": "semi-s18",
+    "S19": "rtl-h02",
+    "S20": "semi-s20",
+    "S21": "semi-s21",
+    "S22": "semi-s22",
+    "S23": "semi-s23",
+    "S24": "semi-s24",
+    "S25": "nist-capability",
+    "S26": "nist-wilson",
+    "S27": "semi-s27",
+    "S28": "semi-s28",
+    "S29": "semi-s29",
+    "S30": "semi-s30",
+    "S31": "rtl-t17",
+    "S32": "rtl-t19",
+    "S33": "semi-s33"
+  }
+}

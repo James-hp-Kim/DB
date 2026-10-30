@@ -1,0 +1,4 @@
+SYNTHETIC ROUTING FIXTURE: no experimental observations or measured values.
+Question: MR-MUF warpage, underfill CTE and delamination comparison.
+Need matched stack geometry, bonding temperature history and measurement method.
+No production limit or demonstrated improvement is supplied.

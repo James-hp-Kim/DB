@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-30",
+  "version": "2.1.0",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.14.7",
+  "packages": {
+    "mcp": "1.30.0",
+    "tiktoken": "0.14.0",
+    "pyod": "3.6.7",
+    "openpyxl": "3.1.5",
+    "PyYAML": "6.0.3"
+  },
+  "core_tests": 16,
+  "optional_tests": "3 passed in v2.0.0; unchanged optional code not rerun in v2.1.0",
+  "mcp_sdk": "passed: persona search, lookup, section read, scoped source",
+  "windows_installer": "9 checks passed in isolated Codex config; no global installation",
+  "skill_format": "passed",
+  "retrieval_expected_top3": "7/7 fixed regression questions; not general accuracy",
+  "limitations": [
+    "Synthetic data only",
+    "Authenticated Codex model invocation not tested",
+    "OneDrive remote synchronization not verified",
+    "Thousands of personas and OS-level access isolation not tested or implemented"
+  ],
+  "persona_gate_tests": 8,
+  "persona_gate": "required on CLI/MCP/library lookup/read/source; local file access is not an OS security boundary"
+}

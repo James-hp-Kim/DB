@@ -1,0 +1,6 @@
+﻿product,machine,inspected,defective,defect_type
+A,M1,1000,10,scratch
+A,M1,500,5,scratch
+A,M2,100,8,crack
+A,M2,100,8,crack
+A,M3,0,0,none

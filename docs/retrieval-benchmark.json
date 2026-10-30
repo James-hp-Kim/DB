@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-30",
+  "tokenizer": "o200k_base",
+  "scope": "Includes one persona-search response per case (conservative; context normally reused). Reference text comparison: fixed selected records/sections; not autonomous reasoning, end-to-end latency or total billing. Excludes prompt, analysis files, inference, answers and protocol overhead. Local timing excludes process startup.",
+  "entry_skill": {
+    "characters": 3650,
+    "reference_tokens": 730
+  },
+  "entry_plus_all_cards": {
+    "characters": 39791,
+    "reference_tokens": 16608
+  },
+  "four_tool_definitions_separate": {
+    "characters": 3226,
+    "reference_tokens": 772
+  },
+  "cases": [
+    {
+      "query": "불량률 분모",
+      "expected_in_top3": true,
+      "selected_record": "common:data-contract",
+      "retrieval_only": {
+        "characters": 2540,
+        "reference_tokens": 841
+      },
+      "entry_plus_retrieval": {
+        "characters": 6191,
+        "reference_tokens": 1571
+      },
+      "median_local_ms": 18.714
+    },
+    {
+      "query": "미세 드리프트 EWMA",
+      "expected_in_top3": true,
+      "selected_record": "quality:ewma",
+      "retrieval_only": {
+        "characters": 2425,
+        "reference_tokens": 805
+      },
+      "entry_plus_retrieval": {
+        "characters": 6076,
+        "reference_tokens": 1535
+      },
+      "median_local_ms": 14.236
+    },
+    {
+      "query": "Western Electric 8점",
+      "expected_in_top3": true,
+      "selected_record": "quality:weco-rules",
+      "retrieval_only": {
+        "characters": 2028,
+        "reference_tokens": 698
+      },
+      "entry_plus_retrieval": {
+        "characters": 5679,
+        "reference_tokens": 1428
+      },
+      "median_local_ms": 10.932
+    },
+    {
+      "query": "측정시스템 MSA",
+      "expected_in_top3": true,
+      "selected_record": "quality:msa",
+      "retrieval_only": {
+        "characters": 2477,
+        "reference_tokens": 831
+      },
+      "entry_plus_retrieval": {
+        "characters": 6128,
+        "reference_tokens": 1561
+      },
+      "median_local_ms": 11.247
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "data_class": "synthetic_example_not_measured",
+  "persona_query": "반도체기초전문가",
+  "question": "오프 전류 변화가 채널 누설 때문인지 구분하려면 무엇이 더 필요한가?",
+  "target": {"device": "교육용 NMOS", "process_revision": null, "pdk": null},
+  "metric": {"name": "drain_off_current", "unit": "A", "normalized_by_width": false},
+  "conditions": {"temperature_C": 25, "Vgs_V": 0, "Vds_V": 1, "Vbs_V": 0, "W_um": null, "L_um": null},
+  "observations": [
+    {"record_id": "example-before", "variant": "baseline", "value": 1e-9},
+    {"record_id": "example-after", "variant": "candidate", "value": 2e-9}
+  ],
+  "measurement": {"floor_A": null, "settle_time_s": null, "guarded": null, "repeat_count": null},
+  "constraints": {"max_delay_s": null, "max_area_um2": null, "retention_target_s": null},
+  "missing_policy": "null은 미확보. 승인된 동작 범위를 확인하기 전 예시 바이어스를 실소자에 적용하지 않는다.",
+  "storage_policy": "사용자 자료는 공개 저장소 밖에서 조회·분석만 수행한다. 지식 등록은 별도 요청이 필요하다."
+}

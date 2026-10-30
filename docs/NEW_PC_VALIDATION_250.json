@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "empty-mcp",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "setup",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "registered-mcp",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "fresh-connection",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "preserve-existing",
+      "exit_code": 1,
+      "passed": true
+    },
+    {
+      "name": "manual-setup",
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "manual-no-extra-registration",
+      "exit_code": 0,
+      "passed": true
+    }
+  ],
+  "fallback_personas": 9,
+  "new_connection_version": "2.5.0",
+  "limits": "Same Windows PC with isolated configuration and new install paths. Host Python and Codex CLI reused; no clean OS or other physical computer tested."
+}

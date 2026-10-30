@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-30",
+  "tokenizer": "o200k_base",
+  "entry": {
+    "characters": 5937,
+    "reference_tokens": 1271
+  },
+  "baseline_entry_plus_all_149_hbm_cards": {
+    "characters": 103375,
+    "reference_tokens": 40673
+  },
+  "cases": [
+    {
+      "query": "14도",
+      "selected_id": "hbm:correction-r09",
+      "expected_in_top2": true,
+      "lookup": {
+        "characters": 1008,
+        "reference_tokens": 367
+      },
+      "selected_sections": {
+        "characters": 864,
+        "reference_tokens": 274
+      },
+      "all_cited_sources": {
+        "characters": 1289,
+        "reference_tokens": 527
+      },
+      "entry_plus_scoped": {
+        "characters": 9388,
+        "reference_tokens": 2533
+      },
+      "reference_token_reduction_vs_all_cards_percent": 93.77
+    },
+    {
+      "query": "warpage",
+      "selected_id": "hbm:paper-a23",
+      "expected_in_top2": true,
+      "lookup": {
+        "characters": 994,
+        "reference_tokens": 378
+      },
+      "selected_sections": {
+        "characters": 880,
+        "reference_tokens": 330
+      },
+      "all_cited_sources": {
+        "characters": 653,
+        "reference_tokens": 266
+      },
+      "entry_plus_scoped": {
+        "characters": 8754,
+        "reference_tokens": 2339
+      },
+      "reference_token_reduction_vs_all_cards_percent": 94.25
+    },
+    {
+      "query": "Celsius",
+      "selected_id": "hbm:tool-d05",
+      "expected_in_top2": true,
+      "lookup": {
+        "characters": 875,
+        "reference_tokens": 321
+      },
+      "selected_sections": {
+        "characters": 824,
+        "reference_tokens": 260
+      },
+      "all_cited_sources": {
+        "characters": 506,
+        "reference_tokens": 193
+      },
+      "entry_plus_scoped": {
+        "characters": 8432,
+        "reference_tokens": 2139
+      },
+      "reference_token_reduction_vs_all_cards_percent": 94.74
+    },
+    {
+      "query": "무고장",
+      "selected_id": "hbm:claim-f073",
+      "expected_in_top2": true,
+      "lookup": {
+        "characters": 935,
+        "reference_tokens": 361
+      },
+      "selected_sections": {
+        "characters": 793,
+        "reference_tokens": 265
+      },
+      "all_cited_sources": {
+        "characters": 254,
+        "reference_tokens": 88
+      },
+      "entry_plus_scoped": {
+        "characters": 8209,
+        "reference_tokens": 2079
+      },
+      "reference_token_reduction_vs_all_cards_percent": 94.89
+    }
+  ],
+  "limits": "Four fixed queries with preselected relevant IDs; includes full current entry skill + HBM guidance, persona result, lookup, complete selected conditions/result/limits and all cited source metadata. Excludes user inputs, tool definitions/protocol, hidden reasoning, final answer and conversation history. This measures retrieval payload against loading all HBM cards, not billed tokens, general recall, model expertise or accuracy.",
+  "integrated_version": "2.4.0"
+}

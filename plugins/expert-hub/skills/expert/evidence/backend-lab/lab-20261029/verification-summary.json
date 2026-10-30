@@ -1,0 +1,158 @@
+{
+  "synthetic_only": true,
+  "rows": 500000,
+  "integrity_check": "ok",
+  "logical_data_hash_unchanged": true,
+  "comparisons": [
+    {
+      "before": "before-1",
+      "after": "after-1",
+      "expected_exit": 0,
+      "actual_exit": 0
+    },
+    {
+      "before": "before-2",
+      "after": "after-2",
+      "expected_exit": 0,
+      "actual_exit": 0
+    },
+    {
+      "before": "before-3",
+      "after": "after-3",
+      "expected_exit": 0,
+      "actual_exit": 0
+    },
+    {
+      "before": "fixed-recurrence-check",
+      "after": "wrong-response-control",
+      "expected_exit": 1,
+      "actual_exit": 1
+    },
+    {
+      "before": "fixed-recurrence-check",
+      "after": "different-load",
+      "expected_exit": 2,
+      "actual_exit": 2
+    }
+  ],
+  "cleanup": [
+    {
+      "stage": "before.cleanup",
+      "exited": true,
+      "port_closed": true
+    },
+    {
+      "stage": "fixed.cleanup",
+      "exited": true,
+      "port_closed": true
+    },
+    {
+      "stage": "incident.cleanup",
+      "exited": true,
+      "port_closed": true
+    },
+    {
+      "stage": "index-restored.cleanup",
+      "exited": true,
+      "port_closed": true
+    },
+    {
+      "stage": "index-rollback.cleanup",
+      "exited": true,
+      "port_closed": true
+    },
+    {
+      "stage": "temporary-restart.cleanup",
+      "exited": true,
+      "port_closed": true
+    },
+    {
+      "stage": "wrong-response.cleanup",
+      "exited": true,
+      "port_closed": true
+    }
+  ],
+  "baseline": [
+    {
+      "requests": 320,
+      "failures": 1,
+      "correctness_failures": 0,
+      "dropped_iterations": 0,
+      "p50_ms": 50.41299998993054,
+      "p95_ms": 158.829699998023,
+      "p99_ms": 233.3470000012312
+    },
+    {
+      "requests": 320,
+      "failures": 0,
+      "correctness_failures": 0,
+      "dropped_iterations": 0,
+      "p50_ms": 48.690900002839044,
+      "p95_ms": 185.86789999972098,
+      "p99_ms": 245.1489999948535
+    },
+    {
+      "requests": 320,
+      "failures": 0,
+      "correctness_failures": 0,
+      "dropped_iterations": 0,
+      "p50_ms": 58.293800000683405,
+      "p95_ms": 145.9197999938624,
+      "p99_ms": 238.44820000522304
+    }
+  ],
+  "fixed": [
+    {
+      "requests": 320,
+      "failures": 0,
+      "correctness_failures": 0,
+      "dropped_iterations": 0,
+      "p50_ms": 11.031700007151812,
+      "p95_ms": 25.888500007567927,
+      "p99_ms": 26.52140001009684
+    },
+    {
+      "requests": 320,
+      "failures": 0,
+      "correctness_failures": 0,
+      "dropped_iterations": 0,
+      "p50_ms": 1.7697000002954155,
+      "p95_ms": 23.505999997723848,
+      "p99_ms": 25.954900003853254
+    },
+    {
+      "requests": 320,
+      "failures": 0,
+      "correctness_failures": 0,
+      "dropped_iterations": 0,
+      "p50_ms": 1.7033000040100887,
+      "p95_ms": 24.02510000683833,
+      "p99_ms": 26.070699997944757
+    }
+  ],
+  "rollback": {
+    "requests": 320,
+    "failures": 0,
+    "correctness_failures": 0,
+    "dropped_iterations": 0,
+    "p50_ms": 48.39739999442827,
+    "p95_ms": 65.6340999994427,
+    "p99_ms": 73.49600001180079
+  },
+  "reapply": {
+    "requests": 320,
+    "failures": 0,
+    "correctness_failures": 0,
+    "dropped_iterations": 0,
+    "p50_ms": 14.610499987611547,
+    "p95_ms": 25.279599998611957,
+    "p99_ms": 26.27089999441523
+  },
+  "notes": [
+    "HTTP 500 intentional injections are separate from measurement requests.",
+    "Short tests on one shared Windows host with SQLite; not enterprise capacity certification.",
+    "Temporary restart and exhausted state have different warmup; no matched latency claim.",
+    "Wrong-response negative control explicitly uses --corrupt-response; revision hash excludes this flag.",
+    "No traffic surge/capacity ceiling, lock contention, failover or restore was tested."
+  ]
+}

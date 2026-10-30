@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "run_id": "after-1",
+  "revision": "f17ccb59d26d2961ecfae70e47f348f5cd277d4e7c990a5f01aa054157e66ea0",
+  "evidence_ref": "after-1.requests.jsonl",
+  "context": {
+    "environment": "Windows-loopback-lab",
+    "dataset": "72c28a9c3e7a0f94b19c74c9a69bc983cf5d9b5ea325bf856e92f05893c94730",
+    "workload": "orders-count-and-integer-total;deterministic-5000-customers-3-statuses;1GET-per-iteration",
+    "load_model": "open",
+    "offered_load": "40 iterations/s",
+    "resources": "same-host-6-logical-cpus;1service;4DB-pool;32client-workers;no-resource-isolation",
+    "tool_version": "lab-client-v1-python-3.14.7",
+    "cache_state": "OS-cache-uncontrolled;40-query-warmup",
+    "latency_scope": "all-finalized-attempts;request-to-response;3s-timeout;cohort-drained",
+    "warmup_seconds": 0,
+    "duration_seconds": 8
+  },
+  "metrics": {
+    "requests": 320,
+    "failures": 0,
+    "correctness_failures": 0,
+    "dropped_iterations": 0,
+    "p50_ms": 11.031700007151812,
+    "p95_ms": 25.888500007567927,
+    "p99_ms": 26.52140001009684
+  }
+}

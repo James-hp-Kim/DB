@@ -1,0 +1,23 @@
+{
+  "status": "template",
+  "run_id": null,
+  "data_sha256": null,
+  "code_revision": null,
+  "environment_versions": {},
+  "data_contract": null,
+  "feature_spec": {},
+  "model_spec": {},
+  "search_space": {},
+  "folds": [],
+  "metric_definition": null,
+  "metric_value": null,
+  "metric_denominator": null,
+  "n_forecasts": null,
+  "n_unique_targets": null,
+  "failures": [],
+  "seed": null,
+  "budget": {},
+  "elapsed_seconds": null,
+  "holdout_used": false,
+  "decision": null
+}

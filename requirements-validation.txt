@@ -1,0 +1,4 @@
+# Maintainer checks only. Not required on end-user computers.
+PyYAML>=6,<7
+mcp>=1.20,<2
+tiktoken>=0.9,<1

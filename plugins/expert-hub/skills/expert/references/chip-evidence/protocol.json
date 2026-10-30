@@ -1,0 +1,201 @@
+{
+  "created_utc": "2026-10-28T16:37:00.497626+00:00",
+  "design": "PicoRV32 native memory-interface core",
+  "source_commit": "ef203c2b0a3fb793280f5114941416c425c5b461",
+  "programs": [
+    {
+      "name": "directed",
+      "signature_words": 105,
+      "static_instructions": 751,
+      "program_sha256": "4589db828bc5d2515c7b373a7201d7ef0f7270678e0d2c60d57165b6161fd591"
+    },
+    {
+      "name": "arithmetic_control",
+      "signature_words": 40,
+      "static_instructions": 286,
+      "program_sha256": "6d566976de7d5e3843c1fee0716f5f5ee8d02b80fca8bafcefd6a3222bbde40f"
+    },
+    {
+      "name": "mixed_0",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "5ac699549b5073c8bd8222ea0f1f7effab6107475cbc510af8d61f90a31b6b10"
+    },
+    {
+      "name": "shift_0",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "ae15eac5e426f5bfd16ab5e2c6730a398cfd4ffc169985fe94d45096b38731b0"
+    },
+    {
+      "name": "mixed_1",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "f6787e074d59f97454a5ee55375d64a79c47b57561cf6c9460c2edf04998425d"
+    },
+    {
+      "name": "shift_1",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "e76b4ab2e7c3c5955b097d52b02aa5a351aeda3a64849c59db159dddd473665a"
+    },
+    {
+      "name": "mixed_2",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "dbbac9dc47ccce7ca89d2cbf89d145fff9078440f1cff6a64e5b459b15cad289"
+    },
+    {
+      "name": "shift_2",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "5ad025f1148024974ab4cbeb9e9ecf46c25bbbc19a1f10ade70a8d347c4bffbb"
+    },
+    {
+      "name": "mixed_3",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "6ea54a9e34065a74a6edc33c07967135a90cf573d2752b0260d2d686a1e6b949"
+    },
+    {
+      "name": "shift_3",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "bc0491bbcb50e88e9322b2b86c6f3ad45d6577a075d14cb25f8b566fa7879b52"
+    },
+    {
+      "name": "mixed_4",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "92e2e6b4311fb24959a778aecb0f3b37cf558924dbf95ec464d17d99bb866d20"
+    },
+    {
+      "name": "shift_4",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "f41e3d87c9fdc2b3dcefcd77b69f3b3675869393e83fa9014d4d76fbb4efed9e"
+    },
+    {
+      "name": "mixed_5",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "c781507fa26fe39a8b0c780bbed6108bdc2316b847ea4f736db546cd28fd1c23"
+    },
+    {
+      "name": "shift_5",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "343276e67dcd6ed2ba7b879f1f86f6fce1a4a7ccdf498adb0dc62c73537c7996"
+    },
+    {
+      "name": "mixed_6",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "a900eecaa6156c8287047d3cacee76efaa3dcffc5df284e60c54a3c98a959dbf"
+    },
+    {
+      "name": "shift_6",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "3a768d846661b5a6dd64cd983e6f96d63fdfcca78c5c0d1187c06c4aaf55f220"
+    },
+    {
+      "name": "mixed_7",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "d22298bdabf00bb48e2b94efcfe1a49c7afef15fd82af990119bf325ef6df9c1"
+    },
+    {
+      "name": "shift_7",
+      "signature_words": 96,
+      "static_instructions": 678,
+      "program_sha256": "f0bd22862364fabfe56935440de916fbfad5b597fa0c437eb8bd6af4c7c9bfd9"
+    }
+  ],
+  "configs": {
+    "baseline": {
+      "BARREL": 0,
+      "TWO_STAGE": 1,
+      "DUALPORT": 1
+    },
+    "barrel": {
+      "BARREL": 1,
+      "TWO_STAGE": 1,
+      "DUALPORT": 1
+    },
+    "compact_shift": {
+      "BARREL": 0,
+      "TWO_STAGE": 0,
+      "DUALPORT": 1
+    },
+    "single_port": {
+      "BARREL": 0,
+      "TWO_STAGE": 1,
+      "DUALPORT": 0
+    }
+  },
+  "memory_wait_cycles": [
+    0,
+    3
+  ],
+  "mutation_cases": [
+    {
+      "name": "M01_sub_as_add",
+      "reason": "SUB subtraction incorrectly replaced by addition",
+      "old": "instr_sub ? reg_op1 - reg_op2 : reg_op1 + reg_op2",
+      "new": "instr_sub ? reg_op1 + reg_op2 : reg_op1 + reg_op2",
+      "occurrences": 2,
+      "repaired_text_equals_original": true
+    },
+    {
+      "name": "M02_signed_compare",
+      "reason": "Signed less-than incorrectly uses unsigned comparison",
+      "old": "$signed(reg_op1) < $signed(reg_op2)",
+      "new": "reg_op1 < reg_op2",
+      "occurrences": 2,
+      "repaired_text_equals_original": true
+    },
+    {
+      "name": "M03_and_as_or",
+      "reason": "AND decoded datapath incorrectly computes OR",
+      "old": "alu_out = reg_op1 & reg_op2;",
+      "new": "alu_out = reg_op1 | reg_op2;",
+      "occurrences": 1,
+      "repaired_text_equals_original": true
+    },
+    {
+      "name": "M04_or_as_xor",
+      "reason": "OR decoded datapath incorrectly computes XOR",
+      "old": "alu_out = reg_op1 | reg_op2;",
+      "new": "alu_out = reg_op1 ^ reg_op2;",
+      "occurrences": 1,
+      "repaired_text_equals_original": true
+    },
+    {
+      "name": "M05_shift_sign",
+      "reason": "Iterative arithmetic right shift loses sign extension",
+      "old": "$signed(reg_op1) >>>",
+      "new": "reg_op1 >>",
+      "occurrences": 2,
+      "repaired_text_equals_original": true
+    },
+    {
+      "name": "M06_load_sign",
+      "reason": "Signed byte load incorrectly zero extends",
+      "old": "latched_is_lb: reg_out <= $signed(mem_rdata_word[7:0]);",
+      "new": "latched_is_lb: reg_out <= {24'b0,mem_rdata_word[7:0]};",
+      "occurrences": 1,
+      "repaired_text_equals_original": true
+    }
+  ],
+  "acceptance": "Every observed signature word must match; no trap/timeout; optimization must preserve tested outputs. Generic cell count is a proxy, not physical area.",
+  "bias": "Author-generated non-blind tests and known injected mutations; NOT an independent diagnostic-accuracy benchmark or skill/no-skill A/B test.",
+  "not_covered": [
+    "all RV32I instructions",
+    "formal CPU equivalence",
+    "physical timing/power",
+    "analog",
+    "memory cells",
+    "fabricated silicon"
+  ]
+}

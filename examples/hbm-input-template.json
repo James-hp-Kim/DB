@@ -1,0 +1,19 @@
+{
+  "template_only": true,
+  "problem": "",
+  "product_revision": null,
+  "stack_height_die_count": null,
+  "assembly_process": null,
+  "geometry_units": "um",
+  "geometry": null,
+  "power_per_die_W": null,
+  "cooling_boundary": null,
+  "temperature_C": {"junction": null, "reference": null, "sensor_location": null, "uncertainty": null},
+  "state": null,
+  "warpage": {"value": null, "unit": "um", "temperature_C": null, "method": null},
+  "reliability": {"stress": null, "failure_definition": null, "devices_tested": null, "failed_devices": null, "exposure_unit": null, "individual_times_and_censoring_file": null},
+  "comparison": {"baseline": null, "proposed_change": null, "matched_conditions": null},
+  "evidence_kind": null,
+  "source_files_outside_public_repo": [],
+  "question": ""
+}

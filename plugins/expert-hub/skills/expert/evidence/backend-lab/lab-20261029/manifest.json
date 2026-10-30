@@ -1,0 +1,19 @@
+{
+  "synthetic": true,
+  "rows": 500000,
+  "customers": 5000,
+  "logical_dataset_sha256": "72c28a9c3e7a0f94b19c74c9a69bc983cf5d9b5ea325bf856e92f05893c94730",
+  "python": "3.14.7",
+  "sqlite": "3.50.4",
+  "os": "Windows-11-10.0.26300-SP0",
+  "logical_cpus": 6,
+  "service_pool": 4,
+  "load_generator_workers": 32,
+  "loopback_only": true,
+  "lab_acceptance_not_business_slo": {
+    "max_p95_ms": 250,
+    "max_error_rate": 0,
+    "max_dropped_iterations": 0
+  },
+  "limits": "Shared local host; no CPU isolation. Short functional experiments, not capacity certification."
+}

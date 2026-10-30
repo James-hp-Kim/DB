@@ -1,0 +1,262 @@
+{
+  "status": "statically reviewed; regression rerun deferred by user",
+  "records": {
+    "common:data-contract": {
+      "path": "plugins/expert-hub/skills/expert/packs/common/records.jsonl",
+      "before_sha256": "a23cdebcb486be93fb8654977aa7259a88baefb22927beb7e0c96356a8e15de1",
+      "after_sha256": "9d6c03d2191da200039c4ebfd9b78335ecf653db6a87c55f14910f0844f6ffa0",
+      "before": {
+        "id": "common:data-contract",
+        "title": "분석 전 데이터 계약: 기간·단위·분모",
+        "track": "both",
+        "tags": [
+          "분모",
+          "단위",
+          "기간",
+          "데이터",
+          "schema",
+          "검사수량"
+        ],
+        "summary": "불량률은 같은 기간·동일 모집단의 불량품 수/검사품 수로 계산하고, 불량 건수/검사 기회와 구분한다.",
+        "source_ids": [
+          "nist-attributes",
+          "nist-wilson"
+        ],
+        "implementation": "scan",
+        "evidence_level": "source-linked-summary",
+        "reviewed": "2026-10-30",
+        "sections": {
+          "conditions": "확인할 항목: 행의 의미(개별 측정/LOT 집계/고장 이벤트), 시간대와 기간, 제품/설비/공정, 측정 단위, 규격판, 검사수와 불량품수, 재검·수리품 처리.\n부적합품 수는 검사품 수를 넘을 수 없지만, 한 제품의 여러 불량 건수는 넘을 수 있다. 두 자료를 섞지 않는다.",
+          "procedure": "비율은 합계 분자/합계 분모로 계산한다. 분모가 다른 행의 백분율을 단순 평균하지 않는다.",
+          "interpretation": "0/0은 0%가 아니라 계산 불가. 작은 표본과 0건도 표본수·구간을 같이 보여준다.",
+          "limits": "단위나 품목 정의가 불명확하면 확정 지표를 만들지 말고 검증 가능한 부분만 요약한다."
+        },
+        "legacy_id": "data-contract"
+      },
+      "after": {
+        "id": "common:data-contract",
+        "title": "분석 전 데이터 계약: 기간·단위·분모",
+        "track": "both",
+        "tags": [
+          "분모",
+          "단위",
+          "기간",
+          "데이터",
+          "schema",
+          "검사수량"
+        ],
+        "summary": "불량률은 같은 기간·동일 모집단의 불량품 수/검사품 수로 계산하고, 불량 건수/검사 기회와 구분한다.",
+        "source_ids": [
+          "nist-attributes",
+          "nist-wilson",
+          "prep-probe-data-check"
+        ],
+        "implementation": "scan",
+        "evidence_level": "source-linked-summary",
+        "reviewed": "2026-10-30",
+        "sections": {
+          "conditions": "확인할 항목: 행의 의미(개별 측정/LOT 집계/고장 이벤트), 시간대와 기간, 제품/설비/공정, 측정 단위, 규격판, 검사수와 불량품수, 재검·수리품 처리.\n부적합품 수는 검사품 수를 넘을 수 없지만, 한 제품의 여러 불량 건수는 넘을 수 있다. 두 자료를 섞지 않는다.",
+          "procedure": "비율은 합계 분자/합계 분모로 계산한다. 분모가 다른 행의 백분율을 단순 평균하지 않는다. 이미 확인된 의미는 다시 묻지 않는다. 처리 결과를 바꾸는 단위·중복 식별 기준·결측 의미·제외 규칙만 추가 확인하고, 답이 없으면 영향을 받지 않는 계산부터 진행한다.",
+          "interpretation": "0/0은 0%가 아니라 계산 불가. 작은 표본과 0건도 표본수·구간을 같이 보여준다.",
+          "limits": "단위나 품목 정의가 불명확하면 확정 지표를 만들지 말고 검증 가능한 부분만 요약한다."
+        },
+        "legacy_id": "data-contract"
+      },
+      "changed_fields": [
+        "source_ids",
+        "sections"
+      ],
+      "reason": "Intentional changes already documented in UPDATE_242.json and UPDATE_250.md; original RTL provenance retained."
+    },
+    "common:skill-mcp-plugin": {
+      "path": "plugins/expert-hub/skills/expert/packs/common/records.jsonl",
+      "before_sha256": "946916631cdf21b4834d6be3a2a49dd0c73cd7b229b807037f41bcb827cf12b4",
+      "after_sha256": "016fc25cc0b7b58904266f169a092dd4729b3ce600ee55bbc6d27aa46fee19b7",
+      "before": {
+        "id": "common:skill-mcp-plugin",
+        "title": "Skill·MCP·Plugin의 역할",
+        "track": "both",
+        "tags": [
+          "skill",
+          "skills",
+          "mcp",
+          "plugin",
+          "플러그인",
+          "스킬"
+        ],
+        "summary": "Skill은 판단 절차, MCP는 검색 도구, Plugin은 두 기능의 배포 묶음이다. 세 개의 독립 분석 시스템이 아니다.",
+        "source_ids": [
+          "openai-skills",
+          "openai-plugins",
+          "mcp-stdio"
+        ],
+        "implementation": "reference-only",
+        "evidence_level": "source-linked-summary",
+        "reviewed": "2026-10-30",
+        "sections": {
+          "procedure": "expert Skill 하나가 페르소나와 quick/deep 트랙을 선택한다. 통계·원본 보존 등 공통 지식은 한 번 저장하고 역할별로 참조한다.\nMCP 도구는 expert_catalog, expert_lookup, expert_read, expert_source 네 개다. 지식은 읽기 전용이고 catalog는 선택 영수증만 기록한다. 분석·수집·DB 수정은 로컬 CLI에서만 수행한다.\nPlugin은 expert Skill과 MCP를 함께 배포한다. Skill 단독은 동일 CLI 검색을 이용하므로 MCP는 필수가 아니다.",
+          "limits": "사용자 Skill 설치와 Plugin 설치를 중복하지 않는다. 페르소나는 논리적 검색 범위를 선택하며 OS 계정 수준의 보안 경계를 대신하지 않는다.\nGitHub는 정본·배포 파일 보관소다. SQLite 검색과 MCP는 내려받은 PC의 Python에서 실행한다."
+        },
+        "legacy_id": "skill-mcp-plugin"
+      },
+      "after": {
+        "id": "common:skill-mcp-plugin",
+        "title": "Skill·MCP·Plugin의 역할",
+        "track": "both",
+        "tags": [
+          "skill",
+          "skills",
+          "mcp",
+          "plugin",
+          "플러그인",
+          "스킬"
+        ],
+        "summary": "Skill은 작업 지침, MCP는 기능·자료를 연결하는 프로토콜/도구, Plugin은 배포 묶음이다. 이 허브의 MCP는 지식 조회를 제공하며 파일 존재와 실제 활성화를 구분한다.",
+        "source_ids": [
+          "openai-skills",
+          "openai-plugins",
+          "mcp-stdio",
+          "package-design"
+        ],
+        "implementation": "reference-only",
+        "evidence_level": "source-linked-summary",
+        "reviewed": "2026-10-30",
+        "sections": {
+          "procedure": "expert Skill 하나가 페르소나와 quick/deep 트랙을 선택한다. 통계·원본 보존 등 공통 지식은 한 번 저장하고 역할별로 참조한다.\n이 허브의 MCP 도구는 expert_catalog, expert_lookup, expert_read, expert_source, expert_reference_input 다섯 개다. 마지막 도구는 지정 입력의 주제 단서와 범위 내 참고 근거를 반환하며 결함 판정은 아니다. 지식은 읽기 전용이고 catalog는 선택 영수증만 기록한다. 분석·수집·DB 수정은 로컬 CLI에서만 수행한다.\nPlugin은 expert Skill과 MCP를 함께 배포한다. Skill 단독은 동일 CLI 검색을 이용하므로 MCP는 필수가 아니다.",
+          "limits": "사용자 Skill 설치와 Plugin 설치를 중복하지 않는다. 페르소나는 논리적 검색 범위를 선택하며 OS 계정 수준의 보안 경계를 대신하지 않는다.\nGitHub는 정본·배포 파일 보관소다. SQLite 검색과 MCP는 내려받은 PC의 Python에서 실행한다. 일반 MCP 서버는 쓰기 기능을 가질 수 있다. 이 허브의 읽기 전용 특성을 모든 MCP에 일반화하지 않는다.",
+          "interpretation": "SKILL.md 포함, MCP 선언/구현, 플러그인 명세, 후보 언급, 실제 설치·연결·사용을 별도로 기록한다. 같은 명세의 복제본은 독립 증거로 세지 않는다. 이름이 같아도 출처·버전·본문이 다르면 구분한다."
+        },
+        "legacy_id": "skill-mcp-plugin"
+      },
+      "changed_fields": [
+        "summary",
+        "source_ids",
+        "sections"
+      ],
+      "reason": "Intentional changes already documented in UPDATE_242.json and UPDATE_250.md; original RTL provenance retained."
+    },
+    "common:review-output": {
+      "path": "plugins/expert-hub/skills/expert/packs/common/records.jsonl",
+      "before_sha256": "fbe2763f0ef3a18f1f0f4cb8cdcd1cf5aa84eb738ddc612d67da4538823b1458",
+      "after_sha256": "fa64a7d63f8127a0d053ab1b11932a258fe5574eae3db04d8fed008f07bc838b",
+      "before": {
+        "id": "common:review-output",
+        "title": "짧고 검증 가능한 결과 형식",
+        "track": "quick",
+        "tags": [
+          "출력",
+          "보고",
+          "요약",
+          "근거",
+          "결과표"
+        ],
+        "summary": "핵심 문제 최대 3개부터 제시하고, 각 항목에 근거·다음 조치·확인 기준을 붙인다.",
+        "source_ids": [
+          "package-design"
+        ],
+        "implementation": "reference-only",
+        "evidence_level": "package-design",
+        "reviewed": "2026-10-30",
+        "sections": {
+          "procedure": "Quick 권장: 핵심 판단 1문장 + 문제/근거/다음 조치 표. 불량률은 건수와 분모를 병기한다.\nDeep 권장: 우선순위 3~5개 + 증거/가설 상태/검증 계획 + 재현 가능한 결과 파일. 세부 계산은 파일에 보관한다.",
+          "interpretation": "관측 사실, 통계적 후보, 원인 가설, 검증된 원인을 구분한다. 판정 불가도 유용한 결과다.\n예시 숫자와 실측 숫자를 섞지 않는다. 자료의 범위·누락·미검증 가정을 짧게 명시한다.",
+          "limits": "단순한 질문에 전체 기법 설명과 모든 정의를 반복하지 않는다. 사용자가 요청하면 깊이를 늘린다."
+        },
+        "legacy_id": "review-output"
+      },
+      "after": {
+        "id": "common:review-output",
+        "title": "짧고 검증 가능한 결과 형식",
+        "track": "quick",
+        "tags": [
+          "출력",
+          "보고",
+          "요약",
+          "근거",
+          "결과표"
+        ],
+        "summary": "핵심 결론과 근거·한계를 먼저 제시한다. 짧게 쓰더라도 부정어·단위·숫자·식별자와 불확실성은 보존한다.",
+        "source_ids": [
+          "package-design",
+          "prep-cofa-concise",
+          "optional-caveman"
+        ],
+        "implementation": "reference-only",
+        "evidence_level": "package-design",
+        "reviewed": "2026-10-30",
+        "sections": {
+          "procedure": "Quick 권장: 핵심 판단 1문장 + 문제/근거/다음 조치 표. 불량률은 건수와 분모를 병기한다.\nDeep 권장: 우선순위 3~5개 + 증거/가설 상태/검증 계획 + 재현 가능한 결과 파일. 세부 계산은 파일에 보관한다. 형식을 의무화하지 않고 질문에 필요한 길이로 작성한다. 코드·경로·오류 메시지·숫자·단위·부정어를 압축 과정에서 바꾸지 않는다. 설명은 자연스러운 한국어로 짧게 쓴다. 한 단계에는 한 동작을 둔다. 용어를 일관되게 쓰고 조건을 동작보다 먼저 제시한다. ASD-STE100 원칙을 느슨하게 참고하며 80% 준수를 측정했다고 표현하지 않는다.",
+          "interpretation": "관측 사실, 통계적 후보, 원인 가설, 검증된 원인을 구분한다. 판정 불가도 유용한 결과다.\n예시 숫자와 실측 숫자를 섞지 않는다. 자료의 범위·누락·미검증 가정을 짧게 명시한다.",
+          "limits": "단순한 질문에 전체 기법 설명과 모든 정의를 반복하지 않는다. 사용자가 요청하면 깊이를 늘린다."
+        },
+        "legacy_id": "review-output"
+      },
+      "changed_fields": [
+        "summary",
+        "source_ids",
+        "sections"
+      ],
+      "reason": "Intentional changes already documented in UPDATE_242.json and UPDATE_250.md; original RTL provenance retained."
+    },
+    "common:evaluation-plan": {
+      "path": "plugins/expert-hub/skills/expert/packs/common/records.jsonl",
+      "before_sha256": "bc83aa701401b64b75230ab523fd6a9b43931d4c00ec159bf3c9605091ae08dd",
+      "after_sha256": "05a7ea75d93146549e304a1c6cc3f5293c8bc124de912ed0f00de341b38ce011",
+      "before": {
+        "id": "common:evaluation-plan",
+        "title": "새 환경 수용 검증과 실무 평가",
+        "track": "both",
+        "tags": [
+          "테스트",
+          "벤치마크",
+          "검증",
+          "수용기준",
+          "토큰측정"
+        ],
+        "summary": "설치·검색·수식 동작과 현장 분석 성능을 별도 검증한다.",
+        "source_ids": [
+          "package-design"
+        ],
+        "implementation": "reference-only",
+        "evidence_level": "package-design",
+        "reviewed": "2026-10-30",
+        "sections": {
+          "verification": "패키지 검증: 파일 해시, Python/SQLite FTS, 스킬 YAML, 링크, 한·영 검색, DB 출처, MCP lifecycle/tools, CLI 입력 경계와 계산값, 이동 경로 동작.\n합성 데이터: 알려진 중복/0분모/극단값/평균 이동이 의도대로 표시되는지 확인. 실제 불량 검증이라는 표현을 쓰지 않는다.\n실무 평가: 과거 사건과 정상 기간을 분리해 탐지·누락·오경보·분석 소요·조치 유용성을 평가한다. 같은 문제를 quick/deep으로 비교하되 정답과 영향 위험도도 본다.\n새 컴퓨터에서 문서의 스모크테스트를 실행한 뒤 Codex 새 대화에서 실제 도구 호출을 확인한다.",
+          "limits": "토큰 평가: 스킬/검색/선택 카드의 텍스트량과 실제 작업의 전체 토큰을 구별한다. 파일 크기나 추정 토큰 감소만으로 비용 절감을 보장하지 않는다."
+        },
+        "legacy_id": "evaluation-plan"
+      },
+      "after": {
+        "id": "common:evaluation-plan",
+        "title": "새 환경 수용 검증과 실무 평가",
+        "track": "both",
+        "tags": [
+          "테스트",
+          "벤치마크",
+          "검증",
+          "수용기준",
+          "토큰측정"
+        ],
+        "summary": "설치·검색·수식 동작과 현장 분석 성능을 별도 검증한다.",
+        "source_ids": [
+          "package-design",
+          "prep-cofa-verify"
+        ],
+        "implementation": "reference-only",
+        "evidence_level": "package-design",
+        "reviewed": "2026-10-30",
+        "sections": {
+          "verification": "패키지 검증: 파일 해시, Python/SQLite FTS, 스킬 YAML, 링크, 한·영 검색, DB 출처, MCP lifecycle/tools, CLI 입력 경계와 계산값, 이동 경로 동작.\n합성 데이터: 알려진 중복/0분모/극단값/평균 이동이 의도대로 표시되는지 확인. 실제 불량 검증이라는 표현을 쓰지 않는다.\n실무 평가: 과거 사건과 정상 기간을 분리해 탐지·누락·오경보·분석 소요·조치 유용성을 평가한다. 같은 문제를 quick/deep으로 비교하되 정답과 영향 위험도도 본다.\n새 컴퓨터에서 문서의 스모크테스트를 실행한 뒤 Codex 새 대화에서 실제 도구 호출을 확인한다. 실제 출력·종료 상태를 확인하고 통과·실패·미실행으로 보고한다. 빌드·정적 검사만으로 전체 입력→출력 경로가 검증되었다고 하지 않는다. 관련 코드·데이터·설정이 바뀌면 영향받은 기존 증거를 재검증한다.",
+          "limits": "토큰 평가: 스킬/검색/선택 카드의 텍스트량과 실제 작업의 전체 토큰을 구별한다. 파일 크기나 추정 토큰 감소만으로 비용 절감을 보장하지 않는다.",
+          "conditions": "검증 대상 버전·입력·환경과 성공 기준을 먼저 정한다. 설치 여부, 실제 기능, 현업 성능은 서로 다른 검증 대상이다."
+        },
+        "legacy_id": "evaluation-plan"
+      },
+      "changed_fields": [
+        "source_ids",
+        "sections"
+      ],
+      "reason": "Intentional changes already documented in UPDATE_242.json and UPDATE_250.md; original RTL provenance retained."
+    }
+  }
+}

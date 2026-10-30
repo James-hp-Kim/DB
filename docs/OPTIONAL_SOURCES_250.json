@@ -1,0 +1,145 @@
+[
+  {
+    "id": "context7",
+    "repo": "upstash/context7",
+    "path": "README.md",
+    "url": "https://github.com/upstash/context7/blob/c964733a3d87e89acd177cc4b24ebef4a7662f06/README.md",
+    "git_blob_sha": "5d763258318ad99a8324faab59c6c6b2efd72350",
+    "reviewed_lines": [
+      25,
+      127
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied"
+  },
+  {
+    "id": "sequential-thinking",
+    "repo": "modelcontextprotocol/servers",
+    "path": "src/sequentialthinking/README.md",
+    "url": "https://github.com/modelcontextprotocol/servers/blob/main/src/sequentialthinking/README.md",
+    "git_blob_sha": "390d09646d135548481e7bab983306895f802619",
+    "reviewed_lines": [
+      1,
+      145
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied"
+  },
+  {
+    "id": "ponytail",
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail/SKILL.md",
+    "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/skills/ponytail/SKILL.md",
+    "git_blob_sha": "d64edd32265ba21cbf5270158f04e97d96925f27",
+    "reviewed_lines": [
+      1,
+      55
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied"
+  },
+  {
+    "id": "knowledge-work-plugins",
+    "repo": "anthropics/knowledge-work-plugins",
+    "path": "data/skills/validate-data/SKILL.md",
+    "url": "https://github.com/anthropics/knowledge-work-plugins/blob/2574e29377c7173d0cecffef29a6ecbd7f8ccb5d/data/skills/validate-data/SKILL.md",
+    "git_blob_sha": "30a1bac41bf9679dc7d96b7ec59a116f03ec0575",
+    "reviewed_lines": [
+      1,
+      100
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied"
+  },
+  {
+    "id": "gstack",
+    "repo": "garrytan/gstack",
+    "path": "review/specialists/api-contract.md",
+    "url": "https://github.com/garrytan/gstack/blob/ce3a093a6421f84705ff6d58b1b2b022ca9e945d/review/specialists/api-contract.md",
+    "git_blob_sha": "01a649b1b0f47bb1af78e1614924b80cddbd48fa",
+    "reviewed_lines": [
+      1,
+      55
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied"
+  },
+  {
+    "id": "gstack-state",
+    "repo": "garrytan/gstack",
+    "path": "review/specialists/state-machines.md",
+    "url": "https://github.com/garrytan/gstack/blob/ce3a093a6421f84705ff6d58b1b2b022ca9e945d/review/specialists/state-machines.md",
+    "git_blob_sha": "9dc973fe7ff0b96367bc43e6588bcbcbe825a71b",
+    "reviewed_lines": [
+      1,
+      66
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied"
+  },
+  {
+    "id": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/systematic-debugging/SKILL.md",
+    "url": "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/skills/systematic-debugging/SKILL.md",
+    "git_blob_sha": "62fc752aaef59a8bbed5d305f4cadc60f8ae07ed",
+    "reviewed_lines": [
+      1,
+      130
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied"
+  },
+  {
+    "id": "caveman",
+    "repo": "JuliusBrussee/caveman",
+    "path": "skills/caveman/SKILL.md",
+    "url": "https://github.com/JuliusBrussee/caveman/blob/9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4/skills/caveman/SKILL.md",
+    "git_blob_sha": "9a94044529e5ee1576361c891b4a271504518e6f",
+    "reviewed_lines": [
+      1,
+      95
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied"
+  },
+  {
+    "id": "grilling",
+    "repo": "mattpocock/skills",
+    "path": "skills/productivity/grilling/SKILL.md",
+    "url": "https://github.com/mattpocock/skills/blob/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa/skills/productivity/grilling/SKILL.md",
+    "git_blob_sha": "d2f09a18e6a6c65c55f1271ba08dfeaf06f0bed3",
+    "reviewed_lines": [
+      1,
+      38
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied"
+  },
+  {
+    "id": "grill-me",
+    "repo": "mattpocock/skills",
+    "path": "skills/productivity/grill-me/SKILL.md",
+    "url": "https://github.com/mattpocock/skills/blob/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa/skills/productivity/grill-me/SKILL.md",
+    "git_blob_sha": "3947ff9c4ad980d14fc07fccbf659d47c114e81d",
+    "reviewed_lines": [
+      1,
+      7
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied"
+  },
+  {
+    "id": "wayfinder",
+    "repo": "mattpocock/skills",
+    "path": "skills/engineering/wayfinder/SKILL.md",
+    "url": "https://github.com/mattpocock/skills/blob/a496f5513d4a4cf889bc48e189e579f4b0bdf6aa/skills/engineering/wayfinder/SKILL.md",
+    "git_blob_sha": "975d6bf9c0a49d18a651f3335e0b4dcf8650fe31",
+    "reviewed_lines": [
+      1,
+      85
+    ],
+    "checked": "2026-10-30",
+    "scope": "Selected public technical guidance only; not installed or executed; no harness files copied"
+  }
+]

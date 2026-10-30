@@ -1,0 +1,22 @@
+{
+  "name": "expert-hub",
+  "version": "2.5.2",
+  "description": "Scoped backend, semiconductor, memory, data and quality knowledge for Windows Codex.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "requires_local_executor": true,
+  "interface": {
+    "displayName": "전문가 지식 허브",
+    "shortDescription": "필요한 근거만 조회하는 백엔드·반도체·데이터 전문가 DB",
+    "longDescription": "공유 DB와 분야별 지식팩을 범위 제한 조회하고 입력 자료를 로컬에서 계산합니다.",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "백엔드 전문가로 첨부 지표를 분석하고 임시조치·영구수정·검증 방법을 근거와 함께 제안해줘.",
+      "품질보증 관점에서 자료를 빠르게 분석하고 근거를 찾아줘.",
+      "NAND 전문가 관점으로 retry/ECC RTL 근거를 필요한 절만 조회해줘."
+    ]
+  }
+}

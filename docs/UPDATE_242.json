@@ -1,0 +1,227 @@
+{
+  "version": "2.4.2",
+  "backup": "[historical local backup path omitted in public copy]",
+  "added": [
+    "common:requirements-to-evidence",
+    "common:delivery-environment",
+    "backend:minimal-reproduction",
+    "backend:behavior-preserving-refactor"
+  ],
+  "updated": [
+    "common:data-contract",
+    "common:skill-mcp-plugin",
+    "common:review-output",
+    "common:evaluation-plan"
+  ],
+  "source_checks": [
+    {
+      "catalog_id": "S066",
+      "name": "probe-data-check",
+      "url": "https://github.com/PKJthecreator/probe-kit/blob/79f2f94917ad32a630fd7d13c728409d6ec3de8b/.agents/skills/probe-data-check/SKILL.md",
+      "commit": "79f2f94917ad32a630fd7d13c728409d6ec3de8b",
+      "sha256": "d6a02f64a76cf1e6869524218e1da5a84f9c629fe62ae7200b576c75a81334bf",
+      "git_blob_sha": "ab52327e293c9bc4fca8169edd1ba65a3a3221d5",
+      "lines": 64,
+      "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외."
+    },
+    {
+      "catalog_id": "S084",
+      "name": "probe-stack",
+      "url": "https://github.com/PKJthecreator/probe-kit/blob/79f2f94917ad32a630fd7d13c728409d6ec3de8b/.agents/skills/probe-stack/SKILL.md",
+      "commit": "79f2f94917ad32a630fd7d13c728409d6ec3de8b",
+      "sha256": "39ac5c640c979af81fafd8595901d7835cab707f99186d3bd353784bd4120853",
+      "git_blob_sha": "fa129ca38d7f8326a1b82d8375cecc43de355017",
+      "lines": 59,
+      "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외."
+    },
+    {
+      "catalog_id": "S085",
+      "name": "skhynix-qualifier",
+      "url": "https://github.com/MunChanCHOI1/qualifier-skill/blob/fe572459800ac2cbcd2f98d455192175e5c67870/skills/skhynix-qualifier/SKILL.md",
+      "commit": "fe572459800ac2cbcd2f98d455192175e5c67870",
+      "sha256": "86c702ce1eaa6e81c31b97a6f8539d368fabd6e15c84e886a36bc4dbd7e40cb2",
+      "git_blob_sha": "507f447e004367f93d9717d6453192559724a149",
+      "lines": 42,
+      "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외."
+    },
+    {
+      "catalog_id": "S090",
+      "name": "cofa-debug",
+      "url": "https://github.com/arcturus0637-rgb/cofa-prelim-kit/blob/28479b0820c3933c7d2aa5aa9efb529577a7e593/skills/cofa-debug/SKILL.md",
+      "commit": "28479b0820c3933c7d2aa5aa9efb529577a7e593",
+      "sha256": "e1f3f395c9499b3c14c513b6b0de6122c5bc629ec6d7e543a1767ad334bd3a1c",
+      "git_blob_sha": "4b27127ab7c6b9613fd96bf82c269121a99ca772",
+      "lines": 16,
+      "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외."
+    },
+    {
+      "catalog_id": "S092",
+      "name": "cofa-verify",
+      "url": "https://github.com/arcturus0637-rgb/cofa-prelim-kit/blob/28479b0820c3933c7d2aa5aa9efb529577a7e593/skills/cofa-verify/SKILL.md",
+      "commit": "28479b0820c3933c7d2aa5aa9efb529577a7e593",
+      "sha256": "d6e1050a22d459cf66baa7dcb9a4031ee83f048d9073c01498a1f2614ed62c38",
+      "git_blob_sha": "2aa4fdcf4955a45854767839a960ed73e23d7065",
+      "lines": 14,
+      "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외."
+    },
+    {
+      "catalog_id": "S093",
+      "name": "cofa-simplify",
+      "url": "https://github.com/arcturus0637-rgb/cofa-prelim-kit/blob/28479b0820c3933c7d2aa5aa9efb529577a7e593/skills/cofa-simplify/SKILL.md",
+      "commit": "28479b0820c3933c7d2aa5aa9efb529577a7e593",
+      "sha256": "0042a2ab6a6b1e11dc1b70dbafac263dd8dc988e5c4b44f1acd366cc2d023a48",
+      "git_blob_sha": "928a7739abe321a0f795c82d28d1c5a300a11299",
+      "lines": 14,
+      "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외."
+    },
+    {
+      "catalog_id": "S094",
+      "name": "cofa-concise",
+      "url": "https://github.com/arcturus0637-rgb/cofa-prelim-kit/blob/28479b0820c3933c7d2aa5aa9efb529577a7e593/skills/cofa-concise/SKILL.md",
+      "commit": "28479b0820c3933c7d2aa5aa9efb529577a7e593",
+      "sha256": "1e9d054cfe160c93a20117ed1f848a7c5c33002842741ffbfada8d482773f349",
+      "git_blob_sha": "1b5ac3f4c525d4094407624f0d130d0871d46aac",
+      "lines": 10,
+      "review_scope": "일반 작업 지침만 채택. 개인 기록·하네스·모델 운영·행사 규칙 해석 제외."
+    }
+  ],
+  "fact_grounding_sha256": "940356a3dfd914436f61b657bc243cbe6997fe3f75f24ce0a3fbc5411a19465a",
+  "excluded": [
+    "개인정보·사용 기록·하네스 운영 자료",
+    "공식 근거 없는 행사 규칙·점수·성능 주장",
+    "기존 DB와 중복된 일반 데이터 분석 지침",
+    "설치 필요성이 확인되지 않은 MCP·플러그인 전체 목록",
+    "본문/의존성 검토가 끝나지 않은 동봉 참고 스킬"
+  ],
+  "installed_local_differences_preserved": [
+    "snake_case 검색 확장",
+    "출처 ID와 레코드 ID 구분 안내",
+    "Windows 한글 출력 안내"
+  ],
+  "tests": {
+    "test_hub": {
+      "passed": true,
+      "tests": 16
+    },
+    "test_persona_gate": {
+      "passed": true,
+      "tests": 8
+    },
+    "test_grounding": {
+      "passed": true,
+      "tests": 5
+    },
+    "test_integrated_personas": {
+      "passed": true,
+      "tests": 2
+    },
+    "windows_isolated_install": {
+      "passed": true,
+      "checks": 9,
+      "scope": "isolated CODEX_HOME; main configuration unchanged"
+    },
+    "official_mcp_sdk": {
+      "passed": true,
+      "protocol": "2025-11-25",
+      "input_routing": "chip-rtl"
+    },
+    "skill_yaml": {
+      "package": true,
+      "installed": true
+    },
+    "distribution_audit": {
+      "passed": true,
+      "snapshot_hashes": 7
+    },
+    "canonical_preservation": {
+      "existing_records_removed": 0,
+      "existing_sources_changed": 0,
+      "changed_records": [
+        "common:data-contract",
+        "common:skill-mcp-plugin",
+        "common:review-output",
+        "common:evaluation-plan"
+      ],
+      "added_records": [
+        "common:requirements-to-evidence",
+        "common:delivery-environment",
+        "backend:minimal-reproduction",
+        "backend:behavior-preserving-refactor"
+      ],
+      "installed_local_improvements_preserved": true
+    }
+  },
+  "installed_runtime": {
+    "passed": true,
+    "version": "2.4.2",
+    "personas": [
+      {
+        "persona": "quality-assurance",
+        "installed_stdio_policy": true,
+        "installed_cli_policy": true,
+        "policy_sha256": "940356a3dfd914436f61b657bc243cbe6997fe3f75f24ce0a3fbc5411a19465a"
+      },
+      {
+        "persona": "data-analyst",
+        "installed_stdio_policy": true,
+        "installed_cli_policy": true,
+        "policy_sha256": "940356a3dfd914436f61b657bc243cbe6997fe3f75f24ce0a3fbc5411a19465a"
+      },
+      {
+        "persona": "process-improvement",
+        "installed_stdio_policy": true,
+        "installed_cli_policy": true,
+        "policy_sha256": "940356a3dfd914436f61b657bc243cbe6997fe3f75f24ce0a3fbc5411a19465a"
+      },
+      {
+        "persona": "nand-expert",
+        "installed_stdio_policy": true,
+        "installed_cli_policy": true,
+        "policy_sha256": "940356a3dfd914436f61b657bc243cbe6997fe3f75f24ce0a3fbc5411a19465a"
+      },
+      {
+        "persona": "chip-design-verification",
+        "installed_stdio_policy": true,
+        "installed_cli_policy": true,
+        "policy_sha256": "940356a3dfd914436f61b657bc243cbe6997fe3f75f24ce0a3fbc5411a19465a"
+      },
+      {
+        "persona": "semiconductor-basics",
+        "installed_stdio_policy": true,
+        "installed_cli_policy": true,
+        "policy_sha256": "940356a3dfd914436f61b657bc243cbe6997fe3f75f24ce0a3fbc5411a19465a"
+      },
+      {
+        "persona": "backend-expert",
+        "installed_stdio_policy": true,
+        "installed_cli_policy": true,
+        "policy_sha256": "940356a3dfd914436f61b657bc243cbe6997fe3f75f24ce0a3fbc5411a19465a"
+      },
+      {
+        "persona": "semiconductor-ai",
+        "installed_stdio_policy": true,
+        "installed_cli_policy": true,
+        "policy_sha256": "940356a3dfd914436f61b657bc243cbe6997fe3f75f24ce0a3fbc5411a19465a"
+      },
+      {
+        "persona": "hbm-expert",
+        "installed_stdio_policy": true,
+        "installed_cli_policy": true,
+        "policy_sha256": "940356a3dfd914436f61b657bc243cbe6997fe3f75f24ce0a3fbc5411a19465a"
+      }
+    ],
+    "model_compliance_proven": false
+  },
+  "existing_chat_connection": {
+    "new_record_lookup_verified": true,
+    "new_policy_field_present": false,
+    "action": "MCP 재연결 후 fact_grounding 응답 필드를 확인해야 한다. 다른 연결을 강제 종료하지 않았다."
+  },
+  "counts": {
+    "personas": 9,
+    "packs": 13,
+    "records": 764,
+    "sources": 312
+  },
+  "completed_at": "2026-10-30T18:48:02.970969+09:00"
+}
